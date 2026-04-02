@@ -1,0 +1,1522 @@
+customer_id,company_name,is_active,churned_at,plan_tier,start_date,end_date,sessions,session_duration_sec,feature,date,churn_flag,total_duration,total_sessions,engagement_score,segment
+1,Rush Platform,False,2024-02-26 10:13:36,free,2023-01-31,2023-04-20,2,4579,Feature_A,2025-09-16,1,18088,28,208.88,High
+1,Rush Platform,False,2024-02-26 10:13:36,free,2023-01-31,2023-04-20,12,4465,Feature_B,2026-03-26,1,18088,28,208.88,High
+1,Rush Platform,False,2024-02-26 10:13:36,professional,2023-04-20,2024-02-26,2,4579,Feature_A,2025-09-16,1,18088,28,208.88,High
+1,Rush Platform,False,2024-02-26 10:13:36,professional,2023-04-20,2024-02-26,12,4465,Feature_B,2026-03-26,1,18088,28,208.88,High
+2,TrekStack,True,,free,2023-06-09,,1,1640,Feature_C,2024-06-10,0,1812,45,63.120000000000005,Low
+2,TrekStack,True,,free,2023-06-09,,44,172,Feature_B,2024-07-26,0,1812,45,63.120000000000005,Low
+4,KeenSoftware,True,,free,2024-04-09,2024-08-10,5,4038,Feature_A,2026-03-05,0,8076,10,90.76,Medium
+4,KeenSoftware,True,,enterprise,2024-08-10,,5,4038,Feature_A,2026-03-05,0,8076,10,90.76,Medium
+5,QuestAnalytics,True,,free,2023-10-04,2024-10-01,15,2811,Feature_C,2024-12-07,0,13838,118,256.38,High
+5,QuestAnalytics,True,,free,2023-10-04,2024-10-01,44,4108,Feature_C,2026-04-29,0,13838,118,256.38,High
+5,QuestAnalytics,True,,starter,2024-10-01,,15,2811,Feature_C,2024-12-07,0,13838,118,256.38,High
+5,QuestAnalytics,True,,starter,2024-10-01,,44,4108,Feature_C,2026-04-29,0,13838,118,256.38,High
+6,RiftWorks,True,,free,2025-08-23,,14,559,Feature_C,2026-03-02,0,559,14,19.59,Low
+8,Data Systems,True,,free,2024-04-24,,36,1629,Feature_B,2025-12-26,0,1629,36,52.29,Low
+9,Iris Hub,True,,free,2025-06-15,,37,4359,Feature_C,2024-08-02,0,4359,37,80.59,Medium
+10,GlowSystems,True,,professional,2025-03-08,,12,2074,Feature_C,2025-08-11,0,4505,26,71.05,Medium
+10,GlowSystems,True,,professional,2025-03-08,,14,2431,Feature_A,2026-04-04,0,4505,26,71.05,Medium
+11,Xenon Cloud,True,,starter,2024-06-29,,8,4557,Feature_A,2026-06-30,0,4557,8,53.57,Low
+12,QuarkDev,True,,enterprise,2024-10-27,,18,697,Feature_C,2025-02-27,0,697,18,24.97,Low
+13,Vertex Labs,False,2025-09-16 01:57:15,free,2025-07-16,2025-09-16,10,4828,Feature_C,2026-04-08,1,4828,10,58.28,Low
+14,Keen Ventures,True,,free,2024-02-25,2025-01-03,3,1386,Feature_C,2024-02-13,0,4158,9,50.58,Low
+14,Keen Ventures,True,,professional,2025-01-03,2025-05-17,3,1386,Feature_C,2024-02-13,0,4158,9,50.58,Low
+14,Keen Ventures,True,,enterprise,2025-05-17,,3,1386,Feature_C,2024-02-13,0,4158,9,50.58,Low
+15,DataLogic,True,,starter,2024-04-18,,42,761,Feature_A,2024-03-23,0,2653,89,115.53,Medium
+15,DataLogic,True,,starter,2024-04-18,,47,1892,Feature_A,2026-06-18,0,2653,89,115.53,Medium
+17,DriftCloud,True,,starter,2024-08-16,2024-12-16,18,3402,Feature_A,2024-09-24,0,10206,54,156.06,High
+17,DriftCloud,True,,professional,2024-12-16,2025-04-02,18,3402,Feature_A,2024-09-24,0,10206,54,156.06,High
+17,DriftCloud,True,,starter,2025-04-02,,18,3402,Feature_A,2024-09-24,0,10206,54,156.06,High
+18,LinkIO,True,,professional,2025-06-01,,22,564,Feature_C,2024-10-17,0,564,22,27.64,Low
+20,AcmeHQ,True,,enterprise,2025-06-19,,29,116,Feature_C,2024-11-08,0,116,29,30.16,Low
+21,NexusStack,True,,professional,2023-04-20,,3,4116,Feature_C,2024-02-07,0,4116,3,44.16,Low
+22,Onyx Analytics,True,,professional,2023-12-08,,29,814,Feature_A,2024-01-21,0,814,29,37.14,Low
+23,KitePro,True,,enterprise,2025-05-04,2025-09-11,11,4683,Feature_C,2025-02-02,0,14772,114,261.72,High
+23,KitePro,True,,enterprise,2025-05-04,2025-09-11,27,241,Feature_C,2026-07-05,0,14772,114,261.72,High
+23,KitePro,True,,free,2025-09-11,2025-11-10,11,4683,Feature_C,2025-02-02,0,14772,114,261.72,High
+23,KitePro,True,,free,2025-09-11,2025-11-10,27,241,Feature_C,2026-07-05,0,14772,114,261.72,High
+23,KitePro,True,,starter,2025-11-10,,11,4683,Feature_C,2025-02-02,0,14772,114,261.72,High
+23,KitePro,True,,starter,2025-11-10,,27,241,Feature_C,2026-07-05,0,14772,114,261.72,High
+25,PulseSolutions,True,,free,2025-06-03,,20,2693,Feature_A,2026-01-28,0,3212,41,73.12,Medium
+25,PulseSolutions,True,,free,2025-06-03,,21,519,Feature_A,2026-08-29,0,3212,41,73.12,Medium
+27,WaveStack,False,2025-02-03 08:53:39,free,2023-09-29,2024-04-14,15,499,Feature_A,2024-09-12,1,1497,45,59.97,Low
+27,WaveStack,False,2025-02-03 08:53:39,starter,2024-04-14,2024-09-22,15,499,Feature_A,2024-09-12,1,1497,45,59.97,Low
+27,WaveStack,False,2025-02-03 08:53:39,professional,2024-09-22,2025-02-03,15,499,Feature_A,2024-09-12,1,1497,45,59.97,Low
+28,Keen Software,True,,starter,2023-03-13,2024-01-12,19,3169,Feature_A,2026-01-04,0,14696,80,226.96,High
+28,Keen Software,True,,starter,2023-03-13,2024-01-12,21,4179,Feature_B,2026-01-20,0,14696,80,226.96,High
+28,Keen Software,True,,starter,2024-01-12,,19,3169,Feature_A,2026-01-04,0,14696,80,226.96,High
+28,Keen Software,True,,starter,2024-01-12,,21,4179,Feature_B,2026-01-20,0,14696,80,226.96,High
+29,QuestSystems,True,,starter,2024-03-06,2024-12-20,37,693,Feature_B,2025-05-23,0,2079,111,131.79,High
+29,QuestSystems,True,,starter,2024-12-20,2025-06-05,37,693,Feature_B,2025-05-23,0,2079,111,131.79,High
+29,QuestSystems,True,,professional,2025-06-05,,37,693,Feature_B,2025-05-23,0,2079,111,131.79,High
+32,Arc Stack,True,,starter,2025-05-31,,6,1728,Feature_C,2026-09-25,0,1728,6,23.28,Low
+34,JadeHQ,True,,starter,2024-06-17,2025-02-04,21,2436,Feature_A,2025-09-23,0,10890,46,154.9,High
+34,JadeHQ,True,,starter,2024-06-17,2025-02-04,2,3009,Feature_C,2026-02-05,0,10890,46,154.9,High
+34,JadeHQ,True,,professional,2025-02-04,,21,2436,Feature_A,2025-09-23,0,10890,46,154.9,High
+34,JadeHQ,True,,professional,2025-02-04,,2,3009,Feature_C,2026-02-05,0,10890,46,154.9,High
+35,PulseAnalytics,True,,starter,2024-02-22,,14,1945,Feature_A,2024-02-22,0,3413,62,96.13,Medium
+35,PulseAnalytics,True,,starter,2024-02-22,,48,1468,Feature_A,2025-03-02,0,3413,62,96.13,Medium
+36,YieldHub,True,,professional,2025-09-03,,39,2772,Feature_A,2024-11-06,0,2772,39,66.72,Medium
+37,Flux Labs,True,,starter,2025-10-01,2025-12-01,13,461,Feature_A,2025-03-29,0,922,26,35.22,Low
+37,Flux Labs,True,,professional,2025-12-01,,13,461,Feature_A,2025-03-29,0,922,26,35.22,Low
+38,FlowStack,True,,starter,2025-06-19,2025-09-16,21,1279,Feature_B,2024-09-08,0,2558,42,67.58,Medium
+38,FlowStack,True,,enterprise,2025-09-16,,21,1279,Feature_B,2024-09-08,0,2558,42,67.58,Medium
+39,QuarkTech,True,,free,2025-08-30,,10,531,Feature_A,2025-06-05,0,531,10,15.309999999999999,Low
+41,TidalSystems,True,,starter,2025-04-30,,22,3829,Feature_A,2024-04-06,0,6768,69,136.68,High
+41,TidalSystems,True,,starter,2025-04-30,,47,2939,Feature_A,2025-07-26,0,6768,69,136.68,High
+43,TrekDigital,True,,professional,2025-04-25,2025-07-29,42,2526,Feature_A,2025-11-14,0,7578,126,201.78,High
+43,TrekDigital,True,,professional,2025-07-29,2025-10-28,42,2526,Feature_A,2025-11-14,0,7578,126,201.78,High
+43,TrekDigital,True,,free,2025-10-28,,42,2526,Feature_A,2025-11-14,0,7578,126,201.78,High
+47,UltraSystems,True,,professional,2024-06-21,2025-02-18,37,2050,Feature_B,2024-12-13,0,13058,252,382.58000000000004,High
+47,UltraSystems,True,,professional,2024-06-21,2025-02-18,13,237,Feature_A,2025-07-05,0,13058,252,382.58000000000004,High
+47,UltraSystems,True,,professional,2024-06-21,2025-02-18,42,1881,Feature_A,2025-12-14,0,13058,252,382.58000000000004,High
+47,UltraSystems,True,,professional,2024-06-21,2025-02-18,34,2361,Feature_C,2026-06-21,0,13058,252,382.58000000000004,High
+47,UltraSystems,True,,starter,2025-02-18,,37,2050,Feature_B,2024-12-13,0,13058,252,382.58000000000004,High
+47,UltraSystems,True,,starter,2025-02-18,,13,237,Feature_A,2025-07-05,0,13058,252,382.58000000000004,High
+47,UltraSystems,True,,starter,2025-02-18,,42,1881,Feature_A,2025-12-14,0,13058,252,382.58000000000004,High
+47,UltraSystems,True,,starter,2025-02-18,,34,2361,Feature_C,2026-06-21,0,13058,252,382.58000000000004,High
+48,SyncPlatform,False,2025-10-29 13:03:59,starter,2025-08-24,2025-10-28,25,4464,Feature_C,2025-12-22,1,13392,75,208.92,High
+48,SyncPlatform,False,2025-10-29 13:03:59,starter,2025-10-28,2025-12-28,25,4464,Feature_C,2025-12-22,1,13392,75,208.92,High
+48,SyncPlatform,False,2025-10-29 13:03:59,enterprise,2025-12-28,2025-10-29,25,4464,Feature_C,2025-12-22,1,13392,75,208.92,High
+51,WarpSoftware,True,,starter,2024-12-06,,5,814,Feature_A,2024-11-20,0,6057,42,102.57,Medium
+51,WarpSoftware,True,,starter,2024-12-06,,24,2031,Feature_C,2025-09-17,0,6057,42,102.57,Medium
+51,WarpSoftware,True,,starter,2024-12-06,,13,3212,Feature_A,2026-07-28,0,6057,42,102.57,Medium
+53,MistPro,True,,starter,2024-05-20,2024-12-20,46,2374,Feature_C,2025-11-11,0,4748,92,139.48,High
+53,MistPro,True,,free,2024-12-20,,46,2374,Feature_C,2025-11-11,0,4748,92,139.48,High
+54,Orbit Ops,True,,free,2025-02-20,,12,1148,Feature_C,2024-08-09,0,1148,12,23.48,Low
+56,Flow Works,True,,starter,2024-07-09,2025-03-08,44,2500,Feature_A,2025-12-31,0,5000,88,138.0,High
+56,Flow Works,True,,professional,2025-03-08,,44,2500,Feature_A,2025-12-31,0,5000,88,138.0,High
+58,Hub HQ,True,,starter,2025-09-30,,11,2110,Feature_C,2025-06-25,0,2110,11,32.1,Low
+61,UltraPro,False,2025-09-10 19:31:16,free,2023-02-07,2025-09-10,32,4663,Feature_C,2025-11-26,1,4663,32,78.63,Medium
+62,GridDev,True,,starter,2024-12-10,2025-08-24,36,1955,Feature_B,2025-04-03,0,3910,72,111.1,Medium
+62,GridDev,True,,starter,2025-08-24,,36,1955,Feature_B,2025-04-03,0,3910,72,111.1,Medium
+63,UltraStack,False,2025-04-12 05:33:23,free,2025-02-03,2025-06-29,27,2743,Feature_A,2025-08-24,1,13302,152,285.02,High
+63,UltraStack,False,2025-04-12 05:33:23,free,2025-02-03,2025-06-29,49,3908,Feature_A,2026-09-03,1,13302,152,285.02,High
+63,UltraStack,False,2025-04-12 05:33:23,professional,2025-06-29,2025-04-12,27,2743,Feature_A,2025-08-24,1,13302,152,285.02,High
+63,UltraStack,False,2025-04-12 05:33:23,professional,2025-06-29,2025-04-12,49,3908,Feature_A,2026-09-03,1,13302,152,285.02,High
+65,Yield Group,True,,free,2023-01-10,,2,3603,Feature_B,2024-03-24,0,3603,2,38.03,Low
+67,Quest Logic,True,,free,2025-05-02,,24,4236,Feature_C,2026-01-29,0,4236,24,66.36,Medium
+69,Ion Dynamics,True,,free,2023-10-30,,39,1677,Feature_C,2025-11-09,0,5228,65,117.28,Medium
+69,Ion Dynamics,True,,free,2023-10-30,,26,3551,Feature_C,2026-06-29,0,5228,65,117.28,Medium
+75,NovaTech,False,2025-01-22 09:10:45,free,2024-09-02,2025-01-22,12,3257,Feature_C,2025-10-14,1,8464,60,144.64,High
+75,NovaTech,False,2025-01-22 09:10:45,free,2024-09-02,2025-01-22,37,492,Feature_C,2026-03-04,1,8464,60,144.64,High
+75,NovaTech,False,2025-01-22 09:10:45,free,2024-09-02,2025-01-22,11,4715,Feature_A,2026-08-18,1,8464,60,144.64,High
+76,Wave Platform,True,,starter,2023-03-07,2023-10-21,42,2647,Feature_B,2025-04-12,0,5294,84,136.94,High
+76,Wave Platform,True,,starter,2023-10-21,,42,2647,Feature_B,2025-04-12,0,5294,84,136.94,High
+78,Rush Group,True,,professional,2024-09-11,,22,326,Feature_B,2026-01-05,0,5216,69,121.16,Medium
+78,Rush Group,True,,professional,2024-09-11,,47,4890,Feature_C,2026-05-01,0,5216,69,121.16,Medium
+80,JetOps,True,,professional,2024-08-23,,29,4797,Feature_C,2025-07-01,0,4797,29,76.97,Medium
+81,WaveOps,True,,professional,2023-06-08,2023-12-15,30,3148,Feature_C,2025-11-01,0,6296,60,122.96000000000001,Medium
+81,WaveOps,True,,professional,2023-12-15,,30,3148,Feature_C,2025-11-01,0,6296,60,122.96000000000001,Medium
+83,LunaDigital,True,,free,2024-03-05,,36,3770,Feature_B,2025-09-11,0,3770,36,73.7,Medium
+86,Flux Pro,True,,professional,2025-06-01,,20,1341,Feature_A,2026-01-23,0,1341,20,33.41,Low
+88,FlowCorp,False,2025-10-22 06:02:56,free,2025-03-08,2025-10-22,18,142,Feature_C,2024-01-09,1,142,18,19.42,Low
+89,WavePro,True,,enterprise,2025-02-16,,14,2415,Feature_A,2026-05-06,0,2415,14,38.15,Low
+90,DriftHub,True,,starter,2023-03-11,,5,3637,Feature_A,2025-03-05,0,9711,58,155.11,High
+90,DriftHub,True,,starter,2023-03-11,,17,1725,Feature_A,2025-07-21,0,9711,58,155.11,High
+90,DriftHub,True,,starter,2023-03-11,,36,4349,Feature_B,2026-03-27,0,9711,58,155.11,High
+91,LinkAI,True,,professional,2025-09-27,2025-11-27,22,967,Feature_C,2025-06-03,0,1934,44,63.34,Low
+91,LinkAI,True,,starter,2025-11-27,,22,967,Feature_C,2025-06-03,0,1934,44,63.34,Low
+92,DriftVentures,True,,professional,2023-06-04,2023-09-26,34,135,Feature_B,2024-02-18,0,270,68,70.7,Medium
+92,DriftVentures,True,,free,2023-09-26,,34,135,Feature_B,2024-02-18,0,270,68,70.7,Medium
+93,TrekTech,True,,professional,2024-01-17,,39,4754,Feature_B,2025-11-24,0,4754,39,86.53999999999999,Medium
+94,OnyxStack,False,2025-06-05 10:37:34,free,2023-12-08,2025-06-05,32,1816,Feature_A,2025-01-22,1,1816,32,50.16,Low
+95,PeakNet,True,,professional,2024-11-17,2025-06-29,18,4788,Feature_C,2025-09-24,0,40560,117,522.6,High
+95,PeakNet,True,,professional,2024-11-17,2025-06-29,11,3757,Feature_B,2025-11-18,0,40560,117,522.6,High
+95,PeakNet,True,,professional,2024-11-17,2025-06-29,10,4975,Feature_A,2026-06-25,0,40560,117,522.6,High
+95,PeakNet,True,,starter,2025-06-29,2025-10-20,18,4788,Feature_C,2025-09-24,0,40560,117,522.6,High
+95,PeakNet,True,,starter,2025-06-29,2025-10-20,11,3757,Feature_B,2025-11-18,0,40560,117,522.6,High
+95,PeakNet,True,,starter,2025-06-29,2025-10-20,10,4975,Feature_A,2026-06-25,0,40560,117,522.6,High
+95,PeakNet,True,,professional,2025-10-20,,18,4788,Feature_C,2025-09-24,0,40560,117,522.6,High
+95,PeakNet,True,,professional,2025-10-20,,11,3757,Feature_B,2025-11-18,0,40560,117,522.6,High
+95,PeakNet,True,,professional,2025-10-20,,10,4975,Feature_A,2026-06-25,0,40560,117,522.6,High
+96,PeakOps,False,2024-09-21 11:55:43,starter,2023-05-21,2024-05-12,18,2528,Feature_A,2024-05-07,1,7864,132,210.64,High
+96,PeakOps,False,2024-09-21 11:55:43,starter,2023-05-21,2024-05-12,48,1404,Feature_C,2025-03-27,1,7864,132,210.64,High
+96,PeakOps,False,2024-09-21 11:55:43,enterprise,2024-05-12,2024-09-21,18,2528,Feature_A,2024-05-07,1,7864,132,210.64,High
+96,PeakOps,False,2024-09-21 11:55:43,enterprise,2024-05-12,2024-09-21,48,1404,Feature_C,2025-03-27,1,7864,132,210.64,High
+98,Vine HQ,True,,starter,2025-08-27,2025-10-30,28,2390,Feature_B,2025-10-20,0,4780,56,103.8,Medium
+98,Vine HQ,True,,starter,2025-10-30,,28,2390,Feature_B,2025-10-20,0,4780,56,103.8,Medium
+99,GlowDev,True,,free,2024-07-21,2025-03-17,14,1290,Feature_B,2024-04-17,0,13526,122,257.26,High
+99,GlowDev,True,,free,2024-07-21,2025-03-17,23,3824,Feature_C,2024-08-17,0,13526,122,257.26,High
+99,GlowDev,True,,free,2024-07-21,2025-03-17,24,1649,Feature_A,2024-09-30,0,13526,122,257.26,High
+99,GlowDev,True,,starter,2025-03-17,,14,1290,Feature_B,2024-04-17,0,13526,122,257.26,High
+99,GlowDev,True,,starter,2025-03-17,,23,3824,Feature_C,2024-08-17,0,13526,122,257.26,High
+99,GlowDev,True,,starter,2025-03-17,,24,1649,Feature_A,2024-09-30,0,13526,122,257.26,High
+103,EdgeSystems,True,,starter,2023-01-02,,32,443,Feature_B,2025-10-16,0,443,32,36.43,Low
+104,Hive Dynamics,True,,starter,2023-09-17,2024-06-28,8,636,Feature_A,2024-08-13,0,2926,40,69.26,Medium
+104,Hive Dynamics,True,,starter,2023-09-17,2024-06-28,12,827,Feature_A,2026-05-21,0,2926,40,69.26,Medium
+104,Hive Dynamics,True,,professional,2024-06-28,,8,636,Feature_A,2024-08-13,0,2926,40,69.26,Medium
+104,Hive Dynamics,True,,professional,2024-06-28,,12,827,Feature_A,2026-05-21,0,2926,40,69.26,Medium
+105,UnitOps,True,,free,2023-06-29,2024-04-02,29,4100,Feature_B,2025-08-28,0,12300,87,210.0,High
+105,UnitOps,True,,professional,2024-04-02,2025-02-10,29,4100,Feature_B,2025-08-28,0,12300,87,210.0,High
+105,UnitOps,True,,starter,2025-02-10,,29,4100,Feature_B,2025-08-28,0,12300,87,210.0,High
+107,QuarkAI,True,,free,2024-01-12,2024-08-20,12,3704,Feature_B,2025-12-20,0,7408,24,98.08,Medium
+107,QuarkAI,True,,starter,2024-08-20,,12,3704,Feature_B,2025-12-20,0,7408,24,98.08,Medium
+109,TidalHQ,True,,starter,2024-03-21,,46,1143,Feature_A,2025-04-30,0,2341,78,101.41,Medium
+109,TidalHQ,True,,starter,2024-03-21,,32,1198,Feature_C,2026-01-31,0,2341,78,101.41,Medium
+111,XenonLogic,True,,professional,2024-06-26,,44,4502,Feature_B,2025-11-15,0,9623,116,212.23000000000002,High
+111,XenonLogic,True,,professional,2024-06-26,,36,3347,Feature_A,2026-02-02,0,9623,116,212.23000000000002,High
+111,XenonLogic,True,,professional,2024-06-26,,36,1774,Feature_C,2026-02-04,0,9623,116,212.23000000000002,High
+113,CoreTech,True,,starter,2024-12-29,2025-04-09,43,4825,Feature_B,2024-06-09,0,13658,96,232.58,High
+113,CoreTech,True,,starter,2024-12-29,2025-04-09,5,2004,Feature_A,2026-03-23,0,13658,96,232.58,High
+113,CoreTech,True,,professional,2025-04-09,,43,4825,Feature_B,2024-06-09,0,13658,96,232.58,High
+113,CoreTech,True,,professional,2025-04-09,,5,2004,Feature_A,2026-03-23,0,13658,96,232.58,High
+115,HiveCorp,True,,starter,2025-06-18,2025-10-24,29,1586,Feature_A,2025-03-11,0,4758,87,134.57999999999998,High
+115,HiveCorp,True,,professional,2025-10-24,2025-12-23,29,1586,Feature_A,2025-03-11,0,4758,87,134.57999999999998,High
+115,HiveCorp,True,,starter,2025-12-23,,29,1586,Feature_A,2025-03-11,0,4758,87,134.57999999999998,High
+117,Onyx Cloud,True,,starter,2024-10-01,2024-12-17,29,3794,Feature_C,2024-12-27,0,14466,84,228.66,High
+117,Onyx Cloud,True,,starter,2024-10-01,2024-12-17,13,3439,Feature_C,2026-08-13,0,14466,84,228.66,High
+117,Onyx Cloud,True,,free,2024-12-17,,29,3794,Feature_C,2024-12-27,0,14466,84,228.66,High
+117,Onyx Cloud,True,,free,2024-12-17,,13,3439,Feature_C,2026-08-13,0,14466,84,228.66,High
+118,Peak Hub,True,,starter,2024-10-04,,38,4724,Feature_C,2025-09-30,0,7081,83,153.81,High
+118,Peak Hub,True,,starter,2024-10-04,,45,2357,Feature_A,2026-03-07,0,7081,83,153.81,High
+120,UnitStudio,False,2023-11-19 07:21:03,free,2023-09-11,2023-11-19,7,2137,Feature_C,2024-12-23,1,2137,7,28.37,Low
+122,Sync IO,True,,free,2023-09-28,2024-02-20,16,3122,Feature_C,2024-01-06,0,6244,32,94.44,Medium
+122,Sync IO,True,,starter,2024-02-20,,16,3122,Feature_C,2024-01-06,0,6244,32,94.44,Medium
+123,Jade Software,True,,starter,2024-09-30,,40,2931,Feature_A,2024-06-21,0,2931,40,69.31,Medium
+126,RiftSystems,True,,professional,2025-03-12,2025-10-29,34,1914,Feature_B,2025-11-13,0,4406,142,186.06,High
+126,RiftSystems,True,,professional,2025-03-12,2025-10-29,37,289,Feature_A,2026-01-24,0,4406,142,186.06,High
+126,RiftSystems,True,,enterprise,2025-10-29,,34,1914,Feature_B,2025-11-13,0,4406,142,186.06,High
+126,RiftSystems,True,,enterprise,2025-10-29,,37,289,Feature_A,2026-01-24,0,4406,142,186.06,High
+127,Onyx Pro,True,,professional,2024-03-27,2024-07-22,9,955,Feature_C,2026-07-23,0,1910,18,37.1,Low
+127,Onyx Pro,True,,professional,2024-07-22,,9,955,Feature_C,2026-07-23,0,1910,18,37.1,Low
+128,GlowHub,True,,starter,2024-11-09,,29,263,Feature_C,2024-10-16,0,263,29,31.63,Low
+130,ZealCloud,True,,starter,2024-08-10,2025-02-18,43,2036,Feature_A,2026-06-24,0,4072,86,126.72,Medium
+130,ZealCloud,True,,starter,2025-02-18,,43,2036,Feature_A,2026-06-24,0,4072,86,126.72,Medium
+131,Sync Net,True,,professional,2024-07-29,2025-07-29,47,2645,Feature_B,2024-01-12,0,5290,94,146.9,High
+131,Sync Net,True,,enterprise,2025-07-29,,47,2645,Feature_B,2024-01-12,0,5290,94,146.9,High
+132,PulseAI,False,2025-10-29 17:39:27,starter,2025-02-28,2025-10-29,6,1185,Feature_A,2026-05-03,1,1185,6,17.85,Low
+133,Sync Works,True,,starter,2023-06-29,,33,2205,Feature_A,2025-11-02,0,2205,33,55.05,Low
+134,Vine Cloud,True,,professional,2024-10-18,,32,759,Feature_A,2025-06-24,0,759,32,39.59,Low
+135,RushSoftware,True,,free,2024-08-04,,24,1677,Feature_B,2024-04-08,0,1677,24,40.769999999999996,Low
+138,ArcNet,True,,free,2023-03-25,2023-06-18,22,2213,Feature_C,2025-11-05,0,4426,44,88.25999999999999,Medium
+138,ArcNet,True,,starter,2023-06-18,,22,2213,Feature_C,2025-11-05,0,4426,44,88.25999999999999,Medium
+139,DataDynamics,True,,free,2025-01-04,2025-04-13,47,2067,Feature_B,2026-03-30,0,6201,141,203.01,High
+139,DataDynamics,True,,professional,2025-04-13,2025-07-22,47,2067,Feature_B,2026-03-30,0,6201,141,203.01,High
+139,DataDynamics,True,,professional,2025-07-22,,47,2067,Feature_B,2026-03-30,0,6201,141,203.01,High
+140,DriftDigital,False,2025-06-27 07:29:37,starter,2025-04-16,2025-08-16,1,380,Feature_A,2026-03-24,1,760,2,9.6,Low
+140,DriftDigital,False,2025-06-27 07:29:37,professional,2025-08-16,2025-06-27,1,380,Feature_A,2026-03-24,1,760,2,9.6,Low
+141,IrisAI,True,,professional,2025-07-01,,19,4750,Feature_A,2026-07-12,0,4750,19,66.5,Medium
+143,IrisCorp,True,,starter,2024-11-07,2025-10-15,35,4040,Feature_C,2026-05-14,0,8080,70,150.8,High
+143,IrisCorp,True,,starter,2025-10-15,,35,4040,Feature_C,2026-05-14,0,8080,70,150.8,High
+144,Mist AI,True,,enterprise,2023-08-11,,47,440,Feature_C,2024-06-30,0,7010,103,173.1,High
+144,Mist AI,True,,enterprise,2023-08-11,,25,3387,Feature_C,2024-07-21,0,7010,103,173.1,High
+144,Mist AI,True,,enterprise,2023-08-11,,31,3183,Feature_A,2025-04-18,0,7010,103,173.1,High
+145,Unit Ventures,True,,professional,2024-06-17,,44,1815,Feature_C,2026-01-27,0,5431,49,103.31,Medium
+145,Unit Ventures,True,,professional,2024-06-17,,5,3616,Feature_A,2026-05-17,0,5431,49,103.31,Medium
+146,OnyxOps,True,,professional,2023-11-04,,17,304,Feature_B,2025-08-20,0,304,17,20.04,Low
+147,PulsePlatform,True,,starter,2023-09-06,2024-02-09,9,505,Feature_C,2024-07-09,0,1010,18,28.1,Low
+147,PulsePlatform,True,,starter,2024-02-09,,9,505,Feature_C,2024-07-09,0,1010,18,28.1,Low
+148,XenonTech,True,,free,2025-02-18,2025-07-14,46,1966,Feature_C,2026-09-13,0,3932,92,131.32,High
+148,XenonTech,True,,professional,2025-07-14,,46,1966,Feature_C,2026-09-13,0,3932,92,131.32,High
+150,IrisStack,True,,starter,2023-11-24,,49,875,Feature_A,2024-11-23,0,875,49,57.75,Low
+151,Jade Ventures,True,,free,2024-05-26,2024-12-11,40,1926,Feature_B,2024-07-19,0,3852,80,118.52000000000001,Medium
+151,Jade Ventures,True,,starter,2024-12-11,,40,1926,Feature_B,2024-07-19,0,3852,80,118.52000000000001,Medium
+152,QuarkHub,True,,starter,2024-07-13,,47,2060,Feature_C,2024-08-08,0,2060,47,67.6,Medium
+153,HiveAI,False,2025-08-27 15:05:23,starter,2023-06-04,2025-08-27,37,642,Feature_B,2024-08-18,1,642,37,43.42,Low
+154,Iris Dynamics,True,,starter,2024-12-15,,49,469,Feature_A,2025-01-15,0,1141,67,78.41,Medium
+154,Iris Dynamics,True,,starter,2024-12-15,,18,672,Feature_A,2025-09-26,0,1141,67,78.41,Medium
+155,GridSystems,True,,free,2025-09-09,,42,4378,Feature_A,2024-10-24,0,4378,42,85.78,Medium
+156,TidalOps,False,2025-01-18 13:24:38,free,2024-10-14,2025-01-18,44,4106,Feature_A,2026-09-07,1,4106,44,85.06,Medium
+157,KeenSystems,True,,free,2024-12-01,,47,2173,Feature_C,2026-05-31,0,2173,47,68.73,Medium
+158,Nova Ventures,True,,starter,2025-05-04,2025-10-27,39,867,Feature_A,2024-09-26,0,1734,78,95.34,Medium
+158,Nova Ventures,True,,starter,2025-10-27,,39,867,Feature_A,2024-09-26,0,1734,78,95.34,Medium
+160,FluxPlatform,True,,free,2023-09-10,,5,1356,Feature_C,2025-02-17,0,1356,5,18.560000000000002,Low
+161,VineLogic,True,,starter,2024-03-17,,12,1984,Feature_A,2024-08-25,0,1984,12,31.84,Low
+162,FlowStudio,True,,professional,2024-07-26,2025-07-08,48,2525,Feature_C,2024-03-03,0,5050,96,146.5,High
+162,FlowStudio,True,,starter,2025-07-08,,48,2525,Feature_C,2024-03-03,0,5050,96,146.5,High
+166,Zeal Dynamics,True,,free,2025-03-25,,33,1277,Feature_A,2025-10-26,0,1277,33,45.769999999999996,Low
+167,Quest Digital,True,,free,2025-08-03,,23,2237,Feature_C,2024-02-09,0,5311,35,88.11,Medium
+167,Quest Digital,True,,free,2025-08-03,,12,3074,Feature_C,2025-06-02,0,5311,35,88.11,Medium
+170,WaveLabs,True,,free,2025-03-14,,34,4059,Feature_C,2025-05-19,0,4059,34,74.59,Medium
+172,JadeSolutions,True,,free,2025-01-25,,10,3889,Feature_C,2026-04-06,0,3889,10,48.89,Low
+173,Rush Hub,False,2025-10-15 22:46:50,free,2024-04-13,2025-10-15,22,4378,Feature_A,2025-06-07,1,6844,62,130.44,High
+173,Rush Hub,False,2025-10-15 22:46:50,free,2024-04-13,2025-10-15,34,2225,Feature_A,2025-06-28,1,6844,62,130.44,High
+173,Rush Hub,False,2025-10-15 22:46:50,free,2024-04-13,2025-10-15,6,241,Feature_A,2026-03-16,1,6844,62,130.44,High
+177,Iris Cloud,True,,starter,2023-04-27,2024-02-21,45,1022,Feature_B,2025-04-09,0,9042,156,246.42000000000002,High
+177,Iris Cloud,True,,starter,2023-04-27,2024-02-21,8,940,Feature_B,2025-08-22,0,9042,156,246.42000000000002,High
+177,Iris Cloud,True,,starter,2023-04-27,2024-02-21,25,2559,Feature_A,2026-09-01,0,9042,156,246.42000000000002,High
+177,Iris Cloud,True,,starter,2024-02-21,,45,1022,Feature_B,2025-04-09,0,9042,156,246.42000000000002,High
+177,Iris Cloud,True,,starter,2024-02-21,,8,940,Feature_B,2025-08-22,0,9042,156,246.42000000000002,High
+177,Iris Cloud,True,,starter,2024-02-21,,25,2559,Feature_A,2026-09-01,0,9042,156,246.42000000000002,High
+181,PulseHub,True,,professional,2025-03-24,2025-07-17,3,4581,Feature_C,2024-10-05,0,9162,6,97.62,Medium
+181,PulseHub,True,,professional,2025-07-17,,3,4581,Feature_C,2024-10-05,0,9162,6,97.62,Medium
+184,BoltSystems,False,2025-10-16 20:54:57,free,2023-11-06,2024-02-24,39,4070,Feature_B,2025-11-06,1,8140,78,159.4,High
+184,BoltSystems,False,2025-10-16 20:54:57,professional,2024-02-24,2025-10-16,39,4070,Feature_B,2025-11-06,1,8140,78,159.4,High
+187,Hive Ventures,True,,free,2024-09-22,2025-03-08,35,1825,Feature_A,2024-07-03,0,3650,70,106.5,Medium
+187,Hive Ventures,True,,starter,2025-03-08,,35,1825,Feature_A,2024-07-03,0,3650,70,106.5,Medium
+188,GridDigital,True,,starter,2023-09-12,,1,582,Feature_A,2024-03-18,0,582,1,6.82,Low
+190,Acme Studio,True,,starter,2025-09-04,,33,472,Feature_A,2024-01-30,0,2707,93,120.07,Medium
+190,Acme Studio,True,,starter,2025-09-04,,31,1116,Feature_C,2024-05-24,0,2707,93,120.07,Medium
+190,Acme Studio,True,,starter,2025-09-04,,29,1119,Feature_C,2025-06-18,0,2707,93,120.07,Medium
+191,Data Logic,True,,professional,2024-07-03,2025-01-02,44,2109,Feature_B,2024-10-11,0,6327,132,195.27,High
+191,Data Logic,True,,enterprise,2025-01-02,2025-07-01,44,2109,Feature_B,2024-10-11,0,6327,132,195.27,High
+191,Data Logic,True,,starter,2025-07-01,,44,2109,Feature_B,2024-10-11,0,6327,132,195.27,High
+192,GlowSoftware,True,,starter,2024-03-23,,19,802,Feature_A,2025-03-22,0,802,19,27.02,Low
+194,Zeal Analytics,True,,starter,2024-08-13,,25,1566,Feature_A,2026-03-12,0,1566,25,40.66,Low
+196,CloudDynamics,True,,starter,2023-03-21,2024-03-07,45,1946,Feature_C,2026-06-07,0,3892,90,128.92000000000002,High
+196,CloudDynamics,True,,professional,2024-03-07,,45,1946,Feature_C,2026-06-07,0,3892,90,128.92000000000002,High
+198,DriftStudio,True,,free,2023-01-25,2023-04-14,5,4676,Feature_B,2024-06-27,0,23736,75,312.36,High
+198,DriftStudio,True,,free,2023-01-25,2023-04-14,20,3236,Feature_C,2026-05-23,0,23736,75,312.36,High
+198,DriftStudio,True,,professional,2023-04-14,2024-01-07,5,4676,Feature_B,2024-06-27,0,23736,75,312.36,High
+198,DriftStudio,True,,professional,2023-04-14,2024-01-07,20,3236,Feature_C,2026-05-23,0,23736,75,312.36,High
+198,DriftStudio,True,,starter,2024-01-07,,5,4676,Feature_B,2024-06-27,0,23736,75,312.36,High
+198,DriftStudio,True,,starter,2024-01-07,,20,3236,Feature_C,2026-05-23,0,23736,75,312.36,High
+201,ZenNet,False,2025-05-11 23:47:38,starter,2023-04-19,2024-01-26,17,4108,Feature_A,2024-04-09,1,8216,34,116.16,Medium
+201,ZenNet,False,2025-05-11 23:47:38,professional,2024-01-26,2025-05-11,17,4108,Feature_A,2024-04-09,1,8216,34,116.16,Medium
+202,CoreCloud,True,,starter,2025-05-05,2025-10-31,18,1760,Feature_C,2024-03-04,0,9728,104,201.28,High
+202,CoreCloud,True,,starter,2025-05-05,2025-10-31,34,3104,Feature_B,2026-08-11,0,9728,104,201.28,High
+202,CoreCloud,True,,enterprise,2025-10-31,,18,1760,Feature_C,2024-03-04,0,9728,104,201.28,High
+202,CoreCloud,True,,enterprise,2025-10-31,,34,3104,Feature_B,2026-08-11,0,9728,104,201.28,High
+203,Tidal Analytics,True,,starter,2025-04-03,,39,1112,Feature_C,2024-06-20,0,2048,56,76.48,Medium
+203,Tidal Analytics,True,,starter,2025-04-03,,17,936,Feature_A,2025-07-03,0,2048,56,76.48,Medium
+205,HubAI,True,,professional,2023-06-26,,15,4969,Feature_B,2025-11-12,0,4969,15,64.69,Medium
+206,RushHQ,True,,free,2023-03-31,2023-07-26,32,1508,Feature_A,2024-02-23,0,3016,64,94.16,Medium
+206,RushHQ,True,,enterprise,2023-07-26,,32,1508,Feature_A,2024-02-23,0,3016,64,94.16,Medium
+207,OnyxDynamics,True,,free,2024-02-02,,29,3710,Feature_A,2024-04-30,0,3710,29,66.1,Medium
+208,Echo Dev,True,,starter,2025-03-21,,17,337,Feature_C,2024-08-05,0,337,17,20.37,Low
+214,UltraSolutions,True,,professional,2023-09-13,2024-01-27,11,2796,Feature_C,2025-12-16,0,5592,22,77.92,Medium
+214,UltraSolutions,True,,enterprise,2024-01-27,,11,2796,Feature_C,2025-12-16,0,5592,22,77.92,Medium
+215,ArcSolutions,True,,starter,2024-12-04,,26,2601,Feature_C,2026-09-21,0,2601,26,52.010000000000005,Low
+216,SyncLabs,True,,starter,2024-09-20,2025-09-10,38,2494,Feature_A,2026-06-16,0,7482,114,188.82,High
+216,SyncLabs,True,,professional,2025-09-10,2025-11-10,38,2494,Feature_A,2026-06-16,0,7482,114,188.82,High
+216,SyncLabs,True,,starter,2025-11-10,,38,2494,Feature_A,2026-06-16,0,7482,114,188.82,High
+217,PeakSolutions,True,,free,2025-01-17,2025-08-23,18,4776,Feature_A,2024-03-16,0,19300,190,383.0,High
+217,PeakSolutions,True,,free,2025-01-17,2025-08-23,45,1384,Feature_B,2025-03-31,0,19300,190,383.0,High
+217,PeakSolutions,True,,free,2025-01-17,2025-08-23,32,3490,Feature_B,2025-05-28,0,19300,190,383.0,High
+217,PeakSolutions,True,,free,2025-08-23,,18,4776,Feature_A,2024-03-16,0,19300,190,383.0,High
+217,PeakSolutions,True,,free,2025-08-23,,45,1384,Feature_B,2025-03-31,0,19300,190,383.0,High
+217,PeakSolutions,True,,free,2025-08-23,,32,3490,Feature_B,2025-05-28,0,19300,190,383.0,High
+218,Keen Dynamics,False,2024-01-30 09:05:08,starter,2023-04-10,2024-01-30,25,621,Feature_C,2025-01-27,1,1880,26,44.8,Low
+218,Keen Dynamics,False,2024-01-30 09:05:08,starter,2023-04-10,2024-01-30,1,1259,Feature_B,2026-07-11,1,1880,26,44.8,Low
+220,GridTech,True,,professional,2024-03-04,2024-12-09,26,463,Feature_C,2024-06-12,0,926,52,61.26,Low
+220,GridTech,True,,enterprise,2024-12-09,,26,463,Feature_C,2024-06-12,0,926,52,61.26,Low
+224,GridVentures,False,2024-11-24 23:57:29,free,2023-02-08,2024-11-24,29,681,Feature_A,2025-08-21,1,681,29,35.81,Low
+225,CloudLogic,True,,starter,2025-04-17,,35,4017,Feature_B,2026-03-21,0,4017,35,75.17,Medium
+226,OrbitDigital,True,,free,2025-07-24,,7,708,Feature_B,2024-09-13,0,708,7,14.08,Low
+228,DriftAI,True,,professional,2023-09-05,,34,995,Feature_C,2026-02-03,0,2280,66,88.8,Medium
+228,DriftAI,True,,professional,2023-09-05,,32,1285,Feature_C,2026-06-15,0,2280,66,88.8,Medium
+229,LinkDynamics,True,,enterprise,2025-05-24,2025-10-10,42,3800,Feature_A,2026-02-27,0,7600,84,160.0,High
+229,LinkDynamics,True,,professional,2025-10-10,,42,3800,Feature_A,2026-02-27,0,7600,84,160.0,High
+230,PeakPlatform,True,,starter,2023-05-16,,22,4385,Feature_A,2024-09-09,0,4385,22,65.85,Medium
+231,OrbitAnalytics,True,,starter,2023-08-12,,44,1443,Feature_A,2024-04-04,0,1884,86,104.84,Medium
+231,OrbitAnalytics,True,,starter,2023-08-12,,42,441,Feature_C,2024-05-09,0,1884,86,104.84,Medium
+233,Hive Hub,True,,starter,2023-10-30,,11,3076,Feature_A,2025-12-05,0,7609,60,136.09,High
+233,Hive Hub,True,,starter,2023-10-30,,49,4533,Feature_B,2026-01-30,0,7609,60,136.09,High
+235,SyncSystems,True,,free,2023-08-16,,24,4383,Feature_A,2025-05-08,0,4383,24,67.83,Medium
+236,ArcWorks,False,2025-10-07 10:03:06,starter,2024-09-27,2025-02-04,25,2757,Feature_C,2025-10-04,1,10738,74,181.38,High
+236,ArcWorks,False,2025-10-07 10:03:06,starter,2024-09-27,2025-02-04,12,2612,Feature_B,2026-04-17,1,10738,74,181.38,High
+236,ArcWorks,False,2025-10-07 10:03:06,professional,2025-02-04,2025-10-07,25,2757,Feature_C,2025-10-04,1,10738,74,181.38,High
+236,ArcWorks,False,2025-10-07 10:03:06,professional,2025-02-04,2025-10-07,12,2612,Feature_B,2026-04-17,1,10738,74,181.38,High
+239,IonGroup,True,,professional,2025-07-02,2025-09-20,18,4058,Feature_A,2025-12-17,0,12174,54,175.74,High
+239,IonGroup,True,,professional,2025-09-20,2025-11-20,18,4058,Feature_A,2025-12-17,0,12174,54,175.74,High
+239,IonGroup,True,,professional,2025-11-20,,18,4058,Feature_A,2025-12-17,0,12174,54,175.74,High
+242,HubStudio,False,2025-10-28 17:12:12,starter,2024-11-08,2025-10-05,33,3279,Feature_A,2024-02-14,1,6558,66,131.57999999999998,High
+242,HubStudio,False,2025-10-28 17:12:12,professional,2025-10-05,2025-10-28,33,3279,Feature_A,2024-02-14,1,6558,66,131.57999999999998,High
+243,YieldSystems,True,,free,2023-10-04,,48,541,Feature_B,2026-02-24,0,541,48,53.41,Low
+244,Grid IO,False,2025-01-27 18:02:49,starter,2023-10-30,2024-09-07,19,1087,Feature_B,2026-08-16,1,2174,38,59.739999999999995,Low
+244,Grid IO,False,2025-01-27 18:02:49,starter,2024-09-07,2025-01-27,19,1087,Feature_B,2026-08-16,1,2174,38,59.739999999999995,Low
+246,Luna AI,False,2025-10-20 17:18:03,starter,2025-06-30,2025-10-20,42,4819,Feature_B,2024-10-28,1,4819,42,90.19,Medium
+247,VertexStudio,True,,free,2024-04-12,2025-03-05,36,1866,Feature_C,2024-06-18,0,18540,213,398.4,High
+247,VertexStudio,True,,free,2024-04-12,2025-03-05,35,4314,Feature_B,2025-01-13,0,18540,213,398.4,High
+247,VertexStudio,True,,enterprise,2025-03-05,2025-06-08,36,1866,Feature_C,2024-06-18,0,18540,213,398.4,High
+247,VertexStudio,True,,enterprise,2025-03-05,2025-06-08,35,4314,Feature_B,2025-01-13,0,18540,213,398.4,High
+247,VertexStudio,True,,starter,2025-06-08,,36,1866,Feature_C,2024-06-18,0,18540,213,398.4,High
+247,VertexStudio,True,,starter,2025-06-08,,35,4314,Feature_B,2025-01-13,0,18540,213,398.4,High
+249,RiftPro,True,,professional,2025-06-08,,32,4727,Feature_B,2025-10-25,0,7840,73,151.4,High
+249,RiftPro,True,,professional,2025-06-08,,41,3113,Feature_A,2025-12-13,0,7840,73,151.4,High
+250,SageNet,True,,starter,2025-04-26,2025-09-07,46,2190,Feature_C,2025-09-27,0,4380,92,135.8,High
+250,SageNet,True,,professional,2025-09-07,,46,2190,Feature_C,2025-09-27,0,4380,92,135.8,High
+253,Quest HQ,True,,enterprise,2025-01-03,,39,4246,Feature_B,2024-01-22,0,4587,78,123.87,Medium
+253,Quest HQ,True,,enterprise,2025-01-03,,39,341,Feature_B,2024-10-12,0,4587,78,123.87,Medium
+254,GridHub,False,2024-01-29 00:09:20,starter,2023-04-19,2024-01-29,30,4325,Feature_C,2024-07-28,1,8648,61,147.48000000000002,High
+254,GridHub,False,2024-01-29 00:09:20,starter,2023-04-19,2024-01-29,31,4323,Feature_A,2024-08-14,1,8648,61,147.48000000000002,High
+256,DriftOps,True,,free,2024-05-09,2025-05-03,49,1465,Feature_C,2025-08-08,0,2930,98,127.3,High
+256,DriftOps,True,,professional,2025-05-03,,49,1465,Feature_C,2025-08-08,0,2930,98,127.3,High
+258,Mist Net,True,,professional,2023-07-25,,15,138,Feature_A,2025-02-14,0,138,15,16.38,Low
+259,RiftDigital,True,,starter,2024-08-19,2024-12-27,11,4278,Feature_C,2026-04-01,0,8556,22,107.56,Medium
+259,RiftDigital,True,,professional,2024-12-27,,11,4278,Feature_C,2026-04-01,0,8556,22,107.56,Medium
+261,JetAI,True,,free,2025-01-30,,16,2320,Feature_C,2026-04-05,0,2320,16,39.2,Low
+263,WarpVentures,True,,starter,2023-06-27,2023-09-14,42,3329,Feature_C,2024-07-20,0,6658,84,150.57999999999998,High
+263,WarpVentures,True,,professional,2023-09-14,,42,3329,Feature_C,2024-07-20,0,6658,84,150.57999999999998,High
+264,Link Analytics,True,,free,2025-08-12,,46,3556,Feature_B,2024-12-04,0,3556,46,81.56,Medium
+265,FluxVentures,True,,starter,2023-06-13,2024-04-25,10,3079,Feature_C,2025-04-13,0,6158,20,81.58,Medium
+265,FluxVentures,True,,professional,2024-04-25,,10,3079,Feature_C,2025-04-13,0,6158,20,81.58,Medium
+268,PeakSoftware,True,,free,2025-03-03,,11,1617,Feature_B,2025-10-02,0,1617,11,27.17,Low
+269,NovaDynamics,True,,free,2025-01-04,,24,2646,Feature_C,2024-12-18,0,2646,24,50.46,Low
+270,JadeTech,True,,free,2023-05-02,2023-07-20,10,4915,Feature_C,2024-03-06,0,14568,44,189.68,High
+270,JadeTech,True,,free,2023-05-02,2023-07-20,12,2369,Feature_B,2026-04-25,0,14568,44,189.68,High
+270,JadeTech,True,,professional,2023-07-20,,10,4915,Feature_C,2024-03-06,0,14568,44,189.68,High
+270,JadeTech,True,,professional,2023-07-20,,12,2369,Feature_B,2026-04-25,0,14568,44,189.68,High
+277,Mist Tech,False,2025-09-19 05:48:40,free,2025-07-02,2025-09-19,4,4531,Feature_C,2024-01-18,1,5701,22,79.00999999999999,Medium
+277,Mist Tech,False,2025-09-19 05:48:40,free,2025-07-02,2025-09-19,18,1170,Feature_A,2026-02-15,1,5701,22,79.00999999999999,Medium
+279,ZenStudio,True,,professional,2025-08-29,,43,3827,Feature_A,2025-03-30,0,3827,43,81.27000000000001,Medium
+280,VinePro,True,,starter,2023-07-31,,24,2656,Feature_A,2024-06-25,0,5401,68,122.00999999999999,Medium
+280,VinePro,True,,starter,2023-07-31,,44,2745,Feature_A,2024-10-02,0,5401,68,122.00999999999999,Medium
+281,EchoHQ,True,,free,2023-09-27,,6,2311,Feature_C,2025-11-22,0,2311,6,29.11,Low
+284,EchoOps,False,2025-09-17 08:42:34,starter,2023-06-14,2024-04-06,48,2248,Feature_C,2024-09-15,1,4496,96,140.96,High
+284,EchoOps,False,2025-09-17 08:42:34,free,2024-04-06,2025-09-17,48,2248,Feature_C,2024-09-15,1,4496,96,140.96,High
+285,Luna Dev,True,,enterprise,2023-08-10,,48,1859,Feature_A,2025-02-25,0,2894,81,109.94,Medium
+285,Luna Dev,True,,enterprise,2023-08-10,,33,1035,Feature_C,2026-09-02,0,2894,81,109.94,Medium
+289,OrbitIO,True,,free,2023-05-18,2024-04-09,9,540,Feature_B,2024-04-02,0,14601,96,242.01,High
+289,OrbitIO,True,,free,2023-05-18,2024-04-09,23,4327,Feature_B,2026-06-06,0,14601,96,242.01,High
+289,OrbitIO,True,,enterprise,2024-04-09,2025-03-06,9,540,Feature_B,2024-04-02,0,14601,96,242.01,High
+289,OrbitIO,True,,enterprise,2024-04-09,2025-03-06,23,4327,Feature_B,2026-06-06,0,14601,96,242.01,High
+289,OrbitIO,True,,starter,2025-03-06,,9,540,Feature_B,2024-04-02,0,14601,96,242.01,High
+289,OrbitIO,True,,starter,2025-03-06,,23,4327,Feature_B,2026-06-06,0,14601,96,242.01,High
+294,UnitLogic,False,2025-09-16 05:12:33,professional,2024-03-25,2024-09-06,47,2885,Feature_B,2024-06-24,1,5770,94,151.7,High
+294,UnitLogic,False,2025-09-16 05:12:33,professional,2024-09-06,2025-09-16,47,2885,Feature_B,2024-06-24,1,5770,94,151.7,High
+296,WaveStudio,False,2024-08-27 05:22:20,free,2024-06-02,2025-01-30,21,4245,Feature_A,2024-03-10,1,17868,60,238.68,High
+296,WaveStudio,False,2024-08-27 05:22:20,free,2024-06-02,2025-01-30,9,4689,Feature_C,2026-05-08,1,17868,60,238.68,High
+296,WaveStudio,False,2024-08-27 05:22:20,starter,2025-01-30,2024-08-27,21,4245,Feature_A,2024-03-10,1,17868,60,238.68,High
+296,WaveStudio,False,2024-08-27 05:22:20,starter,2025-01-30,2024-08-27,9,4689,Feature_C,2026-05-08,1,17868,60,238.68,High
+302,DriftSystems,True,,starter,2024-09-19,,34,4705,Feature_A,2024-10-04,0,6901,80,149.01,High
+302,DriftSystems,True,,starter,2024-09-19,,46,2196,Feature_C,2026-07-08,0,6901,80,149.01,High
+303,EchoGroup,True,,starter,2023-07-04,,29,3811,Feature_B,2025-12-29,0,3811,29,67.11,Medium
+305,Keen AI,True,,enterprise,2023-12-09,,14,178,Feature_A,2024-11-26,0,178,14,15.78,Low
+313,TrekPro,True,,free,2024-12-02,,18,1232,Feature_A,2026-08-12,0,1232,18,30.32,Low
+314,ArcSoftware,False,2024-02-01 13:12:31,starter,2023-11-25,2024-02-08,3,4126,Feature_A,2024-11-24,1,8252,6,88.52,Medium
+314,ArcSoftware,False,2024-02-01 13:12:31,professional,2024-02-08,2024-02-01,3,4126,Feature_A,2024-11-24,1,8252,6,88.52,Medium
+315,RushDigital,True,,free,2025-03-29,,12,1035,Feature_B,2026-02-12,0,1035,12,22.35,Low
+316,VertexTech,True,,starter,2023-09-14,,37,3630,Feature_B,2024-02-12,0,3630,37,73.3,Medium
+318,Jade Dev,True,,professional,2023-08-30,2024-04-27,45,2202,Feature_C,2024-05-30,0,10050,176,276.5,High
+318,Jade Dev,True,,professional,2023-08-30,2024-04-27,43,2823,Feature_C,2026-04-16,0,10050,176,276.5,High
+318,Jade Dev,True,,enterprise,2024-04-27,,45,2202,Feature_C,2024-05-30,0,10050,176,276.5,High
+318,Jade Dev,True,,enterprise,2024-04-27,,43,2823,Feature_C,2026-04-16,0,10050,176,276.5,High
+320,Wave Stack,True,,free,2025-02-13,,23,4857,Feature_A,2026-03-29,0,4857,23,71.57,Medium
+321,BoltNet,True,,free,2023-07-14,,49,3291,Feature_B,2024-11-09,0,8273,79,161.73000000000002,High
+321,BoltNet,True,,free,2023-07-14,,30,4982,Feature_C,2026-04-10,0,8273,79,161.73000000000002,High
+324,Hive Ops,True,,free,2024-10-19,2025-09-02,1,3836,Feature_A,2026-06-22,0,11508,3,118.08,Medium
+324,Hive Ops,True,,starter,2025-09-02,2025-11-01,1,3836,Feature_A,2026-06-22,0,11508,3,118.08,Medium
+324,Hive Ops,True,,enterprise,2025-11-01,,1,3836,Feature_A,2026-06-22,0,11508,3,118.08,Medium
+326,NexusAnalytics,False,2024-09-02 10:33:28,starter,2023-07-14,2024-01-12,17,2759,Feature_A,2026-03-17,1,8277,51,133.76999999999998,High
+326,NexusAnalytics,False,2024-09-02 10:33:28,professional,2024-01-12,2024-11-30,17,2759,Feature_A,2026-03-17,1,8277,51,133.76999999999998,High
+326,NexusAnalytics,False,2024-09-02 10:33:28,starter,2024-11-30,2024-09-02,17,2759,Feature_A,2026-03-17,1,8277,51,133.76999999999998,High
+327,JadePro,True,,starter,2023-06-20,2024-03-23,9,3289,Feature_C,2026-09-18,0,6578,18,83.78,Medium
+327,JadePro,True,,professional,2024-03-23,,9,3289,Feature_C,2026-09-18,0,6578,18,83.78,Medium
+329,ZenLabs,True,,free,2023-08-08,,41,3090,Feature_C,2026-04-11,0,3090,41,71.9,Medium
+331,UnitWorks,True,,professional,2025-04-07,,19,2930,Feature_A,2024-01-08,0,2930,19,48.3,Low
+334,ZenDev,True,,professional,2024-09-22,2025-07-29,1,385,Feature_B,2026-04-18,0,770,2,9.7,Low
+334,ZenDev,True,,professional,2025-07-29,,1,385,Feature_B,2026-04-18,0,770,2,9.7,Low
+336,WaveGroup,True,,enterprise,2023-06-09,,9,1667,Feature_A,2025-02-13,0,1667,9,25.67,Low
+337,Nexus Digital,True,,starter,2023-12-06,,45,1383,Feature_A,2025-12-23,0,1383,45,58.83,Low
+338,JadeIO,False,2024-05-30 18:29:28,enterprise,2023-06-24,2024-05-30,48,3373,Feature_B,2024-03-12,1,7169,73,144.69,High
+338,JadeIO,False,2024-05-30 18:29:28,enterprise,2023-06-24,2024-05-30,17,660,Feature_B,2024-07-15,1,7169,73,144.69,High
+338,JadeIO,False,2024-05-30 18:29:28,enterprise,2023-06-24,2024-05-30,8,3136,Feature_A,2024-08-21,1,7169,73,144.69,High
+339,DataHQ,True,,starter,2023-01-20,2023-08-05,22,4255,Feature_C,2025-05-25,0,8510,44,129.1,High
+339,DataHQ,True,,starter,2023-08-05,,22,4255,Feature_C,2025-05-25,0,8510,44,129.1,High
+341,VertexIO,True,,starter,2023-03-05,,14,1035,Feature_B,2025-01-30,0,1035,14,24.35,Low
+342,Vertex Logic,False,2025-05-08 15:14:12,starter,2024-08-09,2025-01-06,14,2096,Feature_A,2026-09-14,1,4192,28,69.92,Medium
+342,Vertex Logic,False,2025-05-08 15:14:12,starter,2025-01-06,2025-05-08,14,2096,Feature_A,2026-09-14,1,4192,28,69.92,Medium
+344,PeakVentures,True,,free,2025-02-22,,28,1104,Feature_A,2024-01-14,0,1104,28,39.04,Low
+346,SageHub,False,2024-06-05 12:04:16,free,2023-05-21,2024-06-05,39,4173,Feature_C,2024-07-22,1,12369,80,203.69,High
+346,SageHub,False,2024-06-05 12:04:16,free,2023-05-21,2024-06-05,16,3300,Feature_A,2025-12-07,1,12369,80,203.69,High
+346,SageHub,False,2024-06-05 12:04:16,free,2023-05-21,2024-06-05,25,4896,Feature_A,2026-07-07,1,12369,80,203.69,High
+347,ArcPlatform,True,,professional,2023-11-29,,25,826,Feature_C,2026-08-22,0,826,25,33.26,Low
+348,Vine Logic,True,,free,2024-04-07,,7,1426,Feature_B,2025-06-17,0,1426,7,21.259999999999998,Low
+350,DriftSolutions,False,2025-09-20 19:32:00,free,2023-04-26,2024-04-07,23,2010,Feature_A,2025-12-19,1,11880,112,230.8,High
+350,DriftSolutions,False,2025-09-20 19:32:00,free,2023-04-26,2024-04-07,33,3930,Feature_C,2026-02-19,1,11880,112,230.8,High
+350,DriftSolutions,False,2025-09-20 19:32:00,professional,2024-04-07,2025-09-20,23,2010,Feature_A,2025-12-19,1,11880,112,230.8,High
+350,DriftSolutions,False,2025-09-20 19:32:00,professional,2024-04-07,2025-09-20,33,3930,Feature_C,2026-02-19,1,11880,112,230.8,High
+356,DriftPro,True,,professional,2025-05-13,,26,4513,Feature_B,2026-07-19,0,4513,26,71.13,Medium
+357,VertexDev,True,,free,2024-05-10,,34,4140,Feature_C,2025-02-01,0,4140,34,75.4,Medium
+358,BeamGroup,True,,professional,2024-10-09,,47,1549,Feature_C,2025-07-14,0,1549,47,62.49,Low
+360,Sync Analytics,True,,professional,2023-12-16,2024-02-22,6,2655,Feature_B,2025-11-20,0,5310,12,65.1,Medium
+360,Sync Analytics,True,,enterprise,2024-02-22,,6,2655,Feature_B,2025-11-20,0,5310,12,65.1,Medium
+363,VertexLogic,True,,starter,2023-11-19,,33,1254,Feature_A,2026-01-15,0,2679,37,63.79,Low
+363,VertexLogic,True,,starter,2023-11-19,,4,1425,Feature_B,2026-07-09,0,2679,37,63.79,Low
+365,Grid Dev,True,,starter,2023-11-15,,37,3647,Feature_A,2026-01-06,0,3647,37,73.47,Medium
+370,Xenon Logic,False,2025-06-06 18:43:17,starter,2024-05-01,2025-06-06,11,662,Feature_B,2024-12-19,1,662,11,17.62,Low
+371,ZealStudio,True,,free,2025-03-22,,46,3791,Feature_B,2026-08-06,0,3791,46,83.91,Medium
+373,VineNet,True,,enterprise,2025-09-05,,22,2103,Feature_C,2025-07-17,0,2103,22,43.03,Low
+374,UltraIO,False,2025-07-01 07:39:47,free,2024-11-07,2025-07-01,46,2114,Feature_B,2025-08-18,1,2114,46,67.14,Medium
+376,XenonDynamics,True,,free,2024-12-20,,20,364,Feature_B,2026-04-19,0,364,20,23.64,Low
+379,BeamDynamics,True,,enterprise,2023-10-03,,34,869,Feature_C,2024-04-03,0,869,34,42.69,Low
+380,KeenIO,True,,free,2023-03-22,2023-09-08,47,3279,Feature_B,2024-03-19,0,20541,213,418.40999999999997,High
+380,KeenIO,True,,free,2023-03-22,2023-09-08,24,3568,Feature_C,2025-02-20,0,20541,213,418.40999999999997,High
+380,KeenIO,True,,professional,2023-09-08,2024-01-01,47,3279,Feature_B,2024-03-19,0,20541,213,418.40999999999997,High
+380,KeenIO,True,,professional,2023-09-08,2024-01-01,24,3568,Feature_C,2025-02-20,0,20541,213,418.40999999999997,High
+380,KeenIO,True,,starter,2024-01-01,,47,3279,Feature_B,2024-03-19,0,20541,213,418.40999999999997,High
+380,KeenIO,True,,starter,2024-01-01,,24,3568,Feature_C,2025-02-20,0,20541,213,418.40999999999997,High
+385,WarpCorp,True,,professional,2023-09-28,2024-05-18,21,385,Feature_A,2024-06-14,0,3468,72,106.68,Medium
+385,WarpCorp,True,,professional,2023-09-28,2024-05-18,3,771,Feature_B,2025-08-31,0,3468,72,106.68,Medium
+385,WarpCorp,True,,starter,2024-05-18,2024-10-29,21,385,Feature_A,2024-06-14,0,3468,72,106.68,Medium
+385,WarpCorp,True,,starter,2024-05-18,2024-10-29,3,771,Feature_B,2025-08-31,0,3468,72,106.68,Medium
+385,WarpCorp,True,,enterprise,2024-10-29,,21,385,Feature_A,2024-06-14,0,3468,72,106.68,Medium
+385,WarpCorp,True,,enterprise,2024-10-29,,3,771,Feature_B,2025-08-31,0,3468,72,106.68,Medium
+386,EchoCloud,False,2025-04-03 14:37:22,starter,2024-03-21,2025-04-03,30,506,Feature_A,2024-01-16,1,779,31,38.79,Low
+386,EchoCloud,False,2025-04-03 14:37:22,starter,2024-03-21,2025-04-03,1,273,Feature_A,2026-08-19,1,779,31,38.79,Low
+387,GridDynamics,True,,free,2024-08-21,2025-06-11,12,2910,Feature_A,2025-06-16,0,5820,24,82.2,Medium
+387,GridDynamics,True,,enterprise,2025-06-11,,12,2910,Feature_A,2025-06-16,0,5820,24,82.2,Medium
+388,MetaDev,False,2025-07-02 08:57:54,free,2024-06-21,2025-07-02,8,3516,Feature_C,2024-02-10,1,3516,8,43.16,Low
+389,CloudLabs,False,2025-06-22 22:02:28,free,2024-09-11,2025-06-22,33,3748,Feature_C,2025-10-05,1,3748,33,70.47999999999999,Medium
+390,Sync HQ,False,2025-05-03 05:29:33,starter,2025-03-10,2025-07-17,34,4813,Feature_C,2025-08-06,1,14439,102,246.39,High
+390,Sync HQ,False,2025-05-03 05:29:33,starter,2025-07-17,2025-10-18,34,4813,Feature_C,2025-08-06,1,14439,102,246.39,High
+390,Sync HQ,False,2025-05-03 05:29:33,professional,2025-10-18,2025-05-03,34,4813,Feature_C,2025-08-06,1,14439,102,246.39,High
+391,QuarkSolutions,True,,enterprise,2023-08-12,2024-01-28,43,1547,Feature_C,2026-05-25,0,3094,86,116.94,Medium
+391,QuarkSolutions,True,,professional,2024-01-28,,43,1547,Feature_C,2026-05-25,0,3094,86,116.94,Medium
+392,Keen Pro,False,2024-07-12 04:29:34,free,2023-09-30,2024-06-10,38,2737,Feature_C,2024-03-31,1,5474,76,130.74,High
+392,Keen Pro,False,2024-07-12 04:29:34,professional,2024-06-10,2024-07-12,38,2737,Feature_C,2024-03-31,1,5474,76,130.74,High
+393,EchoCorp,True,,free,2024-07-02,,26,2575,Feature_A,2024-04-29,0,2575,26,51.75,Low
+396,Data Works,True,,professional,2024-11-25,,31,3237,Feature_A,2025-04-10,0,7284,78,150.84,High
+396,Data Works,True,,professional,2024-11-25,,14,2734,Feature_A,2025-04-22,0,7284,78,150.84,High
+396,Data Works,True,,professional,2024-11-25,,33,1313,Feature_C,2026-07-10,0,7284,78,150.84,High
+397,EdgeAI,False,2025-03-07 08:35:29,free,2024-10-09,2025-07-26,26,4451,Feature_A,2025-02-26,1,22896,99,327.96000000000004,High
+397,EdgeAI,False,2025-03-07 08:35:29,free,2024-10-09,2025-07-26,7,3181,Feature_C,2025-04-06,1,22896,99,327.96000000000004,High
+397,EdgeAI,False,2025-03-07 08:35:29,professional,2025-07-26,2025-10-06,26,4451,Feature_A,2025-02-26,1,22896,99,327.96000000000004,High
+397,EdgeAI,False,2025-03-07 08:35:29,professional,2025-07-26,2025-10-06,7,3181,Feature_C,2025-04-06,1,22896,99,327.96000000000004,High
+397,EdgeAI,False,2025-03-07 08:35:29,professional,2025-10-06,2025-03-07,26,4451,Feature_A,2025-02-26,1,22896,99,327.96000000000004,High
+397,EdgeAI,False,2025-03-07 08:35:29,professional,2025-10-06,2025-03-07,7,3181,Feature_C,2025-04-06,1,22896,99,327.96000000000004,High
+398,Meta Corp,True,,starter,2023-11-26,,43,1904,Feature_A,2024-04-26,0,6679,110,176.79000000000002,High
+398,Meta Corp,True,,starter,2023-11-26,,26,4449,Feature_C,2024-08-27,0,6679,110,176.79000000000002,High
+398,Meta Corp,True,,starter,2023-11-26,,41,326,Feature_A,2025-05-03,0,6679,110,176.79000000000002,High
+400,Flux Tech,True,,professional,2025-03-22,,44,524,Feature_C,2024-11-11,0,524,44,49.24,Low
+401,Core Corp,True,,starter,2024-10-04,,35,2607,Feature_B,2024-06-22,0,7897,69,147.97,High
+401,Core Corp,True,,starter,2024-10-04,,26,2053,Feature_A,2024-08-30,0,7897,69,147.97,High
+401,Core Corp,True,,starter,2024-10-04,,8,3237,Feature_A,2025-10-08,0,7897,69,147.97,High
+402,MetaSystems,True,,starter,2024-11-06,,14,4716,Feature_C,2024-03-01,0,5594,16,71.94,Medium
+402,MetaSystems,True,,starter,2024-11-06,,2,878,Feature_C,2026-05-07,0,5594,16,71.94,Medium
+403,RiftIO,True,,enterprise,2025-04-04,2025-07-01,34,1542,Feature_A,2024-07-08,0,4626,102,148.26,High
+403,RiftIO,True,,enterprise,2025-07-01,2025-09-26,34,1542,Feature_A,2024-07-08,0,4626,102,148.26,High
+403,RiftIO,True,,professional,2025-09-26,,34,1542,Feature_A,2024-07-08,0,4626,102,148.26,High
+404,Bolt IO,True,,starter,2024-11-24,2025-04-11,49,2630,Feature_A,2024-08-07,0,5260,98,150.6,High
+404,Bolt IO,True,,starter,2025-04-11,,49,2630,Feature_A,2024-08-07,0,5260,98,150.6,High
+405,GridPlatform,True,,free,2025-08-08,,20,1271,Feature_C,2025-09-01,0,1271,20,32.71,Low
+407,MistSolutions,True,,starter,2023-08-10,,17,1225,Feature_C,2024-04-15,0,1225,17,29.25,Low
+408,AcmePro,True,,starter,2025-07-24,,18,1559,Feature_B,2024-11-02,0,1559,18,33.59,Low
+413,YieldStudio,True,,free,2023-12-09,2024-03-12,40,2425,Feature_C,2025-03-15,0,4850,80,128.5,High
+413,YieldStudio,True,,professional,2024-03-12,,40,2425,Feature_C,2025-03-15,0,4850,80,128.5,High
+418,KiteGroup,False,2024-10-02 20:40:00,starter,2023-04-30,2024-10-02,32,3778,Feature_A,2025-03-10,1,6930,39,108.3,Medium
+418,KiteGroup,False,2024-10-02 20:40:00,starter,2023-04-30,2024-10-02,7,3152,Feature_B,2026-08-21,1,6930,39,108.3,Medium
+419,JetStudio,True,,free,2025-08-08,,30,1200,Feature_B,2024-04-01,0,1200,30,42.0,Low
+420,Sync Hub,True,,free,2025-01-19,,31,4854,Feature_A,2026-05-30,0,7128,72,143.28,High
+420,Sync Hub,True,,free,2025-01-19,,41,2274,Feature_A,2026-08-01,0,7128,72,143.28,High
+422,BoltTech,False,2025-10-25 08:50:20,free,2025-08-24,2025-10-25,26,760,Feature_B,2026-05-11,1,760,26,33.6,Low
+425,MetaSolutions,True,,enterprise,2025-01-27,,6,3040,Feature_A,2026-02-09,0,3040,6,36.4,Low
+432,Hub Platform,True,,starter,2024-03-11,,4,2420,Feature_C,2025-01-29,0,2420,4,28.2,Low
+435,Link Hub,False,2025-05-05 02:46:04,starter,2025-01-12,2025-05-05,46,4783,Feature_C,2025-10-15,1,9776,64,161.76,High
+435,Link Hub,False,2025-05-05 02:46:04,starter,2025-01-12,2025-05-05,10,2179,Feature_C,2025-10-23,1,9776,64,161.76,High
+435,Link Hub,False,2025-05-05 02:46:04,starter,2025-01-12,2025-05-05,8,2814,Feature_B,2026-09-22,1,9776,64,161.76,High
+438,EdgeIO,False,2024-12-31 07:38:17,free,2023-03-29,2023-10-28,14,982,Feature_B,2024-09-11,1,10708,90,197.07999999999998,High
+438,EdgeIO,False,2024-12-31 07:38:17,free,2023-03-29,2023-10-28,31,4372,Feature_B,2025-09-29,1,10708,90,197.07999999999998,High
+438,EdgeIO,False,2024-12-31 07:38:17,starter,2023-10-28,2024-12-31,14,982,Feature_B,2024-09-11,1,10708,90,197.07999999999998,High
+438,EdgeIO,False,2024-12-31 07:38:17,starter,2023-10-28,2024-12-31,31,4372,Feature_B,2025-09-29,1,10708,90,197.07999999999998,High
+442,Warp AI,True,,professional,2024-07-24,,17,2031,Feature_A,2024-06-03,0,5374,26,79.74000000000001,Medium
+442,Warp AI,True,,professional,2024-07-24,,9,3343,Feature_C,2025-02-07,0,5374,26,79.74000000000001,Medium
+444,NexusOps,False,2025-06-11 01:28:57,professional,2024-08-20,2025-06-10,25,3371,Feature_C,2024-12-01,1,6742,50,117.42,Medium
+444,NexusOps,False,2025-06-11 01:28:57,free,2025-06-10,2025-06-11,25,3371,Feature_C,2024-12-01,1,6742,50,117.42,Medium
+445,Pulse Platform,False,2024-12-10 14:31:01,free,2023-06-23,2023-11-12,23,2259,Feature_C,2025-04-11,1,6982,100,169.82,High
+445,Pulse Platform,False,2024-12-10 14:31:01,free,2023-06-23,2023-11-12,27,1232,Feature_A,2025-05-31,1,6982,100,169.82,High
+445,Pulse Platform,False,2024-12-10 14:31:01,enterprise,2023-11-12,2024-12-10,23,2259,Feature_C,2025-04-11,1,6982,100,169.82,High
+445,Pulse Platform,False,2024-12-10 14:31:01,enterprise,2023-11-12,2024-12-10,27,1232,Feature_A,2025-05-31,1,6982,100,169.82,High
+447,Beam Software,True,,starter,2024-02-16,,40,2424,Feature_A,2025-10-24,0,2424,40,64.24,Low
+449,QuarkGroup,True,,starter,2023-08-07,2023-12-17,13,994,Feature_B,2025-09-20,0,1988,26,45.879999999999995,Low
+449,QuarkGroup,True,,free,2023-12-17,,13,994,Feature_B,2025-09-20,0,1988,26,45.879999999999995,Low
+450,RushStack,False,2025-03-19 07:02:29,starter,2023-09-04,2025-03-19,24,262,Feature_A,2025-08-10,1,262,24,26.62,Low
+453,ArcStudio,False,2025-10-06 10:45:19,starter,2025-08-13,2025-10-23,38,3078,Feature_A,2024-07-29,1,22368,240,463.68,High
+453,ArcStudio,False,2025-10-06 10:45:19,starter,2025-08-13,2025-10-23,29,919,Feature_B,2024-09-18,1,22368,240,463.68,High
+453,ArcStudio,False,2025-10-06 10:45:19,starter,2025-08-13,2025-10-23,13,3459,Feature_A,2025-01-25,1,22368,240,463.68,High
+453,ArcStudio,False,2025-10-06 10:45:19,enterprise,2025-10-23,2025-12-23,38,3078,Feature_A,2024-07-29,1,22368,240,463.68,High
+453,ArcStudio,False,2025-10-06 10:45:19,enterprise,2025-10-23,2025-12-23,29,919,Feature_B,2024-09-18,1,22368,240,463.68,High
+453,ArcStudio,False,2025-10-06 10:45:19,enterprise,2025-10-23,2025-12-23,13,3459,Feature_A,2025-01-25,1,22368,240,463.68,High
+453,ArcStudio,False,2025-10-06 10:45:19,professional,2025-12-23,2025-10-06,38,3078,Feature_A,2024-07-29,1,22368,240,463.68,High
+453,ArcStudio,False,2025-10-06 10:45:19,professional,2025-12-23,2025-10-06,29,919,Feature_B,2024-09-18,1,22368,240,463.68,High
+453,ArcStudio,False,2025-10-06 10:45:19,professional,2025-12-23,2025-10-06,13,3459,Feature_A,2025-01-25,1,22368,240,463.68,High
+455,HubWorks,True,,professional,2023-01-22,,32,2381,Feature_B,2025-04-14,0,2381,32,55.81,Low
+456,VineOps,False,2025-04-02 19:14:20,free,2024-12-02,2025-04-02,33,3325,Feature_A,2024-03-08,1,5076,62,112.75999999999999,Medium
+456,VineOps,False,2025-04-02 19:14:20,free,2024-12-02,2025-04-02,29,1751,Feature_A,2025-06-12,1,5076,62,112.75999999999999,Medium
+457,Warp Platform,True,,free,2023-10-08,,6,2843,Feature_A,2025-03-20,0,3313,28,61.13,Low
+457,Warp Platform,True,,free,2023-10-08,,22,470,Feature_B,2025-09-15,0,3313,28,61.13,Low
+460,MistOps,True,,starter,2025-03-29,2025-10-20,8,3288,Feature_C,2024-01-20,0,10676,48,154.76,High
+460,MistOps,True,,starter,2025-03-29,2025-10-20,16,2050,Feature_B,2024-09-03,0,10676,48,154.76,High
+460,MistOps,True,,professional,2025-10-20,,8,3288,Feature_C,2024-01-20,0,10676,48,154.76,High
+460,MistOps,True,,professional,2025-10-20,,16,2050,Feature_B,2024-09-03,0,10676,48,154.76,High
+461,Bolt Dynamics,True,,professional,2024-09-24,,5,4383,Feature_C,2025-08-01,0,4383,5,48.83,Low
+464,Ion Works,True,,professional,2023-04-08,,43,1789,Feature_A,2024-07-04,0,1789,43,60.89,Low
+467,NexusHub,True,,starter,2025-08-03,,40,3471,Feature_C,2024-01-07,0,3471,40,74.71000000000001,Medium
+468,Drift Corp,True,,professional,2025-05-16,,2,4746,Feature_C,2026-03-03,0,4746,2,49.46,Low
+470,Rift Systems,True,,free,2025-09-05,,17,2230,Feature_B,2024-09-05,0,2230,17,39.3,Low
+471,CloudStack,True,,starter,2023-10-17,,47,1220,Feature_B,2024-11-14,0,3205,62,94.05,Medium
+471,CloudStack,True,,starter,2023-10-17,,15,1985,Feature_A,2025-07-08,0,3205,62,94.05,Medium
+473,VineCloud,True,,starter,2024-02-02,,43,693,Feature_A,2024-07-18,0,693,43,49.93,Low
+474,Onyx Corp,True,,starter,2024-06-23,,9,4978,Feature_A,2025-01-28,0,7017,27,97.17,Medium
+474,Onyx Corp,True,,starter,2024-06-23,,18,2039,Feature_B,2026-01-03,0,7017,27,97.17,Medium
+475,IonOps,True,,free,2024-06-06,2025-01-19,10,4984,Feature_C,2024-01-25,0,17650,68,244.5,High
+475,IonOps,True,,free,2024-06-06,2025-01-19,24,3841,Feature_C,2026-08-20,0,17650,68,244.5,High
+475,IonOps,True,,professional,2025-01-19,,10,4984,Feature_C,2024-01-25,0,17650,68,244.5,High
+475,IonOps,True,,professional,2025-01-19,,24,3841,Feature_C,2026-08-20,0,17650,68,244.5,High
+476,WaveAnalytics,False,2024-06-22 09:06:13,starter,2023-02-16,2024-06-22,47,930,Feature_A,2025-06-11,1,3488,82,116.88,Medium
+476,WaveAnalytics,False,2024-06-22 09:06:13,starter,2023-02-16,2024-06-22,25,1549,Feature_A,2025-09-04,1,3488,82,116.88,Medium
+476,WaveAnalytics,False,2024-06-22 09:06:13,starter,2023-02-16,2024-06-22,10,1009,Feature_B,2026-09-15,1,3488,82,116.88,Medium
+477,Vine Group,True,,starter,2024-05-03,,17,2144,Feature_A,2024-09-27,0,2144,17,38.44,Low
+478,TidalGroup,False,2023-03-10 16:14:41,starter,2023-01-15,2023-03-10,29,626,Feature_B,2026-05-28,1,626,29,35.26,Low
+485,EdgeWorks,True,,starter,2025-02-27,2025-10-12,21,4253,Feature_C,2024-05-08,0,10676,102,208.76,High
+485,EdgeWorks,True,,starter,2025-02-27,2025-10-12,30,1085,Feature_A,2026-01-19,0,10676,102,208.76,High
+485,EdgeWorks,True,,professional,2025-10-12,,21,4253,Feature_C,2024-05-08,0,10676,102,208.76,High
+485,EdgeWorks,True,,professional,2025-10-12,,30,1085,Feature_A,2026-01-19,0,10676,102,208.76,High
+488,MetaHQ,True,,free,2023-09-30,,5,1927,Feature_C,2025-01-07,0,5089,13,63.89,Low
+488,MetaHQ,True,,free,2023-09-30,,8,3162,Feature_A,2025-09-22,0,5089,13,63.89,Low
+489,Warp Hub,True,,free,2024-06-12,,9,343,Feature_B,2024-07-12,0,343,9,12.43,Low
+490,ZealLabs,False,2025-05-15 14:58:31,free,2025-02-16,2025-05-12,44,4824,Feature_C,2024-10-25,1,9648,88,184.48000000000002,High
+490,ZealLabs,False,2025-05-15 14:58:31,enterprise,2025-05-12,2025-05-15,44,4824,Feature_C,2024-10-25,1,9648,88,184.48000000000002,High
+492,NexusGroup,True,,starter,2024-02-04,2024-07-22,7,4721,Feature_B,2025-05-15,0,9442,14,108.42,Medium
+492,NexusGroup,True,,starter,2024-07-22,,7,4721,Feature_B,2025-05-15,0,9442,14,108.42,Medium
+493,Flow Dev,True,,professional,2025-05-02,2025-08-09,5,1349,Feature_C,2024-03-20,0,2698,10,36.980000000000004,Low
+493,Flow Dev,True,,professional,2025-08-09,,5,1349,Feature_C,2024-03-20,0,2698,10,36.980000000000004,Low
+497,HiveSystems,False,2025-01-05 01:34:54,free,2024-02-23,2025-01-05,45,3816,Feature_C,2024-10-03,1,6460,85,149.6,High
+497,HiveSystems,False,2025-01-05 01:34:54,free,2024-02-23,2025-01-05,40,2644,Feature_C,2025-02-15,1,6460,85,149.6,High
+499,AcmeSystems,True,,starter,2024-05-01,,6,761,Feature_A,2025-02-28,0,761,6,13.61,Low
+500,WarpDigital,True,,professional,2024-11-11,,4,3062,Feature_C,2025-05-26,0,3062,4,34.620000000000005,Low
+502,WarpIO,True,,free,2024-12-23,,37,2759,Feature_A,2025-07-28,0,2759,37,64.59,Medium
+503,Bolt Works,False,2024-11-26 20:59:35,starter,2024-07-08,2025-06-24,32,1341,Feature_A,2024-04-14,1,16689,270,436.89,High
+503,Bolt Works,False,2024-11-26 20:59:35,starter,2024-07-08,2025-06-24,9,3146,Feature_C,2024-04-24,1,16689,270,436.89,High
+503,Bolt Works,False,2024-11-26 20:59:35,starter,2024-07-08,2025-06-24,49,1076,Feature_B,2026-05-19,1,16689,270,436.89,High
+503,Bolt Works,False,2024-11-26 20:59:35,starter,2025-06-24,2025-09-24,32,1341,Feature_A,2024-04-14,1,16689,270,436.89,High
+503,Bolt Works,False,2024-11-26 20:59:35,starter,2025-06-24,2025-09-24,9,3146,Feature_C,2024-04-24,1,16689,270,436.89,High
+503,Bolt Works,False,2024-11-26 20:59:35,starter,2025-06-24,2025-09-24,49,1076,Feature_B,2026-05-19,1,16689,270,436.89,High
+503,Bolt Works,False,2024-11-26 20:59:35,professional,2025-09-24,2024-11-26,32,1341,Feature_A,2024-04-14,1,16689,270,436.89,High
+503,Bolt Works,False,2024-11-26 20:59:35,professional,2025-09-24,2024-11-26,9,3146,Feature_C,2024-04-24,1,16689,270,436.89,High
+503,Bolt Works,False,2024-11-26 20:59:35,professional,2025-09-24,2024-11-26,49,1076,Feature_B,2026-05-19,1,16689,270,436.89,High
+504,Nexus Works,True,,starter,2023-09-22,2024-06-26,47,3908,Feature_C,2026-03-09,0,7816,94,172.16,High
+504,Nexus Works,True,,enterprise,2024-06-26,,47,3908,Feature_C,2026-03-09,0,7816,94,172.16,High
+505,Mist Ventures,True,,free,2024-07-20,,11,1936,Feature_A,2025-06-19,0,1936,11,30.36,Low
+509,WarpNet,True,,professional,2023-05-17,2024-03-25,32,4057,Feature_C,2024-02-20,0,12171,96,217.70999999999998,High
+509,WarpNet,True,,professional,2024-03-25,2024-08-20,32,4057,Feature_C,2024-02-20,0,12171,96,217.70999999999998,High
+509,WarpNet,True,,professional,2024-08-20,,32,4057,Feature_C,2024-02-20,0,12171,96,217.70999999999998,High
+510,RiftSolutions,True,,starter,2025-07-02,,17,4287,Feature_C,2024-08-16,0,4287,17,59.87,Low
+511,WaveLogic,False,2025-09-15 10:54:32,free,2025-08-16,2025-09-15,19,4665,Feature_C,2024-01-27,1,10175,63,164.75,High
+511,WaveLogic,False,2025-09-15 10:54:32,free,2025-08-16,2025-09-15,20,3988,Feature_A,2025-05-27,1,10175,63,164.75,High
+511,WaveLogic,False,2025-09-15 10:54:32,free,2025-08-16,2025-09-15,24,1522,Feature_C,2025-08-30,1,10175,63,164.75,High
+512,RiftNet,True,,starter,2023-02-07,,29,492,Feature_C,2024-11-10,0,492,29,33.92,Low
+513,AcmeSoftware,True,,free,2025-01-26,,26,2476,Feature_C,2025-01-02,0,4338,63,106.38,Medium
+513,AcmeSoftware,True,,free,2025-01-26,,37,1862,Feature_A,2026-04-22,0,4338,63,106.38,Medium
+516,DataAnalytics,True,,free,2025-01-25,2025-06-06,34,2260,Feature_B,2025-02-10,0,9722,110,207.22,High
+516,DataAnalytics,True,,free,2025-01-25,2025-06-06,21,2601,Feature_A,2026-02-17,0,9722,110,207.22,High
+516,DataAnalytics,True,,professional,2025-06-06,,34,2260,Feature_B,2025-02-10,0,9722,110,207.22,High
+516,DataAnalytics,True,,professional,2025-06-06,,21,2601,Feature_A,2026-02-17,0,9722,110,207.22,High
+517,Tidal Tech,False,2024-04-13 03:20:15,starter,2023-09-11,2024-09-07,42,2495,Feature_C,2026-06-09,1,7485,126,200.85,High
+517,Tidal Tech,False,2024-04-13 03:20:15,professional,2024-09-07,2025-02-18,42,2495,Feature_C,2026-06-09,1,7485,126,200.85,High
+517,Tidal Tech,False,2024-04-13 03:20:15,enterprise,2025-02-18,2024-04-13,42,2495,Feature_C,2026-06-09,1,7485,126,200.85,High
+518,HivePlatform,True,,starter,2023-03-04,2024-01-04,31,3129,Feature_A,2024-09-29,0,8344,92,175.44,High
+518,HivePlatform,True,,starter,2023-03-04,2024-01-04,15,1043,Feature_B,2025-09-03,0,8344,92,175.44,High
+518,HivePlatform,True,,starter,2024-01-04,,31,3129,Feature_A,2024-09-29,0,8344,92,175.44,High
+518,HivePlatform,True,,starter,2024-01-04,,15,1043,Feature_B,2025-09-03,0,8344,92,175.44,High
+521,HiveWorks,True,,professional,2023-05-10,2023-10-04,3,2952,Feature_C,2024-03-25,0,5904,6,65.03999999999999,Medium
+521,HiveWorks,True,,starter,2023-10-04,,3,2952,Feature_C,2024-03-25,0,5904,6,65.03999999999999,Medium
+522,GlowStack,False,2025-10-27 02:48:46,professional,2025-09-20,2025-11-20,41,3797,Feature_A,2025-02-03,1,7594,82,157.94,High
+522,GlowStack,False,2025-10-27 02:48:46,professional,2025-11-20,2025-10-27,41,3797,Feature_A,2025-02-03,1,7594,82,157.94,High
+524,LinkVentures,False,2025-09-20 15:41:10,free,2025-07-31,2025-09-20,20,2367,Feature_B,2025-12-06,1,2367,20,43.67,Low
+525,VertexPro,False,2025-07-23 21:59:08,professional,2024-03-26,2025-02-27,17,3974,Feature_A,2024-05-14,1,22701,147,374.01,High
+525,VertexPro,False,2025-07-23 21:59:08,professional,2024-03-26,2025-02-27,32,3593,Feature_B,2024-11-03,1,22701,147,374.01,High
+525,VertexPro,False,2025-07-23 21:59:08,starter,2025-02-27,2025-05-10,17,3974,Feature_A,2024-05-14,1,22701,147,374.01,High
+525,VertexPro,False,2025-07-23 21:59:08,starter,2025-02-27,2025-05-10,32,3593,Feature_B,2024-11-03,1,22701,147,374.01,High
+525,VertexPro,False,2025-07-23 21:59:08,enterprise,2025-05-10,2025-07-23,17,3974,Feature_A,2024-05-14,1,22701,147,374.01,High
+525,VertexPro,False,2025-07-23 21:59:08,enterprise,2025-05-10,2025-07-23,32,3593,Feature_B,2024-11-03,1,22701,147,374.01,High
+526,Quark Pro,True,,free,2023-01-22,,6,3964,Feature_C,2026-01-02,0,5459,47,101.59,Medium
+526,Quark Pro,True,,free,2023-01-22,,41,1495,Feature_B,2026-01-08,0,5459,47,101.59,Medium
+532,SyncHQ,True,,starter,2024-01-12,,37,695,Feature_A,2026-03-22,0,695,37,43.95,Low
+534,QuarkCloud,True,,starter,2023-01-09,2023-04-20,20,382,Feature_A,2025-12-02,0,764,40,47.64,Low
+534,QuarkCloud,True,,professional,2023-04-20,,20,382,Feature_A,2025-12-02,0,764,40,47.64,Low
+537,VineLabs,True,,starter,2024-12-08,,28,1798,Feature_C,2026-01-26,0,5219,73,125.19,Medium
+537,VineLabs,True,,starter,2024-12-08,,45,3421,Feature_C,2026-08-17,0,5219,73,125.19,Medium
+538,IonDigital,True,,free,2023-07-29,2024-03-12,13,4939,Feature_B,2024-10-31,0,9878,26,124.78,Medium
+538,IonDigital,True,,professional,2024-03-12,,13,4939,Feature_B,2024-10-31,0,9878,26,124.78,Medium
+540,Quest Dev,False,2025-03-03 23:34:29,free,2023-04-24,2025-03-03,28,4833,Feature_B,2025-07-23,1,4833,28,76.33,Medium
+541,TidalCorp,True,,starter,2024-04-14,2024-11-15,38,2761,Feature_B,2024-05-12,0,5522,76,131.22,High
+541,TidalCorp,True,,enterprise,2024-11-15,,38,2761,Feature_B,2024-05-12,0,5522,76,131.22,High
+542,ZenGroup,True,,free,2025-06-21,,33,1849,Feature_A,2025-10-29,0,1849,33,51.489999999999995,Low
+543,Nexus Pro,False,2025-10-22 10:02:18,starter,2025-06-10,2025-10-04,30,4728,Feature_C,2026-02-25,1,9456,60,154.56,High
+543,Nexus Pro,False,2025-10-22 10:02:18,professional,2025-10-04,2025-10-22,30,4728,Feature_C,2026-02-25,1,9456,60,154.56,High
+546,Jade Ops,False,2025-02-04 05:37:36,free,2024-09-13,2025-07-26,26,1111,Feature_A,2025-11-10,1,5694,96,152.94,High
+546,Jade Ops,False,2025-02-04 05:37:36,free,2024-09-13,2025-07-26,6,787,Feature_C,2025-12-09,1,5694,96,152.94,High
+546,Jade Ops,False,2025-02-04 05:37:36,enterprise,2025-07-26,2025-09-24,26,1111,Feature_A,2025-11-10,1,5694,96,152.94,High
+546,Jade Ops,False,2025-02-04 05:37:36,enterprise,2025-07-26,2025-09-24,6,787,Feature_C,2025-12-09,1,5694,96,152.94,High
+546,Jade Ops,False,2025-02-04 05:37:36,enterprise,2025-09-24,2025-02-04,26,1111,Feature_A,2025-11-10,1,5694,96,152.94,High
+546,Jade Ops,False,2025-02-04 05:37:36,enterprise,2025-09-24,2025-02-04,6,787,Feature_C,2025-12-09,1,5694,96,152.94,High
+547,Trek AI,True,,free,2025-01-03,2025-04-21,39,4319,Feature_C,2024-09-22,0,8638,78,164.38,High
+547,Trek AI,True,,professional,2025-04-21,,39,4319,Feature_C,2024-09-22,0,8638,78,164.38,High
+548,Zeal Logic,True,,starter,2023-07-16,2024-02-12,44,1048,Feature_A,2026-02-28,0,2096,88,108.96000000000001,Medium
+548,Zeal Logic,True,,starter,2024-02-12,,44,1048,Feature_A,2026-02-28,0,2096,88,108.96000000000001,Medium
+550,Ultra Solutions,True,,starter,2023-10-13,,43,505,Feature_A,2026-06-01,0,2745,83,110.45,Medium
+550,Ultra Solutions,True,,starter,2023-10-13,,40,2240,Feature_A,2026-07-02,0,2745,83,110.45,Medium
+551,FluxSystems,True,,free,2025-09-22,2025-11-22,40,4207,Feature_C,2024-07-14,0,19611,231,427.11,High
+551,FluxSystems,True,,free,2025-09-22,2025-11-22,37,2330,Feature_B,2025-01-31,0,19611,231,427.11,High
+551,FluxSystems,True,,free,2025-11-22,2026-01-21,40,4207,Feature_C,2024-07-14,0,19611,231,427.11,High
+551,FluxSystems,True,,free,2025-11-22,2026-01-21,37,2330,Feature_B,2025-01-31,0,19611,231,427.11,High
+551,FluxSystems,True,,starter,2026-01-21,,40,4207,Feature_C,2024-07-14,0,19611,231,427.11,High
+551,FluxSystems,True,,starter,2026-01-21,,37,2330,Feature_B,2025-01-31,0,19611,231,427.11,High
+554,Ultra Stack,True,,professional,2023-08-23,,34,2479,Feature_A,2026-05-26,0,2479,34,58.79,Low
+557,KeenHQ,True,,enterprise,2024-09-16,2025-07-23,23,3983,Feature_B,2024-05-19,0,11949,69,188.49,High
+557,KeenHQ,True,,professional,2025-07-23,2025-09-30,23,3983,Feature_B,2024-05-19,0,11949,69,188.49,High
+557,KeenHQ,True,,free,2025-09-30,,23,3983,Feature_B,2024-05-19,0,11949,69,188.49,High
+559,VertexDigital,True,,free,2025-08-05,2025-10-10,40,523,Feature_A,2026-03-25,0,1046,80,90.46000000000001,Medium
+559,VertexDigital,True,,professional,2025-10-10,,40,523,Feature_A,2026-03-25,0,1046,80,90.46000000000001,Medium
+560,FluxCloud,True,,starter,2025-09-07,,6,3732,Feature_A,2025-01-06,0,3732,6,43.32,Low
+561,GlowNet,True,,free,2023-02-05,2023-04-15,46,4758,Feature_A,2026-09-17,0,9516,92,187.16,High
+561,GlowNet,True,,starter,2023-04-15,,46,4758,Feature_A,2026-09-17,0,9516,92,187.16,High
+563,HiveSoftware,True,,starter,2025-01-21,,7,1792,Feature_B,2024-02-03,0,5457,14,68.57,Medium
+563,HiveSoftware,True,,starter,2025-01-21,,7,3665,Feature_C,2024-09-10,0,5457,14,68.57,Medium
+564,GridStack,True,,free,2023-06-22,2023-10-03,11,166,Feature_A,2024-05-05,0,11955,111,230.55,High
+564,GridStack,True,,free,2023-06-22,2023-10-03,26,3819,Feature_A,2024-06-04,0,11955,111,230.55,High
+564,GridStack,True,,professional,2023-10-03,2024-03-18,11,166,Feature_A,2024-05-05,0,11955,111,230.55,High
+564,GridStack,True,,professional,2023-10-03,2024-03-18,26,3819,Feature_A,2024-06-04,0,11955,111,230.55,High
+564,GridStack,True,,professional,2024-03-18,,11,166,Feature_A,2024-05-05,0,11955,111,230.55,High
+564,GridStack,True,,professional,2024-03-18,,26,3819,Feature_A,2024-06-04,0,11955,111,230.55,High
+565,Xenon Solutions,True,,starter,2023-07-10,,47,2459,Feature_A,2024-02-16,0,2459,47,71.59,Medium
+566,QuarkCorp,True,,professional,2023-03-07,2023-05-25,4,1343,Feature_B,2024-02-27,0,8970,58,147.7,High
+566,QuarkCorp,True,,professional,2023-03-07,2023-05-25,25,3142,Feature_C,2024-10-18,0,8970,58,147.7,High
+566,QuarkCorp,True,,professional,2023-05-25,,4,1343,Feature_B,2024-02-27,0,8970,58,147.7,High
+566,QuarkCorp,True,,professional,2023-05-25,,25,3142,Feature_C,2024-10-18,0,8970,58,147.7,High
+567,Acme Ops,True,,starter,2025-02-18,,38,3339,Feature_A,2026-08-05,0,3339,38,71.39,Medium
+569,Hive Analytics,False,2025-08-11 19:16:25,starter,2024-11-07,2025-02-03,32,2279,Feature_A,2025-04-28,1,4558,64,109.58,Medium
+569,Hive Analytics,False,2025-08-11 19:16:25,starter,2025-02-03,2025-08-11,32,2279,Feature_A,2025-04-28,1,4558,64,109.58,Medium
+570,VineWorks,True,,professional,2025-08-22,,13,4692,Feature_B,2024-10-19,0,7039,58,128.39,High
+570,VineWorks,True,,professional,2025-08-22,,45,2347,Feature_B,2024-11-25,0,7039,58,128.39,High
+574,PeakWorks,True,,free,2023-08-17,,39,2554,Feature_A,2026-03-11,0,5178,54,105.78,Medium
+574,PeakWorks,True,,free,2023-08-17,,15,2624,Feature_B,2026-05-02,0,5178,54,105.78,Medium
+575,VineVentures,False,2025-02-03 00:21:51,free,2023-11-15,2024-04-26,1,4954,Feature_C,2024-11-21,1,19650,50,246.5,High
+575,VineVentures,False,2025-02-03 00:21:51,free,2023-11-15,2024-04-26,1,1399,Feature_B,2026-05-13,1,19650,50,246.5,High
+575,VineVentures,False,2025-02-03 00:21:51,free,2023-11-15,2024-04-26,23,3472,Feature_B,2026-08-15,1,19650,50,246.5,High
+575,VineVentures,False,2025-02-03 00:21:51,enterprise,2024-04-26,2025-02-03,1,4954,Feature_C,2024-11-21,1,19650,50,246.5,High
+575,VineVentures,False,2025-02-03 00:21:51,enterprise,2024-04-26,2025-02-03,1,1399,Feature_B,2026-05-13,1,19650,50,246.5,High
+575,VineVentures,False,2025-02-03 00:21:51,enterprise,2024-04-26,2025-02-03,23,3472,Feature_B,2026-08-15,1,19650,50,246.5,High
+578,TrekVentures,True,,starter,2025-01-03,2025-05-19,38,4311,Feature_A,2024-05-17,0,16322,110,273.22,High
+578,TrekVentures,True,,starter,2025-01-03,2025-05-19,17,3850,Feature_C,2025-10-13,0,16322,110,273.22,High
+578,TrekVentures,True,,starter,2025-05-19,,38,4311,Feature_A,2024-05-17,0,16322,110,273.22,High
+578,TrekVentures,True,,starter,2025-05-19,,17,3850,Feature_C,2025-10-13,0,16322,110,273.22,High
+579,Zeal Solutions,True,,free,2024-07-15,2024-10-20,24,442,Feature_A,2026-05-24,0,884,48,56.84,Low
+579,Zeal Solutions,True,,professional,2024-10-20,,24,442,Feature_A,2026-05-24,0,884,48,56.84,Low
+581,Sage IO,True,,free,2025-05-26,,23,2316,Feature_A,2025-01-10,0,2316,23,46.16,Low
+587,Nova Stack,True,,free,2025-09-16,2025-11-15,19,1063,Feature_A,2024-08-12,0,2126,38,59.260000000000005,Low
+587,Nova Stack,True,,professional,2025-11-15,,19,1063,Feature_A,2024-08-12,0,2126,38,59.260000000000005,Low
+588,QuestDynamics,True,,professional,2023-08-03,2024-06-12,48,3290,Feature_C,2025-05-11,0,20511,273,478.11,High
+588,QuestDynamics,True,,professional,2023-08-03,2024-06-12,43,3547,Feature_A,2026-04-21,0,20511,273,478.11,High
+588,QuestDynamics,True,,starter,2024-06-12,2025-04-29,48,3290,Feature_C,2025-05-11,0,20511,273,478.11,High
+588,QuestDynamics,True,,starter,2024-06-12,2025-04-29,43,3547,Feature_A,2026-04-21,0,20511,273,478.11,High
+588,QuestDynamics,True,,enterprise,2025-04-29,,48,3290,Feature_C,2025-05-11,0,20511,273,478.11,High
+588,QuestDynamics,True,,enterprise,2025-04-29,,43,3547,Feature_A,2026-04-21,0,20511,273,478.11,High
+593,Vine Ops,False,2025-03-20 01:50:18,starter,2024-12-31,2025-04-06,37,1068,Feature_B,2024-03-30,1,2136,74,95.36,Medium
+593,Vine Ops,False,2025-03-20 01:50:18,free,2025-04-06,2025-03-20,37,1068,Feature_B,2024-03-30,1,2136,74,95.36,Medium
+595,FlowSolutions,True,,free,2023-05-20,,36,823,Feature_A,2026-02-08,0,823,36,44.230000000000004,Low
+596,SageDynamics,True,,free,2024-11-21,,27,3662,Feature_A,2025-04-04,0,3662,27,63.62,Low
+598,SyncCloud,True,,starter,2025-09-09,2025-11-08,16,1578,Feature_C,2026-06-08,0,4734,48,95.34,Medium
+598,SyncCloud,True,,free,2025-11-08,2026-01-08,16,1578,Feature_C,2026-06-08,0,4734,48,95.34,Medium
+598,SyncCloud,True,,enterprise,2026-01-08,,16,1578,Feature_C,2026-06-08,0,4734,48,95.34,Medium
+601,GridHQ,False,2024-09-19 10:52:14,free,2023-10-19,2024-09-19,47,4545,Feature_C,2024-02-11,1,7124,91,162.24,High
+601,GridHQ,False,2024-09-19 10:52:14,free,2023-10-19,2024-09-19,44,2579,Feature_B,2026-05-04,1,7124,91,162.24,High
+604,Jet Pro,False,2025-10-14 17:23:08,professional,2024-03-15,2024-11-12,8,3024,Feature_C,2025-11-30,1,13532,66,201.32,High
+604,Jet Pro,False,2025-10-14 17:23:08,professional,2024-03-15,2024-11-12,25,3742,Feature_B,2026-07-26,1,13532,66,201.32,High
+604,Jet Pro,False,2025-10-14 17:23:08,enterprise,2024-11-12,2025-10-14,8,3024,Feature_C,2025-11-30,1,13532,66,201.32,High
+604,Jet Pro,False,2025-10-14 17:23:08,enterprise,2024-11-12,2025-10-14,25,3742,Feature_B,2026-07-26,1,13532,66,201.32,High
+605,BeamLabs,True,,free,2024-03-12,,17,4408,Feature_C,2025-03-07,0,4408,17,61.08,Low
+607,Flux Studio,True,,professional,2025-01-29,2025-07-18,37,2393,Feature_B,2024-10-06,0,4786,74,121.86,Medium
+607,Flux Studio,True,,starter,2025-07-18,,37,2393,Feature_B,2024-10-06,0,4786,74,121.86,Medium
+609,TidalPro,True,,free,2025-07-01,,20,2917,Feature_C,2024-07-01,0,2917,20,49.17,Low
+613,MistStudio,True,,enterprise,2024-10-02,2025-09-10,45,172,Feature_A,2024-04-21,0,15111,396,547.11,High
+613,MistStudio,True,,enterprise,2024-10-02,2025-09-10,48,3676,Feature_A,2024-12-02,0,15111,396,547.11,High
+613,MistStudio,True,,enterprise,2024-10-02,2025-09-10,39,1189,Feature_B,2026-02-10,0,15111,396,547.11,High
+613,MistStudio,True,,starter,2025-09-10,2025-11-09,45,172,Feature_A,2024-04-21,0,15111,396,547.11,High
+613,MistStudio,True,,starter,2025-09-10,2025-11-09,48,3676,Feature_A,2024-12-02,0,15111,396,547.11,High
+613,MistStudio,True,,starter,2025-09-10,2025-11-09,39,1189,Feature_B,2026-02-10,0,15111,396,547.11,High
+613,MistStudio,True,,professional,2025-11-09,,45,172,Feature_A,2024-04-21,0,15111,396,547.11,High
+613,MistStudio,True,,professional,2025-11-09,,48,3676,Feature_A,2024-12-02,0,15111,396,547.11,High
+613,MistStudio,True,,professional,2025-11-09,,39,1189,Feature_B,2026-02-10,0,15111,396,547.11,High
+616,KiteSolutions,False,2024-08-01 03:45:14,enterprise,2024-06-23,2025-02-10,37,1685,Feature_C,2026-05-09,1,3370,74,107.7,Medium
+616,KiteSolutions,False,2024-08-01 03:45:14,enterprise,2025-02-10,2024-08-01,37,1685,Feature_C,2026-05-09,1,3370,74,107.7,Medium
+617,AcmeHub,False,2025-10-18 13:56:48,starter,2025-09-16,2025-11-15,3,4182,Feature_B,2025-03-12,1,8364,6,89.64,Medium
+617,AcmeHub,False,2025-10-18 13:56:48,free,2025-11-15,2025-10-18,3,4182,Feature_B,2025-03-12,1,8364,6,89.64,Medium
+623,FluxCorp,True,,enterprise,2024-07-16,2025-05-16,15,1030,Feature_C,2026-02-06,0,3090,45,75.9,Medium
+623,FluxCorp,True,,starter,2025-05-16,2025-08-13,15,1030,Feature_C,2026-02-06,0,3090,45,75.9,Medium
+623,FluxCorp,True,,professional,2025-08-13,,15,1030,Feature_C,2026-02-06,0,3090,45,75.9,Medium
+624,ArcDev,True,,free,2023-01-18,,35,233,Feature_C,2024-07-23,0,2488,86,110.88,Medium
+624,ArcDev,True,,free,2023-01-18,,11,197,Feature_C,2025-10-09,0,2488,86,110.88,Medium
+624,ArcDev,True,,free,2023-01-18,,40,2058,Feature_A,2026-02-16,0,2488,86,110.88,Medium
+625,DataStudio,True,,enterprise,2025-04-27,,45,1694,Feature_B,2025-12-27,0,1694,45,61.94,Low
+626,Unit Labs,False,2025-08-07 12:32:29,starter,2025-06-10,2025-08-07,33,2542,Feature_A,2024-10-21,1,2542,33,58.42,Low
+627,Luna IO,True,,professional,2024-10-22,2025-01-13,30,4457,Feature_B,2026-06-26,0,8914,60,149.14,High
+627,Luna IO,True,,starter,2025-01-13,,30,4457,Feature_B,2026-06-26,0,8914,60,149.14,High
+628,Kite Labs,True,,starter,2024-12-27,,27,307,Feature_C,2024-05-26,0,3371,51,84.71000000000001,Medium
+628,Kite Labs,True,,starter,2024-12-27,,24,3064,Feature_A,2024-08-11,0,3371,51,84.71000000000001,Medium
+633,Jet Ops,True,,professional,2023-06-14,2023-09-24,6,4506,Feature_A,2024-05-25,0,9012,12,102.12,Medium
+633,Jet Ops,True,,starter,2023-09-24,,6,4506,Feature_A,2024-05-25,0,9012,12,102.12,Medium
+634,CoreDigital,False,2024-12-11 04:29:02,professional,2024-09-13,2024-12-11,34,459,Feature_C,2025-01-01,1,6273,122,184.73,High
+634,CoreDigital,False,2024-12-11 04:29:02,professional,2024-09-13,2024-12-11,17,1928,Feature_A,2025-05-04,1,6273,122,184.73,High
+634,CoreDigital,False,2024-12-11 04:29:02,professional,2024-09-13,2024-12-11,30,261,Feature_B,2025-05-22,1,6273,122,184.73,High
+634,CoreDigital,False,2024-12-11 04:29:02,professional,2024-09-13,2024-12-11,41,3625,Feature_C,2025-11-27,1,6273,122,184.73,High
+636,QuarkIO,True,,starter,2024-02-15,,13,3662,Feature_B,2024-12-20,0,3662,13,49.62,Low
+639,ZenHub,False,2024-09-07 23:13:29,free,2024-04-10,2024-09-07,32,1660,Feature_A,2025-12-30,1,1660,32,48.6,Low
+640,MistHub,True,,free,2025-09-02,2025-11-01,47,4837,Feature_B,2024-08-31,0,17394,136,309.94,High
+640,MistHub,True,,free,2025-09-02,2025-11-01,21,3860,Feature_C,2026-08-23,0,17394,136,309.94,High
+640,MistHub,True,,free,2025-11-01,,47,4837,Feature_B,2024-08-31,0,17394,136,309.94,High
+640,MistHub,True,,free,2025-11-01,,21,3860,Feature_C,2026-08-23,0,17394,136,309.94,High
+641,Zen Tech,False,2025-01-20 16:54:59,free,2023-02-25,2023-07-24,25,2825,Feature_C,2024-07-17,1,8475,75,159.75,High
+641,Zen Tech,False,2025-01-20 16:54:59,starter,2023-07-24,2024-01-09,25,2825,Feature_C,2024-07-17,1,8475,75,159.75,High
+641,Zen Tech,False,2025-01-20 16:54:59,free,2024-01-09,2025-01-20,25,2825,Feature_C,2024-07-17,1,8475,75,159.75,High
+642,KiteSoftware,True,,professional,2024-12-10,,36,4043,Feature_A,2024-06-11,0,4043,36,76.43,Medium
+643,EdgePro,True,,professional,2025-07-07,2025-10-15,25,2014,Feature_A,2024-04-22,0,6042,75,135.42000000000002,High
+643,EdgePro,True,,enterprise,2025-10-15,2025-12-14,25,2014,Feature_A,2024-04-22,0,6042,75,135.42000000000002,High
+643,EdgePro,True,,professional,2025-12-14,,25,2014,Feature_A,2024-04-22,0,6042,75,135.42000000000002,High
+645,BoltCloud,True,,free,2025-04-28,2025-10-24,7,4235,Feature_A,2025-12-04,0,8470,14,98.7,Medium
+645,BoltCloud,True,,starter,2025-10-24,,7,4235,Feature_A,2025-12-04,0,8470,14,98.7,Medium
+646,LunaDynamics,True,,starter,2025-08-18,2025-10-24,22,1968,Feature_A,2024-05-21,0,7710,120,197.1,High
+646,LunaDynamics,True,,starter,2025-08-18,2025-10-24,38,1887,Feature_B,2026-03-06,0,7710,120,197.1,High
+646,LunaDynamics,True,,starter,2025-10-24,,22,1968,Feature_A,2024-05-21,0,7710,120,197.1,High
+646,LunaDynamics,True,,starter,2025-10-24,,38,1887,Feature_B,2026-03-06,0,7710,120,197.1,High
+647,Vine Hub,True,,starter,2023-08-05,2024-05-01,1,4197,Feature_C,2024-02-06,0,12591,3,128.91,High
+647,Vine Hub,True,,starter,2024-05-01,2024-12-19,1,4197,Feature_C,2024-02-06,0,12591,3,128.91,High
+647,Vine Hub,True,,professional,2024-12-19,,1,4197,Feature_C,2024-02-06,0,12591,3,128.91,High
+648,DriftCorp,True,,starter,2025-06-19,,12,1087,Feature_B,2024-03-27,0,1087,12,22.869999999999997,Low
+649,Arc AI,True,,professional,2023-06-24,,12,732,Feature_A,2024-05-29,0,732,12,19.32,Low
+653,RushTech,True,,free,2023-10-17,,26,1306,Feature_B,2025-06-08,0,1306,26,39.06,Low
+654,Bolt Corp,True,,starter,2024-04-06,2025-03-24,16,671,Feature_C,2024-11-12,0,7563,183,258.63,High
+654,Bolt Corp,True,,starter,2024-04-06,2025-03-24,45,1850,Feature_A,2026-03-28,0,7563,183,258.63,High
+654,Bolt Corp,True,,enterprise,2025-03-24,2025-08-25,16,671,Feature_C,2024-11-12,0,7563,183,258.63,High
+654,Bolt Corp,True,,enterprise,2025-03-24,2025-08-25,45,1850,Feature_A,2026-03-28,0,7563,183,258.63,High
+654,Bolt Corp,True,,professional,2025-08-25,,16,671,Feature_C,2024-11-12,0,7563,183,258.63,High
+654,Bolt Corp,True,,professional,2025-08-25,,45,1850,Feature_A,2026-03-28,0,7563,183,258.63,High
+656,MistLabs,True,,free,2023-03-27,,46,4594,Feature_A,2024-12-17,0,8390,85,168.9,High
+656,MistLabs,True,,free,2023-03-27,,39,3796,Feature_B,2025-07-07,0,8390,85,168.9,High
+657,Flow Studio,False,2025-09-17 19:01:29,starter,2025-08-02,2025-10-21,25,872,Feature_A,2024-12-22,1,1744,50,67.44,Medium
+657,Flow Studio,False,2025-09-17 19:01:29,professional,2025-10-21,2025-09-17,25,872,Feature_A,2024-12-22,1,1744,50,67.44,Medium
+658,ZenSystems,True,,free,2024-03-09,2024-09-18,45,1180,Feature_B,2025-05-09,0,2360,90,113.6,Medium
+658,ZenSystems,True,,professional,2024-09-18,,45,1180,Feature_B,2025-05-09,0,2360,90,113.6,Medium
+659,MistLogic,True,,starter,2023-09-17,2024-04-05,30,519,Feature_B,2024-09-21,0,1038,60,70.38,Medium
+659,MistLogic,True,,professional,2024-04-05,,30,519,Feature_B,2024-09-21,0,1038,60,70.38,Medium
+660,Nova Ops,True,,starter,2023-08-07,,17,3367,Feature_B,2024-07-05,0,3367,17,50.67,Low
+661,MistSoftware,True,,professional,2024-10-23,2025-05-23,38,3503,Feature_C,2026-08-08,0,7006,76,146.06,High
+661,MistSoftware,True,,enterprise,2025-05-23,,38,3503,Feature_C,2026-08-08,0,7006,76,146.06,High
+662,Flux IO,False,2024-09-25 20:29:33,free,2024-08-13,2024-09-25,45,255,Feature_B,2026-02-14,1,3804,94,132.04,High
+662,Flux IO,False,2024-09-25 20:29:33,free,2024-08-13,2024-09-25,49,3549,Feature_A,2026-09-05,1,3804,94,132.04,High
+663,Peak Labs,False,2024-11-13 05:59:55,professional,2024-02-14,2024-11-13,41,3400,Feature_B,2025-03-28,1,3400,41,75.0,Medium
+664,FluxStack,True,,starter,2023-11-27,,10,3183,Feature_C,2024-06-01,0,5969,25,84.69,Medium
+664,FluxStack,True,,starter,2023-11-27,,15,2786,Feature_B,2026-08-28,0,5969,25,84.69,Medium
+665,Xenon Dynamics,True,,starter,2023-12-04,2024-11-24,37,2144,Feature_A,2026-05-16,0,4288,74,116.88,Medium
+665,Xenon Dynamics,True,,enterprise,2024-11-24,,37,2144,Feature_A,2026-05-16,0,4288,74,116.88,Medium
+666,Ion Ventures,False,2025-07-07 21:29:06,professional,2024-11-15,2025-02-14,32,364,Feature_B,2026-01-07,1,6332,134,197.32,High
+666,Ion Ventures,False,2025-07-07 21:29:06,professional,2024-11-15,2025-02-14,35,2802,Feature_B,2026-09-06,1,6332,134,197.32,High
+666,Ion Ventures,False,2025-07-07 21:29:06,professional,2025-02-14,2025-07-07,32,364,Feature_B,2026-01-07,1,6332,134,197.32,High
+666,Ion Ventures,False,2025-07-07 21:29:06,professional,2025-02-14,2025-07-07,35,2802,Feature_B,2026-09-06,1,6332,134,197.32,High
+667,PulseOps,True,,starter,2024-04-24,2024-07-18,9,584,Feature_A,2025-11-23,0,1168,18,29.68,Low
+667,PulseOps,True,,free,2024-07-18,,9,584,Feature_A,2025-11-23,0,1168,18,29.68,Low
+668,LinkHub,True,,starter,2023-08-13,2024-06-10,20,4776,Feature_B,2025-07-16,0,14328,60,203.28,High
+668,LinkHub,True,,professional,2024-06-10,2024-11-19,20,4776,Feature_B,2025-07-16,0,14328,60,203.28,High
+668,LinkHub,True,,professional,2024-11-19,,20,4776,Feature_B,2025-07-16,0,14328,60,203.28,High
+670,Jade Tech,False,2025-06-30 19:11:08,free,2024-01-14,2025-06-30,28,486,Feature_A,2026-09-26,1,486,28,32.86,Low
+672,RushPlatform,True,,starter,2023-06-25,,26,1833,Feature_C,2025-06-27,0,4218,57,99.18,Medium
+672,RushPlatform,True,,starter,2023-06-25,,31,2385,Feature_B,2025-11-25,0,4218,57,99.18,Medium
+674,Quark Tech,False,2024-06-10 12:11:18,starter,2024-04-28,2024-06-10,47,3769,Feature_A,2025-09-28,1,3769,47,84.69,Medium
+676,WaveCloud,False,2024-11-19 09:47:56,free,2023-01-22,2024-11-19,33,1476,Feature_C,2025-03-19,1,3979,36,75.78999999999999,Medium
+676,WaveCloud,False,2024-11-19 09:47:56,free,2023-01-22,2024-11-19,3,2503,Feature_A,2025-07-20,1,3979,36,75.78999999999999,Medium
+677,SageCorp,True,,professional,2024-04-05,,44,2461,Feature_B,2025-09-09,0,2461,44,68.61,Medium
+682,KeenCorp,True,,starter,2023-11-05,2024-05-26,12,761,Feature_A,2024-05-18,0,10290,140,242.9,High
+682,KeenCorp,True,,starter,2023-11-05,2024-05-26,30,4026,Feature_A,2024-11-27,0,10290,140,242.9,High
+682,KeenCorp,True,,starter,2023-11-05,2024-05-26,28,358,Feature_A,2025-12-01,0,10290,140,242.9,High
+682,KeenCorp,True,,enterprise,2024-05-26,,12,761,Feature_A,2024-05-18,0,10290,140,242.9,High
+682,KeenCorp,True,,enterprise,2024-05-26,,30,4026,Feature_A,2024-11-27,0,10290,140,242.9,High
+682,KeenCorp,True,,enterprise,2024-05-26,,28,358,Feature_A,2025-12-01,0,10290,140,242.9,High
+683,Core Net,False,2025-07-25 02:49:15,free,2024-04-17,2025-02-27,5,2068,Feature_B,2026-07-17,1,4136,10,51.36,Low
+683,Core Net,False,2025-07-25 02:49:15,professional,2025-02-27,2025-07-25,5,2068,Feature_B,2026-07-17,1,4136,10,51.36,Low
+684,Tidal Platform,True,,starter,2025-05-15,,9,4231,Feature_B,2024-04-18,0,7290,16,88.9,Medium
+684,Tidal Platform,True,,starter,2025-05-15,,7,3059,Feature_B,2024-05-31,0,7290,16,88.9,Medium
+685,Peak Systems,True,,starter,2024-08-21,,46,4300,Feature_C,2024-11-07,0,5322,77,130.22,High
+685,Peak Systems,True,,starter,2024-08-21,,23,498,Feature_A,2025-06-26,0,5322,77,130.22,High
+685,Peak Systems,True,,starter,2024-08-21,,8,524,Feature_B,2025-09-18,0,5322,77,130.22,High
+686,SageSoftware,True,,free,2023-11-15,,18,4895,Feature_A,2024-10-20,0,4895,18,66.95,Medium
+687,Edge Labs,True,,free,2024-03-30,2024-09-02,28,2641,Feature_B,2024-02-01,0,7923,84,163.23000000000002,High
+687,Edge Labs,True,,starter,2024-09-02,2025-05-09,28,2641,Feature_B,2024-02-01,0,7923,84,163.23000000000002,High
+687,Edge Labs,True,,enterprise,2025-05-09,,28,2641,Feature_B,2024-02-01,0,7923,84,163.23000000000002,High
+688,ZenIO,True,,free,2023-05-30,,10,789,Feature_C,2024-09-02,0,789,10,17.89,Low
+689,KiteDev,True,,free,2024-11-14,2025-06-27,3,789,Feature_A,2025-08-27,0,5462,22,76.62,Medium
+689,KiteDev,True,,free,2024-11-14,2025-06-27,8,1942,Feature_B,2026-09-12,0,5462,22,76.62,Medium
+689,KiteDev,True,,free,2025-06-27,,3,789,Feature_A,2025-08-27,0,5462,22,76.62,Medium
+689,KiteDev,True,,free,2025-06-27,,8,1942,Feature_B,2026-09-12,0,5462,22,76.62,Medium
+690,HubVentures,True,,professional,2023-12-30,2024-06-01,34,2296,Feature_C,2025-02-19,0,7690,74,150.9,High
+690,HubVentures,True,,professional,2023-12-30,2024-06-01,3,1549,Feature_A,2026-04-03,0,7690,74,150.9,High
+690,HubVentures,True,,starter,2024-06-01,,34,2296,Feature_C,2025-02-19,0,7690,74,150.9,High
+690,HubVentures,True,,starter,2024-06-01,,3,1549,Feature_A,2026-04-03,0,7690,74,150.9,High
+691,AcmeSolutions,False,2025-08-13 17:44:32,professional,2024-11-02,2025-02-15,38,401,Feature_A,2025-02-22,1,802,76,84.02,Medium
+691,AcmeSolutions,False,2025-08-13 17:44:32,professional,2025-02-15,2025-08-13,38,401,Feature_A,2025-02-22,1,802,76,84.02,Medium
+692,RushHub,True,,enterprise,2024-08-12,2025-07-31,42,4678,Feature_C,2026-02-11,0,9356,84,177.56,High
+692,RushHub,True,,free,2025-07-31,,42,4678,Feature_C,2026-02-11,0,9356,84,177.56,High
+697,EchoDev,True,,starter,2023-05-11,2024-02-16,18,751,Feature_A,2025-01-18,0,1502,36,51.019999999999996,Low
+697,EchoDev,True,,enterprise,2024-02-16,,18,751,Feature_A,2025-01-18,0,1502,36,51.019999999999996,Low
+698,DataGroup,True,,professional,2023-03-18,,44,3431,Feature_C,2025-07-22,0,3431,44,78.31,Medium
+699,Sage Systems,False,2025-06-11 07:35:32,free,2025-02-22,2025-06-11,2,4543,Feature_A,2024-06-08,1,9728,10,107.28,Medium
+699,Sage Systems,False,2025-06-11 07:35:32,free,2025-02-22,2025-06-11,5,1528,Feature_A,2025-04-07,1,9728,10,107.28,Medium
+699,Sage Systems,False,2025-06-11 07:35:32,free,2025-02-22,2025-06-11,3,3657,Feature_A,2026-01-09,1,9728,10,107.28,Medium
+700,WarpOps,True,,professional,2023-03-14,,46,4982,Feature_A,2024-01-28,0,7790,86,163.9,High
+700,WarpOps,True,,professional,2023-03-14,,40,2808,Feature_C,2024-10-08,0,7790,86,163.9,High
+703,WaveSoftware,False,2025-09-17 18:38:10,free,2025-04-01,2025-09-17,21,3197,Feature_C,2024-02-29,1,3197,21,52.97,Low
+704,DataDigital,True,,professional,2024-02-12,2024-04-19,47,1740,Feature_B,2025-01-09,0,3480,94,128.8,High
+704,DataDigital,True,,enterprise,2024-04-19,,47,1740,Feature_B,2025-01-09,0,3480,94,128.8,High
+709,UnitGroup,True,,starter,2025-08-12,2025-10-14,25,1343,Feature_A,2025-08-09,0,10360,110,213.6,High
+709,UnitGroup,True,,starter,2025-08-12,2025-10-14,30,3837,Feature_B,2025-09-05,0,10360,110,213.6,High
+709,UnitGroup,True,,starter,2025-10-14,,25,1343,Feature_A,2025-08-09,0,10360,110,213.6,High
+709,UnitGroup,True,,starter,2025-10-14,,30,3837,Feature_B,2025-09-05,0,10360,110,213.6,High
+710,BeamVentures,True,,starter,2023-01-16,,34,2593,Feature_C,2024-05-28,0,3286,53,85.86,Medium
+710,BeamVentures,True,,starter,2023-01-16,,19,693,Feature_A,2026-08-30,0,3286,53,85.86,Medium
+712,Cloud Studio,True,,enterprise,2024-07-18,,12,2900,Feature_A,2026-07-04,0,2900,12,41.0,Low
+714,DataNet,True,,starter,2023-03-21,,17,2166,Feature_B,2025-06-04,0,9366,68,161.66,High
+714,DataNet,True,,starter,2023-03-21,,20,3752,Feature_B,2025-09-10,0,9366,68,161.66,High
+714,DataNet,True,,starter,2023-03-21,,31,3448,Feature_B,2026-01-21,0,9366,68,161.66,High
+715,Beam Cloud,True,,starter,2025-09-23,2025-11-22,2,1477,Feature_A,2026-03-14,0,4431,6,50.31,Low
+715,Beam Cloud,True,,starter,2025-11-22,2026-01-21,2,1477,Feature_A,2026-03-14,0,4431,6,50.31,Low
+715,Beam Cloud,True,,professional,2026-01-21,,2,1477,Feature_A,2026-03-14,0,4431,6,50.31,Low
+717,Edge Platform,True,,professional,2024-06-24,,11,4824,Feature_C,2025-09-19,0,4824,11,59.24,Low
+718,Keen Cloud,False,2025-10-24 22:12:35,professional,2025-09-22,2025-11-22,43,2749,Feature_A,2025-04-15,1,5498,86,140.98,High
+718,Keen Cloud,False,2025-10-24 22:12:35,enterprise,2025-11-22,2025-10-24,43,2749,Feature_A,2025-04-15,1,5498,86,140.98,High
+719,GlowTech,True,,starter,2023-09-08,,8,346,Feature_A,2025-12-28,0,346,8,11.46,Low
+720,MistAnalytics,True,,free,2025-06-21,,19,3783,Feature_B,2024-03-11,0,3783,19,56.83,Low
+723,CoreCorp,True,,professional,2024-08-26,2025-01-11,2,3685,Feature_C,2026-09-24,0,11055,6,116.55,Medium
+723,CoreCorp,True,,professional,2025-01-11,2025-08-30,2,3685,Feature_C,2026-09-24,0,11055,6,116.55,Medium
+723,CoreCorp,True,,enterprise,2025-08-30,,2,3685,Feature_C,2026-09-24,0,11055,6,116.55,Medium
+724,JetLabs,False,2025-07-25 11:29:21,starter,2025-03-02,2025-09-03,2,3718,Feature_A,2026-03-20,1,7436,4,78.36,Medium
+724,JetLabs,False,2025-07-25 11:29:21,professional,2025-09-03,2025-07-25,2,3718,Feature_A,2026-03-20,1,7436,4,78.36,Medium
+725,SyncWorks,True,,free,2023-10-12,,49,167,Feature_B,2026-04-27,0,167,49,50.67,Low
+726,Kite Cloud,True,,starter,2024-07-19,2024-11-01,40,4939,Feature_A,2024-04-19,0,14564,116,261.64,High
+726,Kite Cloud,True,,starter,2024-07-19,2024-11-01,18,2343,Feature_A,2026-01-01,0,14564,116,261.64,High
+726,Kite Cloud,True,,professional,2024-11-01,,40,4939,Feature_A,2024-04-19,0,14564,116,261.64,High
+726,Kite Cloud,True,,professional,2024-11-01,,18,2343,Feature_A,2026-01-01,0,14564,116,261.64,High
+727,MistAI,True,,free,2024-08-07,,39,2379,Feature_A,2024-11-18,0,5060,52,102.6,Medium
+727,MistAI,True,,free,2024-08-07,,13,2681,Feature_B,2025-03-03,0,5060,52,102.6,Medium
+729,Sage Works,True,,starter,2025-06-17,,27,3854,Feature_C,2025-03-16,0,6474,65,129.74,High
+729,Sage Works,True,,starter,2025-06-17,,38,2620,Feature_A,2025-04-05,0,6474,65,129.74,High
+730,Echo Digital,True,,professional,2025-05-27,2025-09-04,31,109,Feature_C,2024-03-02,0,9520,84,179.2,High
+730,Echo Digital,True,,professional,2025-05-27,2025-09-04,11,4651,Feature_B,2024-06-17,0,9520,84,179.2,High
+730,Echo Digital,True,,starter,2025-09-04,,31,109,Feature_C,2024-03-02,0,9520,84,179.2,High
+730,Echo Digital,True,,starter,2025-09-04,,11,4651,Feature_B,2024-06-17,0,9520,84,179.2,High
+732,SyncCorp,True,,free,2024-02-12,,29,3078,Feature_C,2025-07-24,0,4797,32,79.97,Medium
+732,SyncCorp,True,,free,2024-02-12,,3,1719,Feature_C,2025-08-02,0,4797,32,79.97,Medium
+733,FluxGroup,True,,enterprise,2025-03-01,2025-09-24,34,2185,Feature_B,2025-05-07,0,4370,68,111.7,Medium
+733,FluxGroup,True,,starter,2025-09-24,,34,2185,Feature_B,2025-05-07,0,4370,68,111.7,Medium
+735,ZealHub,True,,starter,2025-01-05,,30,413,Feature_B,2025-04-16,0,413,30,34.13,Low
+736,AcmeAI,True,,starter,2023-08-24,2023-12-19,11,2000,Feature_B,2025-07-11,0,6000,33,93.0,Medium
+736,AcmeAI,True,,starter,2023-12-19,2024-10-09,11,2000,Feature_B,2025-07-11,0,6000,33,93.0,Medium
+736,AcmeAI,True,,professional,2024-10-09,,11,2000,Feature_B,2025-07-11,0,6000,33,93.0,Medium
+738,GridPro,True,,starter,2024-04-14,,16,710,Feature_B,2025-10-18,0,710,16,23.1,Low
+739,YieldCloud,True,,starter,2023-01-18,,16,1753,Feature_A,2025-03-23,0,6424,28,92.24,Medium
+739,YieldCloud,True,,starter,2023-01-18,,12,4671,Feature_B,2026-01-17,0,6424,28,92.24,Medium
+740,CorePlatform,True,,professional,2025-04-09,2025-08-17,16,3484,Feature_B,2025-07-27,0,6968,32,101.68,Medium
+740,CorePlatform,True,,enterprise,2025-08-17,,16,3484,Feature_B,2025-07-27,0,6968,32,101.68,Medium
+741,Jet Logic,True,,free,2023-09-16,,20,1673,Feature_C,2024-12-26,0,1673,20,36.730000000000004,Low
+743,GlowDynamics,False,2025-05-22 15:35:58,starter,2025-02-05,2025-04-28,37,1685,Feature_B,2024-05-04,1,3370,74,107.7,Medium
+743,GlowDynamics,False,2025-05-22 15:35:58,free,2025-04-28,2025-05-22,37,1685,Feature_B,2024-05-04,1,3370,74,107.7,Medium
+748,Nova Analytics,True,,starter,2025-03-01,2025-09-02,3,3954,Feature_A,2024-01-23,0,25314,111,364.14,High
+748,Nova Analytics,True,,starter,2025-03-01,2025-09-02,34,4484,Feature_B,2026-02-07,0,25314,111,364.14,High
+748,Nova Analytics,True,,enterprise,2025-09-02,2025-11-01,3,3954,Feature_A,2024-01-23,0,25314,111,364.14,High
+748,Nova Analytics,True,,enterprise,2025-09-02,2025-11-01,34,4484,Feature_B,2026-02-07,0,25314,111,364.14,High
+748,Nova Analytics,True,,starter,2025-11-01,,3,3954,Feature_A,2024-01-23,0,25314,111,364.14,High
+748,Nova Analytics,True,,starter,2025-11-01,,34,4484,Feature_B,2026-02-07,0,25314,111,364.14,High
+749,Orbit Software,False,2025-10-26 05:02:41,starter,2025-09-20,2025-11-19,36,2874,Feature_C,2024-05-10,1,8622,108,194.22,High
+749,Orbit Software,False,2025-10-26 05:02:41,professional,2025-11-19,2026-01-18,36,2874,Feature_C,2024-05-10,1,8622,108,194.22,High
+749,Orbit Software,False,2025-10-26 05:02:41,starter,2026-01-18,2025-10-26,36,2874,Feature_C,2024-05-10,1,8622,108,194.22,High
+750,TidalDev,True,,free,2023-11-21,,26,4344,Feature_A,2024-09-07,0,7216,41,113.16,Medium
+750,TidalDev,True,,free,2023-11-21,,15,2872,Feature_A,2026-01-14,0,7216,41,113.16,Medium
+751,Xenon HQ,True,,free,2023-07-03,2023-09-17,35,2420,Feature_B,2025-05-10,0,4840,70,118.4,Medium
+751,Xenon HQ,True,,starter,2023-09-17,,35,2420,Feature_B,2025-05-10,0,4840,70,118.4,Medium
+752,AcmeVentures,False,2025-09-04 05:02:32,professional,2024-02-12,2025-09-04,36,2508,Feature_B,2024-06-29,1,7251,37,109.51,Medium
+752,AcmeVentures,False,2025-09-04 05:02:32,professional,2024-02-12,2025-09-04,1,4743,Feature_A,2025-08-03,1,7251,37,109.51,Medium
+754,Ion Tech,True,,free,2023-10-12,,37,4430,Feature_C,2025-03-01,0,7058,55,125.58,Medium
+754,Ion Tech,True,,free,2023-10-12,,18,2628,Feature_C,2025-06-09,0,7058,55,125.58,Medium
+755,VertexOps,True,,professional,2024-11-14,2025-05-23,18,829,Feature_B,2026-06-27,0,1658,36,52.58,Low
+755,VertexOps,True,,free,2025-05-23,,18,829,Feature_B,2026-06-27,0,1658,36,52.58,Low
+759,LinkStudio,True,,free,2024-07-04,,30,693,Feature_C,2024-10-30,0,5806,79,137.06,High
+759,LinkStudio,True,,free,2024-07-04,,41,2775,Feature_B,2025-10-30,0,5806,79,137.06,High
+759,LinkStudio,True,,free,2024-07-04,,8,2338,Feature_A,2026-02-22,0,5806,79,137.06,High
+761,EchoDigital,True,,free,2025-06-09,2025-10-11,45,1824,Feature_B,2025-03-18,0,13596,188,323.96000000000004,High
+761,EchoDigital,True,,free,2025-06-09,2025-10-11,49,4974,Feature_A,2025-11-16,0,13596,188,323.96000000000004,High
+761,EchoDigital,True,,starter,2025-10-11,,45,1824,Feature_B,2025-03-18,0,13596,188,323.96000000000004,High
+761,EchoDigital,True,,starter,2025-10-11,,49,4974,Feature_A,2025-11-16,0,13596,188,323.96000000000004,High
+762,Wave Cloud,True,,starter,2024-12-12,,29,2561,Feature_B,2025-02-06,0,2561,29,54.61,Low
+763,CloudPlatform,True,,professional,2023-06-17,2024-04-10,41,1637,Feature_B,2025-10-07,0,10962,96,205.62,High
+763,CloudPlatform,True,,professional,2023-06-17,2024-04-10,7,3844,Feature_C,2026-08-27,0,10962,96,205.62,High
+763,CloudPlatform,True,,enterprise,2024-04-10,,41,1637,Feature_B,2025-10-07,0,10962,96,205.62,High
+763,CloudPlatform,True,,enterprise,2024-04-10,,7,3844,Feature_C,2026-08-27,0,10962,96,205.62,High
+764,Quest Works,False,2024-09-07 13:25:54,professional,2024-04-16,2024-09-07,2,1684,Feature_B,2024-03-17,1,11555,97,212.55,High
+764,Quest Works,False,2024-09-07 13:25:54,professional,2024-04-16,2024-09-07,45,4506,Feature_B,2024-07-06,1,11555,97,212.55,High
+764,Quest Works,False,2024-09-07 13:25:54,professional,2024-04-16,2024-09-07,35,599,Feature_A,2025-07-04,1,11555,97,212.55,High
+764,Quest Works,False,2024-09-07 13:25:54,professional,2024-04-16,2024-09-07,15,4766,Feature_B,2025-10-17,1,11555,97,212.55,High
+767,Mist Solutions,True,,professional,2024-10-23,2025-06-28,22,807,Feature_B,2024-04-25,0,11490,156,270.9,High
+767,Mist Solutions,True,,professional,2024-10-23,2025-06-28,34,1623,Feature_C,2024-06-23,0,11490,156,270.9,High
+767,Mist Solutions,True,,professional,2024-10-23,2025-06-28,22,3315,Feature_A,2025-10-10,0,11490,156,270.9,High
+767,Mist Solutions,True,,enterprise,2025-06-28,,22,807,Feature_B,2024-04-25,0,11490,156,270.9,High
+767,Mist Solutions,True,,enterprise,2025-06-28,,34,1623,Feature_C,2024-06-23,0,11490,156,270.9,High
+767,Mist Solutions,True,,enterprise,2025-06-28,,22,3315,Feature_A,2025-10-10,0,11490,156,270.9,High
+769,UnitSystems,True,,free,2024-10-31,2025-08-31,3,3459,Feature_A,2025-02-08,0,6918,6,75.18,Medium
+769,UnitSystems,True,,enterprise,2025-08-31,,3,3459,Feature_A,2025-02-08,0,6918,6,75.18,Medium
+770,BeamAnalytics,True,,professional,2023-04-25,,2,2511,Feature_A,2024-01-13,0,2511,2,27.11,Low
+771,Vertex Net,False,2025-09-19 02:46:02,starter,2023-10-16,2024-04-12,14,2639,Feature_A,2025-09-06,1,8744,92,179.44,High
+771,Vertex Net,False,2025-09-19 02:46:02,starter,2023-10-16,2024-04-12,32,1733,Feature_C,2025-10-01,1,8744,92,179.44,High
+771,Vertex Net,False,2025-09-19 02:46:02,professional,2024-04-12,2025-09-19,14,2639,Feature_A,2025-09-06,1,8744,92,179.44,High
+771,Vertex Net,False,2025-09-19 02:46:02,professional,2024-04-12,2025-09-19,32,1733,Feature_C,2025-10-01,1,8744,92,179.44,High
+774,YieldDev,True,,free,2025-01-30,,24,1768,Feature_B,2024-12-09,0,1768,24,41.68,Low
+776,Arc Software,False,2024-05-27 03:08:50,starter,2023-08-19,2024-05-27,24,1898,Feature_A,2024-02-21,1,6863,37,105.63,Medium
+776,Arc Software,False,2024-05-27 03:08:50,starter,2023-08-19,2024-05-27,13,4965,Feature_C,2025-03-06,1,6863,37,105.63,Medium
+777,LinkCorp,True,,starter,2023-06-05,,28,3754,Feature_B,2024-02-15,0,4997,33,82.97,Medium
+777,LinkCorp,True,,starter,2023-06-05,,5,1243,Feature_A,2026-04-13,0,4997,33,82.97,Medium
+779,TidalCloud,True,,professional,2024-03-01,2025-02-15,13,1617,Feature_C,2026-07-30,0,3234,26,58.34,Low
+779,TidalCloud,True,,enterprise,2025-02-15,,13,1617,Feature_C,2026-07-30,0,3234,26,58.34,Low
+780,IonLogic,True,,starter,2023-06-12,2024-02-07,10,3451,Feature_B,2024-04-10,0,6902,20,89.02,Medium
+780,IonLogic,True,,starter,2024-02-07,,10,3451,Feature_B,2024-04-10,0,6902,20,89.02,Medium
+784,TrekSoftware,True,,enterprise,2023-09-05,2024-04-18,32,2710,Feature_B,2025-07-12,0,8130,96,177.3,High
+784,TrekSoftware,True,,professional,2024-04-18,2025-03-21,32,2710,Feature_B,2025-07-12,0,8130,96,177.3,High
+784,TrekSoftware,True,,starter,2025-03-21,,32,2710,Feature_B,2025-07-12,0,8130,96,177.3,High
+785,MistWorks,True,,professional,2024-04-26,,2,2657,Feature_C,2024-10-26,0,9341,5,98.41,Medium
+785,MistWorks,True,,professional,2024-04-26,,2,2091,Feature_A,2025-11-07,0,9341,5,98.41,Medium
+785,MistWorks,True,,professional,2024-04-26,,1,4593,Feature_C,2026-04-12,0,9341,5,98.41,Medium
+790,Acme Analytics,False,2025-10-17 02:54:20,starter,2024-10-21,2025-10-17,49,4412,Feature_B,2025-01-11,1,4412,49,93.12,Medium
+791,EchoSolutions,True,,professional,2025-03-07,,45,3391,Feature_B,2024-12-28,0,3391,45,78.91,Medium
+792,Onyx Systems,True,,professional,2025-09-20,,29,1562,Feature_A,2024-03-15,0,5728,71,128.28,High
+792,Onyx Systems,True,,professional,2025-09-20,,42,4166,Feature_B,2025-02-12,0,5728,71,128.28,High
+794,PulseVentures,True,,professional,2023-04-30,,3,2407,Feature_C,2025-12-12,0,6885,20,88.85,Medium
+794,PulseVentures,True,,professional,2023-04-30,,17,4478,Feature_A,2026-06-28,0,6885,20,88.85,Medium
+795,Acme Ventures,True,,professional,2023-01-01,,4,2664,Feature_B,2024-04-28,0,6321,26,89.21000000000001,Medium
+795,Acme Ventures,True,,professional,2023-01-01,,15,2683,Feature_B,2025-05-21,0,6321,26,89.21000000000001,Medium
+795,Acme Ventures,True,,professional,2023-01-01,,7,974,Feature_B,2025-08-26,0,6321,26,89.21000000000001,Medium
+796,Iris Platform,True,,free,2023-11-23,,21,2434,Feature_C,2024-05-22,0,2434,21,45.34,Low
+797,EdgeHub,True,,starter,2025-02-20,,13,3967,Feature_B,2025-11-03,0,3967,13,52.67,Low
+798,NexusSoftware,True,,starter,2023-06-10,2024-02-08,9,1738,Feature_C,2024-09-14,0,8402,162,246.01999999999998,High
+798,NexusSoftware,True,,starter,2023-06-10,2024-02-08,15,369,Feature_B,2025-08-13,0,8402,162,246.01999999999998,High
+798,NexusSoftware,True,,starter,2023-06-10,2024-02-08,20,1954,Feature_C,2025-10-21,0,8402,162,246.01999999999998,High
+798,NexusSoftware,True,,starter,2023-06-10,2024-02-08,37,140,Feature_A,2026-04-26,0,8402,162,246.01999999999998,High
+798,NexusSoftware,True,,starter,2024-02-08,,9,1738,Feature_C,2024-09-14,0,8402,162,246.01999999999998,High
+798,NexusSoftware,True,,starter,2024-02-08,,15,369,Feature_B,2025-08-13,0,8402,162,246.01999999999998,High
+798,NexusSoftware,True,,starter,2024-02-08,,20,1954,Feature_C,2025-10-21,0,8402,162,246.01999999999998,High
+798,NexusSoftware,True,,starter,2024-02-08,,37,140,Feature_A,2026-04-26,0,8402,162,246.01999999999998,High
+800,Arc Studio,True,,professional,2025-01-03,2025-03-08,20,1592,Feature_B,2026-05-10,0,4776,60,107.75999999999999,Medium
+800,Arc Studio,True,,professional,2025-03-08,2025-10-26,20,1592,Feature_B,2026-05-10,0,4776,60,107.75999999999999,Medium
+800,Arc Studio,True,,professional,2025-10-26,,20,1592,Feature_B,2026-05-10,0,4776,60,107.75999999999999,Medium
+801,UltraCorp,False,2024-01-24 04:48:52,professional,2023-04-20,2024-01-24,15,4238,Feature_C,2024-08-26,1,4238,15,57.38,Low
+802,CloudHub,True,,professional,2024-10-16,,41,3109,Feature_A,2025-01-03,0,7292,69,141.92000000000002,High
+802,CloudHub,True,,professional,2024-10-16,,28,4183,Feature_A,2025-02-05,0,7292,69,141.92000000000002,High
+804,Zeal Tech,False,2025-09-03 12:28:25,free,2023-08-08,2025-09-03,46,1225,Feature_C,2025-12-25,1,1225,46,58.25,Low
+805,Arc Corp,True,,starter,2024-08-02,2024-11-03,17,2701,Feature_C,2024-04-16,0,8103,51,132.03,High
+805,Arc Corp,True,,starter,2024-11-03,2025-08-18,17,2701,Feature_C,2024-04-16,0,8103,51,132.03,High
+805,Arc Corp,True,,professional,2025-08-18,,17,2701,Feature_C,2024-04-16,0,8103,51,132.03,High
+806,Vertex Stack,True,,professional,2024-06-09,2024-08-12,49,120,Feature_B,2024-01-15,0,11270,158,270.7,High
+806,Vertex Stack,True,,professional,2024-06-09,2024-08-12,22,1827,Feature_B,2025-10-19,0,11270,158,270.7,High
+806,Vertex Stack,True,,professional,2024-06-09,2024-08-12,7,687,Feature_A,2026-01-16,0,11270,158,270.7,High
+806,Vertex Stack,True,,professional,2024-06-09,2024-08-12,1,3001,Feature_C,2026-06-12,0,11270,158,270.7,High
+806,Vertex Stack,True,,starter,2024-08-12,,49,120,Feature_B,2024-01-15,0,11270,158,270.7,High
+806,Vertex Stack,True,,starter,2024-08-12,,22,1827,Feature_B,2025-10-19,0,11270,158,270.7,High
+806,Vertex Stack,True,,starter,2024-08-12,,7,687,Feature_A,2026-01-16,0,11270,158,270.7,High
+806,Vertex Stack,True,,starter,2024-08-12,,1,3001,Feature_C,2026-06-12,0,11270,158,270.7,High
+812,BoltLabs,True,,professional,2024-10-29,,4,1080,Feature_A,2026-01-25,0,1080,4,14.8,Low
+814,Nexus Corp,False,2025-09-19 18:21:29,free,2025-08-05,2025-09-19,31,1456,Feature_A,2026-07-31,1,1456,31,45.56,Low
+815,Echo AI,False,2024-04-22 22:50:45,starter,2023-04-13,2024-04-22,46,2271,Feature_A,2025-06-29,1,5933,83,142.32999999999998,High
+815,Echo AI,False,2024-04-22 22:50:45,starter,2023-04-13,2024-04-22,29,2107,Feature_B,2026-06-14,1,5933,83,142.32999999999998,High
+815,Echo AI,False,2024-04-22 22:50:45,starter,2023-04-13,2024-04-22,8,1555,Feature_A,2026-07-06,1,5933,83,142.32999999999998,High
+816,Mist Stack,True,,professional,2024-11-15,,7,1172,Feature_A,2024-03-07,0,6625,128,194.25,High
+816,Mist Stack,True,,professional,2024-11-15,,49,1233,Feature_C,2024-08-04,0,6625,128,194.25,High
+816,Mist Stack,True,,professional,2024-11-15,,41,3301,Feature_B,2024-08-28,0,6625,128,194.25,High
+816,Mist Stack,True,,professional,2024-11-15,,31,919,Feature_C,2024-09-20,0,6625,128,194.25,High
+821,VertexHub,True,,starter,2024-04-13,2024-10-05,14,4677,Feature_B,2026-05-20,0,9354,28,121.54,Medium
+821,VertexHub,True,,professional,2024-10-05,,14,4677,Feature_B,2026-05-20,0,9354,28,121.54,Medium
+822,GlowSolutions,True,,starter,2023-12-29,,25,2594,Feature_A,2024-08-22,0,2594,25,50.94,Low
+823,IrisStudio,True,,starter,2025-08-10,2025-10-19,6,1774,Feature_B,2024-12-15,0,13108,174,305.08000000000004,High
+823,IrisStudio,True,,starter,2025-08-10,2025-10-19,46,3826,Feature_A,2025-09-02,0,13108,174,305.08000000000004,High
+823,IrisStudio,True,,starter,2025-08-10,2025-10-19,35,954,Feature_B,2026-02-20,0,13108,174,305.08000000000004,High
+823,IrisStudio,True,,professional,2025-10-19,,6,1774,Feature_B,2024-12-15,0,13108,174,305.08000000000004,High
+823,IrisStudio,True,,professional,2025-10-19,,46,3826,Feature_A,2025-09-02,0,13108,174,305.08000000000004,High
+823,IrisStudio,True,,professional,2025-10-19,,35,954,Feature_B,2026-02-20,0,13108,174,305.08000000000004,High
+824,Zen Cloud,True,,free,2023-09-15,2024-06-30,33,4356,Feature_A,2025-06-20,0,23241,153,385.40999999999997,High
+824,Zen Cloud,True,,free,2023-09-15,2024-06-30,18,3391,Feature_B,2025-08-12,0,23241,153,385.40999999999997,High
+824,Zen Cloud,True,,starter,2024-06-30,2024-12-29,33,4356,Feature_A,2025-06-20,0,23241,153,385.40999999999997,High
+824,Zen Cloud,True,,starter,2024-06-30,2024-12-29,18,3391,Feature_B,2025-08-12,0,23241,153,385.40999999999997,High
+824,Zen Cloud,True,,enterprise,2024-12-29,,33,4356,Feature_A,2025-06-20,0,23241,153,385.40999999999997,High
+824,Zen Cloud,True,,enterprise,2024-12-29,,18,3391,Feature_B,2025-08-12,0,23241,153,385.40999999999997,High
+825,KiteHub,True,,enterprise,2025-09-13,,4,3728,Feature_C,2026-08-03,0,3728,4,41.28,Low
+826,UltraLabs,True,,professional,2023-05-08,2024-01-24,40,4283,Feature_C,2025-03-13,0,12849,120,248.49,High
+826,UltraLabs,True,,professional,2024-01-24,2024-09-26,40,4283,Feature_C,2025-03-13,0,12849,120,248.49,High
+826,UltraLabs,True,,professional,2024-09-26,,40,4283,Feature_C,2025-03-13,0,12849,120,248.49,High
+827,VertexAnalytics,True,,professional,2023-08-19,2024-03-18,46,2397,Feature_C,2025-08-25,0,7191,138,209.91,High
+827,VertexAnalytics,True,,starter,2024-03-18,2025-03-15,46,2397,Feature_C,2025-08-25,0,7191,138,209.91,High
+827,VertexAnalytics,True,,starter,2025-03-15,,46,2397,Feature_C,2025-08-25,0,7191,138,209.91,High
+828,OnyxSystems,True,,free,2025-05-06,,32,2701,Feature_B,2024-11-04,0,6629,80,146.29000000000002,High
+828,OnyxSystems,True,,free,2025-05-06,,48,3928,Feature_B,2026-07-16,0,6629,80,146.29000000000002,High
+829,Grid Ventures,True,,free,2024-11-19,2025-05-25,12,1236,Feature_C,2025-06-13,0,2472,24,48.72,Low
+829,Grid Ventures,True,,starter,2025-05-25,,12,1236,Feature_C,2025-06-13,0,2472,24,48.72,Low
+831,BoltPro,False,2025-10-06 22:46:34,free,2025-03-13,2025-05-26,4,3523,Feature_C,2024-12-24,1,8584,34,119.84,Medium
+831,BoltPro,False,2025-10-06 22:46:34,free,2025-03-13,2025-05-26,13,769,Feature_C,2025-12-21,1,8584,34,119.84,Medium
+831,BoltPro,False,2025-10-06 22:46:34,free,2025-05-26,2025-10-06,4,3523,Feature_C,2024-12-24,1,8584,34,119.84,Medium
+831,BoltPro,False,2025-10-06 22:46:34,free,2025-05-26,2025-10-06,13,769,Feature_C,2025-12-21,1,8584,34,119.84,Medium
+832,WarpStudio,False,2025-06-22 17:56:58,free,2023-11-10,2024-07-19,29,205,Feature_B,2024-02-04,1,410,58,62.1,Low
+832,WarpStudio,False,2025-06-22 17:56:58,professional,2024-07-19,2025-06-22,29,205,Feature_B,2024-02-04,1,410,58,62.1,Low
+834,Trek Group,True,,starter,2025-08-01,,25,4195,Feature_B,2024-11-17,0,4195,25,66.95,Medium
+836,Xenon Analytics,True,,free,2025-04-27,2025-10-12,49,4995,Feature_C,2024-06-19,0,17802,231,409.02,High
+836,Xenon Analytics,True,,free,2025-04-27,2025-10-12,28,939,Feature_B,2026-03-19,0,17802,231,409.02,High
+836,Xenon Analytics,True,,enterprise,2025-10-12,2025-12-11,49,4995,Feature_C,2024-06-19,0,17802,231,409.02,High
+836,Xenon Analytics,True,,enterprise,2025-10-12,2025-12-11,28,939,Feature_B,2026-03-19,0,17802,231,409.02,High
+836,Xenon Analytics,True,,professional,2025-12-11,,49,4995,Feature_C,2024-06-19,0,17802,231,409.02,High
+836,Xenon Analytics,True,,professional,2025-12-11,,28,939,Feature_B,2026-03-19,0,17802,231,409.02,High
+838,Core Dynamics,True,,starter,2023-10-10,2024-07-13,4,955,Feature_A,2024-11-28,0,5906,102,161.06,High
+838,Core Dynamics,True,,starter,2023-10-10,2024-07-13,47,1998,Feature_C,2025-12-03,0,5906,102,161.06,High
+838,Core Dynamics,True,,professional,2024-07-13,,4,955,Feature_A,2024-11-28,0,5906,102,161.06,High
+838,Core Dynamics,True,,professional,2024-07-13,,47,1998,Feature_C,2025-12-03,0,5906,102,161.06,High
+841,PulseGroup,True,,professional,2025-08-26,,24,2736,Feature_A,2024-02-08,0,2736,24,51.36,Low
+843,Jade AI,False,2025-02-23 05:45:13,professional,2023-11-10,2024-03-27,15,4319,Feature_C,2026-02-18,1,8638,30,116.38,Medium
+843,Jade AI,False,2025-02-23 05:45:13,professional,2024-03-27,2025-02-23,15,4319,Feature_C,2026-02-18,1,8638,30,116.38,Medium
+844,MetaStack,True,,starter,2023-07-01,,26,3893,Feature_A,2026-06-23,0,3893,26,64.93,Medium
+845,CoreLabs,True,,starter,2023-06-21,,31,4188,Feature_C,2026-03-31,0,4188,31,72.88,Medium
+847,HiveTech,True,,starter,2023-10-17,2024-03-25,20,3774,Feature_C,2026-03-13,0,7548,40,115.48,Medium
+847,HiveTech,True,,starter,2024-03-25,,20,3774,Feature_C,2026-03-13,0,7548,40,115.48,Medium
+848,ZenCorp,True,,starter,2025-03-16,,40,2651,Feature_A,2025-11-17,0,2651,40,66.51,Medium
+849,Flow Cloud,True,,enterprise,2023-02-18,,28,3968,Feature_A,2025-03-04,0,4269,39,81.69,Medium
+849,Flow Cloud,True,,enterprise,2023-02-18,,11,301,Feature_B,2026-09-10,0,4269,39,81.69,Medium
+851,NovaVentures,True,,starter,2025-07-26,,39,2713,Feature_B,2025-04-17,0,6011,67,127.11,High
+851,NovaVentures,True,,starter,2025-07-26,,28,3298,Feature_B,2026-04-30,0,6011,67,127.11,High
+852,OrbitStudio,True,,professional,2024-12-28,,11,3090,Feature_B,2025-02-18,0,3090,11,41.9,Low
+853,PeakPro,True,,professional,2024-05-14,2025-03-30,15,1819,Feature_A,2025-08-23,0,13302,112,245.02,High
+853,PeakPro,True,,professional,2024-05-14,2025-03-30,41,4832,Feature_B,2025-10-12,0,13302,112,245.02,High
+853,PeakPro,True,,starter,2025-03-30,,15,1819,Feature_A,2025-08-23,0,13302,112,245.02,High
+853,PeakPro,True,,starter,2025-03-30,,41,4832,Feature_B,2025-10-12,0,13302,112,245.02,High
+854,VineAnalytics,True,,starter,2023-05-03,2024-03-03,16,4898,Feature_B,2024-10-22,0,11572,72,187.72,High
+854,VineAnalytics,True,,starter,2023-05-03,2024-03-03,20,888,Feature_C,2024-11-19,0,11572,72,187.72,High
+854,VineAnalytics,True,,professional,2024-03-03,,16,4898,Feature_B,2024-10-22,0,11572,72,187.72,High
+854,VineAnalytics,True,,professional,2024-03-03,,20,888,Feature_C,2024-11-19,0,11572,72,187.72,High
+855,FlowDynamics,False,2023-11-19 16:52:05,starter,2023-07-08,2024-05-16,29,2468,Feature_A,2024-06-13,1,4936,58,107.36,Medium
+855,FlowDynamics,False,2023-11-19 16:52:05,starter,2024-05-16,2023-11-19,29,2468,Feature_A,2024-06-13,1,4936,58,107.36,Medium
+857,Sync Dev,True,,professional,2023-03-13,,32,4519,Feature_B,2024-01-24,0,4519,32,77.19,Medium
+859,Orbit Hub,True,,starter,2024-10-22,,33,2708,Feature_A,2025-10-22,0,2708,33,60.08,Low
+861,KiteStudio,False,2025-07-16 14:48:17,starter,2024-02-16,2025-07-16,49,4860,Feature_B,2024-01-02,1,5337,58,111.37,Medium
+861,KiteStudio,False,2025-07-16 14:48:17,starter,2024-02-16,2025-07-16,9,477,Feature_B,2025-01-12,1,5337,58,111.37,Medium
+864,Zen Ventures,True,,starter,2024-05-13,2025-01-31,23,1835,Feature_A,2024-05-03,0,12744,50,177.44,High
+864,Zen Ventures,True,,starter,2024-05-13,2025-01-31,2,4537,Feature_B,2024-07-11,0,12744,50,177.44,High
+864,Zen Ventures,True,,starter,2025-01-31,,23,1835,Feature_A,2024-05-03,0,12744,50,177.44,High
+864,Zen Ventures,True,,starter,2025-01-31,,2,4537,Feature_B,2024-07-11,0,12744,50,177.44,High
+865,FlowWorks,True,,starter,2024-08-20,2025-02-27,8,871,Feature_B,2026-06-10,0,1742,16,33.42,Low
+865,FlowWorks,True,,starter,2025-02-27,,8,871,Feature_B,2026-06-10,0,1742,16,33.42,Low
+867,HubOps,False,2025-08-13 17:39:56,free,2025-02-24,2025-10-08,43,465,Feature_B,2024-12-14,1,2158,136,157.57999999999998,High
+867,HubOps,False,2025-08-13 17:39:56,free,2025-02-24,2025-10-08,25,614,Feature_C,2025-04-01,1,2158,136,157.57999999999998,High
+867,HubOps,False,2025-08-13 17:39:56,professional,2025-10-08,2025-08-13,43,465,Feature_B,2024-12-14,1,2158,136,157.57999999999998,High
+867,HubOps,False,2025-08-13 17:39:56,professional,2025-10-08,2025-08-13,25,614,Feature_C,2025-04-01,1,2158,136,157.57999999999998,High
+869,BoltGroup,True,,starter,2023-01-25,,21,4836,Feature_B,2025-07-25,0,4836,21,69.36,Medium
+871,Yield Software,True,,starter,2025-04-02,2025-07-16,46,3813,Feature_A,2024-04-27,0,7626,92,168.26,High
+871,Yield Software,True,,starter,2025-07-16,,46,3813,Feature_A,2024-04-27,0,7626,92,168.26,High
+872,Meta IO,False,2025-10-22 17:11:46,enterprise,2025-07-06,2025-10-02,14,2490,Feature_C,2024-01-11,1,34089,186,526.89,High
+872,Meta IO,False,2025-10-22 17:11:46,enterprise,2025-07-06,2025-10-02,1,4237,Feature_B,2024-07-16,1,34089,186,526.89,High
+872,Meta IO,False,2025-10-22 17:11:46,enterprise,2025-07-06,2025-10-02,47,4636,Feature_C,2026-07-01,1,34089,186,526.89,High
+872,Meta IO,False,2025-10-22 17:11:46,starter,2025-10-02,2025-12-01,14,2490,Feature_C,2024-01-11,1,34089,186,526.89,High
+872,Meta IO,False,2025-10-22 17:11:46,starter,2025-10-02,2025-12-01,1,4237,Feature_B,2024-07-16,1,34089,186,526.89,High
+872,Meta IO,False,2025-10-22 17:11:46,starter,2025-10-02,2025-12-01,47,4636,Feature_C,2026-07-01,1,34089,186,526.89,High
+872,Meta IO,False,2025-10-22 17:11:46,enterprise,2025-12-01,2025-10-22,14,2490,Feature_C,2024-01-11,1,34089,186,526.89,High
+872,Meta IO,False,2025-10-22 17:11:46,enterprise,2025-12-01,2025-10-22,1,4237,Feature_B,2024-07-16,1,34089,186,526.89,High
+872,Meta IO,False,2025-10-22 17:11:46,enterprise,2025-12-01,2025-10-22,47,4636,Feature_C,2026-07-01,1,34089,186,526.89,High
+873,EdgeLabs,True,,free,2023-12-05,,42,548,Feature_B,2025-04-02,0,3029,79,109.28999999999999,Medium
+873,EdgeLabs,True,,free,2023-12-05,,37,2481,Feature_C,2026-04-24,0,3029,79,109.28999999999999,Medium
+876,Wave Pro,True,,starter,2024-05-20,,17,641,Feature_B,2025-06-01,0,1730,29,46.3,Low
+876,Wave Pro,True,,starter,2024-05-20,,12,1089,Feature_C,2026-08-26,0,1730,29,46.3,Low
+877,FlowOps,True,,enterprise,2024-09-12,,4,247,Feature_B,2024-12-10,0,3373,51,84.72999999999999,Medium
+877,FlowOps,True,,enterprise,2024-09-12,,44,731,Feature_A,2025-08-14,0,3373,51,84.72999999999999,Medium
+877,FlowOps,True,,enterprise,2024-09-12,,3,2395,Feature_C,2026-02-13,0,3373,51,84.72999999999999,Medium
+878,EchoStudio,True,,free,2024-02-24,2024-05-29,6,3703,Feature_C,2024-08-20,0,7406,12,86.06,Medium
+878,EchoStudio,True,,starter,2024-05-29,,6,3703,Feature_C,2024-08-20,0,7406,12,86.06,Medium
+879,DriftHQ,False,2025-03-30 00:39:53,starter,2024-10-09,2025-02-03,19,245,Feature_A,2024-03-13,1,3454,54,88.53999999999999,Medium
+879,DriftHQ,False,2025-03-30 00:39:53,starter,2024-10-09,2025-02-03,8,1482,Feature_C,2024-09-16,1,3454,54,88.53999999999999,Medium
+879,DriftHQ,False,2025-03-30 00:39:53,free,2025-02-03,2025-03-30,19,245,Feature_A,2024-03-13,1,3454,54,88.53999999999999,Medium
+879,DriftHQ,False,2025-03-30 00:39:53,free,2025-02-03,2025-03-30,8,1482,Feature_C,2024-09-16,1,3454,54,88.53999999999999,Medium
+881,OrbitSoftware,True,,free,2023-03-10,,37,4019,Feature_C,2024-07-25,0,5954,95,154.54,High
+881,OrbitSoftware,True,,free,2023-03-10,,17,697,Feature_B,2025-09-21,0,5954,95,154.54,High
+881,OrbitSoftware,True,,free,2023-03-10,,41,1238,Feature_B,2026-03-08,0,5954,95,154.54,High
+883,OrbitWorks,True,,starter,2025-09-15,2025-11-15,35,2561,Feature_C,2025-08-07,0,6612,126,192.12,High
+883,OrbitWorks,True,,starter,2025-09-15,2025-11-15,28,745,Feature_C,2026-01-10,0,6612,126,192.12,High
+883,OrbitWorks,True,,enterprise,2025-11-15,,35,2561,Feature_C,2025-08-07,0,6612,126,192.12,High
+883,OrbitWorks,True,,enterprise,2025-11-15,,28,745,Feature_C,2026-01-10,0,6612,126,192.12,High
+884,PulseIO,True,,free,2024-05-17,,22,3825,Feature_C,2024-06-26,0,7822,59,137.22,High
+884,PulseIO,True,,free,2024-05-17,,37,3997,Feature_B,2024-12-12,0,7822,59,137.22,High
+885,Jet Studio,True,,enterprise,2023-05-30,2024-03-02,18,2356,Feature_A,2025-04-19,0,7068,54,124.68,Medium
+885,Jet Studio,True,,starter,2024-03-02,2024-07-10,18,2356,Feature_A,2025-04-19,0,7068,54,124.68,Medium
+885,Jet Studio,True,,free,2024-07-10,,18,2356,Feature_A,2025-04-19,0,7068,54,124.68,Medium
+886,Mist Group,True,,free,2025-03-20,2025-08-02,4,3571,Feature_C,2025-07-02,0,7142,8,79.42,Medium
+886,Mist Group,True,,starter,2025-08-02,,4,3571,Feature_C,2025-07-02,0,7142,8,79.42,Medium
+888,Ultra Dynamics,False,2025-06-30 04:40:40,professional,2024-02-10,2025-06-30,6,4748,Feature_C,2026-07-22,1,4748,6,53.48,Low
+891,WarpPlatform,True,,starter,2025-02-22,2025-07-17,12,3995,Feature_B,2025-04-25,0,7990,24,103.9,Medium
+891,WarpPlatform,True,,starter,2025-07-17,,12,3995,Feature_B,2025-04-25,0,7990,24,103.9,Medium
+892,Link AI,False,2025-07-08 07:37:08,starter,2025-04-28,2025-07-08,34,2923,Feature_A,2024-05-02,1,2923,34,63.230000000000004,Low
+895,Bolt Cloud,True,,starter,2024-04-13,,36,2910,Feature_B,2025-06-14,0,2910,36,65.1,Medium
+896,FluxIO,False,2024-10-30 08:30:09,starter,2024-09-26,2025-04-09,25,4975,Feature_A,2025-02-16,1,9950,50,149.5,High
+896,FluxIO,False,2024-10-30 08:30:09,enterprise,2025-04-09,2024-10-30,25,4975,Feature_A,2025-02-16,1,9950,50,149.5,High
+897,CoreLogic,True,,professional,2024-03-03,2024-05-12,44,4594,Feature_A,2024-07-27,0,12614,98,224.14,High
+897,CoreLogic,True,,professional,2024-03-03,2024-05-12,5,1713,Feature_A,2025-01-08,0,12614,98,224.14,High
+897,CoreLogic,True,,free,2024-05-12,,44,4594,Feature_A,2024-07-27,0,12614,98,224.14,High
+897,CoreLogic,True,,free,2024-05-12,,5,1713,Feature_A,2025-01-08,0,12614,98,224.14,High
+898,Nova Systems,False,2024-05-24 18:05:01,professional,2023-04-26,2024-05-24,8,544,Feature_C,2024-02-17,1,3454,37,71.53999999999999,Medium
+898,Nova Systems,False,2024-05-24 18:05:01,professional,2023-04-26,2024-05-24,29,2910,Feature_B,2026-04-07,1,3454,37,71.53999999999999,Medium
+899,Rift Logic,True,,free,2023-02-15,,36,1702,Feature_C,2026-02-23,0,1702,36,53.019999999999996,Low
+900,Rush Software,True,,starter,2024-03-21,,26,4642,Feature_B,2025-11-04,0,5324,38,91.24000000000001,Medium
+900,Rush Software,True,,starter,2024-03-21,,3,107,Feature_A,2025-11-19,0,5324,38,91.24000000000001,Medium
+900,Rush Software,True,,starter,2024-03-21,,9,575,Feature_C,2025-11-21,0,5324,38,91.24000000000001,Medium
+902,Rift Hub,True,,starter,2023-05-21,,10,3046,Feature_B,2026-04-02,0,3046,10,40.46,Low
+903,OnyxDigital,False,2025-01-30 10:16:47,starter,2024-02-10,2025-01-30,35,2544,Feature_B,2024-11-05,1,2544,35,60.44,Low
+909,SageVentures,False,2025-02-15 14:23:31,professional,2024-07-10,2024-10-31,15,975,Feature_C,2025-08-05,1,2925,45,74.25,Medium
+909,SageVentures,False,2025-02-15 14:23:31,professional,2024-10-31,2025-06-30,15,975,Feature_C,2025-08-05,1,2925,45,74.25,Medium
+909,SageVentures,False,2025-02-15 14:23:31,enterprise,2025-06-30,2025-02-15,15,975,Feature_C,2025-08-05,1,2925,45,74.25,Medium
+911,Luna HQ,True,,professional,2023-05-01,,20,1033,Feature_A,2026-04-14,0,1033,20,30.33,Low
+912,Vertex Corp,True,,free,2025-02-01,,47,622,Feature_C,2025-01-26,0,622,47,53.22,Low
+913,Vertex Ops,False,2023-07-28 18:47:14,starter,2023-05-23,2023-12-31,10,3686,Feature_A,2025-05-16,1,11058,30,140.57999999999998,High
+913,Vertex Ops,False,2023-07-28 18:47:14,free,2023-12-31,2024-03-05,10,3686,Feature_A,2025-05-16,1,11058,30,140.57999999999998,High
+913,Vertex Ops,False,2023-07-28 18:47:14,professional,2024-03-05,2023-07-28,10,3686,Feature_A,2025-05-16,1,11058,30,140.57999999999998,High
+914,RushCorp,True,,free,2025-07-30,,16,945,Feature_C,2024-08-19,0,945,16,25.45,Low
+918,PulseStack,True,,enterprise,2023-11-25,2024-11-15,47,3148,Feature_C,2026-04-23,0,6296,94,156.96,High
+918,PulseStack,True,,professional,2024-11-15,,47,3148,Feature_C,2026-04-23,0,6296,94,156.96,High
+919,OrbitPro,True,,starter,2023-10-22,2024-01-05,24,4630,Feature_A,2025-10-11,0,21702,159,376.02,High
+919,OrbitPro,True,,starter,2023-10-22,2024-01-05,29,2604,Feature_C,2026-01-13,0,21702,159,376.02,High
+919,OrbitPro,True,,enterprise,2024-01-05,2024-09-23,24,4630,Feature_A,2025-10-11,0,21702,159,376.02,High
+919,OrbitPro,True,,enterprise,2024-01-05,2024-09-23,29,2604,Feature_C,2026-01-13,0,21702,159,376.02,High
+919,OrbitPro,True,,enterprise,2024-09-23,,24,4630,Feature_A,2025-10-11,0,21702,159,376.02,High
+919,OrbitPro,True,,enterprise,2024-09-23,,29,2604,Feature_C,2026-01-13,0,21702,159,376.02,High
+920,Rush Logic,True,,free,2025-05-25,2025-09-25,24,614,Feature_C,2025-03-21,0,8174,76,157.74,High
+920,Rush Logic,True,,free,2025-05-25,2025-09-25,14,3473,Feature_C,2026-03-01,0,8174,76,157.74,High
+920,Rush Logic,True,,professional,2025-09-25,,24,614,Feature_C,2025-03-21,0,8174,76,157.74,High
+920,Rush Logic,True,,professional,2025-09-25,,14,3473,Feature_C,2026-03-01,0,8174,76,157.74,High
+921,Flux Works,True,,free,2024-08-31,2025-07-24,13,3904,Feature_B,2024-11-01,0,11712,39,156.12,High
+921,Flux Works,True,,starter,2025-07-24,2025-09-29,13,3904,Feature_B,2024-11-01,0,11712,39,156.12,High
+921,Flux Works,True,,starter,2025-09-29,,13,3904,Feature_B,2024-11-01,0,11712,39,156.12,High
+923,TrekDynamics,True,,professional,2023-07-30,,39,1996,Feature_A,2026-05-29,0,1996,39,58.96,Low
+925,DriftDynamics,True,,free,2024-05-02,,38,1531,Feature_A,2025-08-04,0,1531,38,53.31,Low
+928,KiteTech,True,,professional,2023-06-19,,49,4368,Feature_C,2024-10-14,0,4368,49,92.68,Medium
+929,Tidal Corp,True,,free,2024-03-30,2025-03-19,9,4685,Feature_C,2024-07-13,0,16036,68,228.36,High
+929,Tidal Corp,True,,free,2024-03-30,2025-03-19,6,2548,Feature_C,2025-06-21,0,16036,68,228.36,High
+929,Tidal Corp,True,,free,2024-03-30,2025-03-19,19,785,Feature_A,2025-07-31,0,16036,68,228.36,High
+929,Tidal Corp,True,,professional,2025-03-19,,9,4685,Feature_C,2024-07-13,0,16036,68,228.36,High
+929,Tidal Corp,True,,professional,2025-03-19,,6,2548,Feature_C,2025-06-21,0,16036,68,228.36,High
+929,Tidal Corp,True,,professional,2025-03-19,,19,785,Feature_A,2025-07-31,0,16036,68,228.36,High
+930,Rift IO,True,,free,2024-09-13,,30,4895,Feature_A,2024-04-11,0,4895,30,78.95,Medium
+934,Beam Analytics,True,,professional,2024-08-09,2025-05-07,47,4393,Feature_C,2025-06-22,0,8786,94,181.86,High
+934,Beam Analytics,True,,enterprise,2025-05-07,,47,4393,Feature_C,2025-06-22,0,8786,94,181.86,High
+935,SyncDynamics,True,,professional,2023-04-14,,49,1113,Feature_B,2025-05-02,0,1113,49,60.13,Low
+936,ZealHQ,True,,free,2023-06-25,,39,4631,Feature_B,2024-12-16,0,4749,43,90.49000000000001,Medium
+936,ZealHQ,True,,free,2023-06-25,,4,118,Feature_C,2026-08-07,0,4749,43,90.49000000000001,Medium
+937,DriftPlatform,False,2025-06-03 18:51:05,free,2023-05-20,2023-11-19,41,3411,Feature_C,2026-08-14,1,10233,123,225.32999999999998,High
+937,DriftPlatform,False,2025-06-03 18:51:05,starter,2023-11-19,2024-10-23,41,3411,Feature_C,2026-08-14,1,10233,123,225.32999999999998,High
+937,DriftPlatform,False,2025-06-03 18:51:05,free,2024-10-23,2025-06-03,41,3411,Feature_C,2026-08-14,1,10233,123,225.32999999999998,High
+939,HubGroup,True,,free,2025-03-04,,15,1975,Feature_B,2026-08-24,0,1975,15,34.75,Low
+946,XenonIO,True,,starter,2024-11-14,2025-05-08,28,2913,Feature_A,2025-05-20,0,5826,56,114.25999999999999,Medium
+946,XenonIO,True,,professional,2025-05-08,,28,2913,Feature_A,2025-05-20,0,5826,56,114.25999999999999,Medium
+947,OrbitLabs,True,,professional,2023-11-04,2024-08-24,14,4841,Feature_B,2026-03-10,0,9682,28,124.82,Medium
+947,OrbitLabs,True,,professional,2024-08-24,,14,4841,Feature_B,2026-03-10,0,9682,28,124.82,Medium
+948,OrbitPlatform,False,2024-04-07 04:12:11,professional,2023-11-03,2024-01-20,29,1878,Feature_A,2025-04-24,1,9952,68,167.51999999999998,High
+948,OrbitPlatform,False,2024-04-07 04:12:11,professional,2023-11-03,2024-01-20,5,3098,Feature_B,2026-06-17,1,9952,68,167.51999999999998,High
+948,OrbitPlatform,False,2024-04-07 04:12:11,enterprise,2024-01-20,2024-04-07,29,1878,Feature_A,2025-04-24,1,9952,68,167.51999999999998,High
+948,OrbitPlatform,False,2024-04-07 04:12:11,enterprise,2024-01-20,2024-04-07,5,3098,Feature_B,2026-06-17,1,9952,68,167.51999999999998,High
+951,DataLabs,False,2024-08-23 04:57:55,professional,2023-03-31,2024-08-23,20,4374,Feature_C,2026-06-05,1,4374,20,63.74,Low
+952,Link Cloud,False,2025-06-17 19:05:22,professional,2023-09-24,2024-04-19,28,1779,Feature_B,2024-06-06,1,19809,228,426.09000000000003,High
+952,Link Cloud,False,2025-06-17 19:05:22,professional,2023-09-24,2024-04-19,48,4824,Feature_B,2026-09-23,1,19809,228,426.09000000000003,High
+952,Link Cloud,False,2025-06-17 19:05:22,enterprise,2024-04-19,2024-12-15,28,1779,Feature_B,2024-06-06,1,19809,228,426.09000000000003,High
+952,Link Cloud,False,2025-06-17 19:05:22,enterprise,2024-04-19,2024-12-15,48,4824,Feature_B,2026-09-23,1,19809,228,426.09000000000003,High
+952,Link Cloud,False,2025-06-17 19:05:22,enterprise,2024-12-15,2025-06-17,28,1779,Feature_B,2024-06-06,1,19809,228,426.09000000000003,High
+952,Link Cloud,False,2025-06-17 19:05:22,enterprise,2024-12-15,2025-06-17,48,4824,Feature_B,2026-09-23,1,19809,228,426.09000000000003,High
+954,Data Ventures,True,,free,2024-12-05,,30,3392,Feature_C,2025-05-14,0,3392,30,63.92,Low
+955,HubStack,False,2024-07-04 17:36:22,free,2024-01-08,2024-07-04,43,361,Feature_B,2024-07-07,1,5050,51,101.5,Medium
+955,HubStack,False,2024-07-04 17:36:22,free,2024-01-08,2024-07-04,7,556,Feature_B,2024-09-04,1,5050,51,101.5,Medium
+955,HubStack,False,2024-07-04 17:36:22,free,2024-01-08,2024-07-04,1,4133,Feature_C,2026-08-25,1,5050,51,101.5,Medium
+956,YieldSolutions,True,,starter,2024-12-25,2025-08-28,38,1114,Feature_C,2024-01-17,0,5378,146,199.78,High
+956,YieldSolutions,True,,starter,2024-12-25,2025-08-28,35,1575,Feature_A,2024-02-19,0,5378,146,199.78,High
+956,YieldSolutions,True,,starter,2025-08-28,,38,1114,Feature_C,2024-01-17,0,5378,146,199.78,High
+956,YieldSolutions,True,,starter,2025-08-28,,35,1575,Feature_A,2024-02-19,0,5378,146,199.78,High
+957,ArcTech,False,2025-02-21 22:22:17,enterprise,2025-01-08,2025-02-21,25,2819,Feature_B,2024-08-24,1,5627,40,96.27000000000001,Medium
+957,ArcTech,False,2025-02-21 22:22:17,enterprise,2025-01-08,2025-02-21,15,2808,Feature_A,2025-02-21,1,5627,40,96.27000000000001,Medium
+958,GridIO,True,,professional,2024-02-05,,23,3735,Feature_A,2024-01-31,0,16127,121,282.27,High
+958,GridIO,True,,professional,2024-02-05,,32,3710,Feature_B,2024-02-02,0,16127,121,282.27,High
+958,GridIO,True,,professional,2024-02-05,,35,4083,Feature_C,2025-01-23,0,16127,121,282.27,High
+958,GridIO,True,,professional,2024-02-05,,31,4599,Feature_C,2026-07-13,0,16127,121,282.27,High
+959,BeamHub,False,2025-04-07 17:43:33,starter,2023-12-07,2024-07-23,20,1961,Feature_B,2025-07-29,1,3922,40,79.22,Medium
+959,BeamHub,False,2025-04-07 17:43:33,professional,2024-07-23,2025-04-07,20,1961,Feature_B,2025-07-29,1,3922,40,79.22,Medium
+960,Peak AI,True,,enterprise,2025-04-21,,23,1503,Feature_B,2024-09-17,0,1503,23,38.03,Low
+961,Unit Hub,True,,starter,2024-11-08,,2,4548,Feature_A,2024-04-20,0,4548,2,47.48,Low
+962,YieldDynamics,False,2024-03-28 02:08:27,professional,2023-01-22,2024-03-28,45,2455,Feature_A,2024-10-23,1,2455,45,69.55,Medium
+967,JadeHub,True,,free,2024-11-11,2025-05-16,26,4300,Feature_A,2026-09-09,0,12900,78,207.0,High
+967,JadeHub,True,,professional,2025-05-16,2025-07-24,26,4300,Feature_A,2026-09-09,0,12900,78,207.0,High
+967,JadeHub,True,,enterprise,2025-07-24,,26,4300,Feature_A,2026-09-09,0,12900,78,207.0,High
+968,Grid Group,False,2025-10-04 18:57:13,enterprise,2023-12-15,2024-03-29,2,4086,Feature_A,2025-07-13,1,12258,6,128.57999999999998,High
+968,Grid Group,False,2025-10-04 18:57:13,free,2024-03-29,2024-11-20,2,4086,Feature_A,2025-07-13,1,12258,6,128.57999999999998,High
+968,Grid Group,False,2025-10-04 18:57:13,professional,2024-11-20,2025-10-04,2,4086,Feature_A,2025-07-13,1,12258,6,128.57999999999998,High
+969,PulseCloud,True,,professional,2025-04-15,2025-08-14,19,4779,Feature_C,2026-08-09,0,9558,38,133.57999999999998,High
+969,PulseCloud,True,,professional,2025-08-14,,19,4779,Feature_C,2026-08-09,0,9558,38,133.57999999999998,High
+970,Ion Dev,False,2024-04-30 19:30:28,starter,2023-05-07,2024-04-30,40,4658,Feature_A,2025-03-08,1,4658,40,86.58,Medium
+971,FlowNet,True,,free,2025-02-09,2025-09-01,29,2857,Feature_C,2025-07-09,0,5714,58,115.14,Medium
+971,FlowNet,True,,starter,2025-09-01,,29,2857,Feature_C,2025-07-09,0,5714,58,115.14,Medium
+972,Data Digital,True,,professional,2023-04-20,2023-11-16,44,3731,Feature_B,2024-11-13,0,13131,174,305.31,High
+972,Data Digital,True,,professional,2023-04-20,2023-11-16,14,646,Feature_A,2025-07-15,0,13131,174,305.31,High
+972,Data Digital,True,,professional,2023-11-16,2024-06-01,44,3731,Feature_B,2024-11-13,0,13131,174,305.31,High
+972,Data Digital,True,,professional,2023-11-16,2024-06-01,14,646,Feature_A,2025-07-15,0,13131,174,305.31,High
+972,Data Digital,True,,free,2024-06-01,,44,3731,Feature_B,2024-11-13,0,13131,174,305.31,High
+972,Data Digital,True,,free,2024-06-01,,14,646,Feature_A,2025-07-15,0,13131,174,305.31,High
+973,Peak Ventures,True,,starter,2025-09-07,,40,2765,Feature_A,2024-05-27,0,2765,40,67.65,Medium
+976,Edge Ops,True,,starter,2023-01-15,,34,1063,Feature_C,2024-01-29,0,1063,34,44.63,Low
+978,Beam HQ,True,,starter,2023-05-25,2023-11-27,28,122,Feature_A,2025-03-25,0,244,56,58.44,Low
+978,Beam HQ,True,,professional,2023-11-27,,28,122,Feature_A,2025-03-25,0,244,56,58.44,Low
+981,QuarkPlatform,False,2023-03-05 09:37:26,professional,2023-01-04,2023-11-09,15,2485,Feature_B,2024-10-13,1,4970,30,79.7,Medium
+981,QuarkPlatform,False,2023-03-05 09:37:26,enterprise,2023-11-09,2023-03-05,15,2485,Feature_B,2024-10-13,1,4970,30,79.7,Medium
+982,Rush Ventures,True,,enterprise,2024-04-28,,33,1701,Feature_A,2024-06-28,0,1701,33,50.010000000000005,Low
+983,OrbitCorp,True,,professional,2023-05-19,,11,3729,Feature_A,2026-08-02,0,3729,11,48.29,Low
+984,QuarkLabs,True,,professional,2023-08-31,2023-11-05,2,1191,Feature_C,2025-10-27,0,4716,80,127.16,High
+984,QuarkLabs,True,,professional,2023-08-31,2023-11-05,38,1167,Feature_C,2025-11-08,0,4716,80,127.16,High
+984,QuarkLabs,True,,professional,2023-11-05,,2,1191,Feature_C,2025-10-27,0,4716,80,127.16,High
+984,QuarkLabs,True,,professional,2023-11-05,,38,1167,Feature_C,2025-11-08,0,4716,80,127.16,High
+985,CloudIO,True,,starter,2023-08-10,,16,4797,Feature_C,2026-07-14,0,4797,16,63.97,Low
+990,Data Platform,False,2025-08-24 13:50:33,starter,2025-04-16,2025-10-08,38,3688,Feature_B,2025-10-06,1,20829,177,385.28999999999996,High
+990,Data Platform,False,2025-08-24 13:50:33,starter,2025-04-16,2025-10-08,21,3255,Feature_A,2026-09-20,1,20829,177,385.28999999999996,High
+990,Data Platform,False,2025-08-24 13:50:33,professional,2025-10-08,2025-12-08,38,3688,Feature_B,2025-10-06,1,20829,177,385.28999999999996,High
+990,Data Platform,False,2025-08-24 13:50:33,professional,2025-10-08,2025-12-08,21,3255,Feature_A,2026-09-20,1,20829,177,385.28999999999996,High
+990,Data Platform,False,2025-08-24 13:50:33,enterprise,2025-12-08,2025-08-24,38,3688,Feature_B,2025-10-06,1,20829,177,385.28999999999996,High
+990,Data Platform,False,2025-08-24 13:50:33,enterprise,2025-12-08,2025-08-24,21,3255,Feature_A,2026-09-20,1,20829,177,385.28999999999996,High
+992,Jet Group,True,,free,2024-11-28,,12,4427,Feature_B,2024-12-11,0,4427,12,56.27,Low
+993,Bolt Hub,True,,professional,2025-04-07,,26,1000,Feature_A,2024-10-09,0,7808,47,125.08,Medium
+993,Bolt Hub,True,,professional,2025-04-07,,1,4282,Feature_A,2024-12-03,0,7808,47,125.08,Medium
+993,Bolt Hub,True,,professional,2025-04-07,,6,2086,Feature_B,2026-05-15,0,7808,47,125.08,Medium
+993,Bolt Hub,True,,professional,2025-04-07,,14,440,Feature_C,2026-07-15,0,7808,47,125.08,Medium
+996,XenonPro,True,,starter,2023-11-26,,7,2731,Feature_B,2024-03-05,0,2731,7,34.31,Low
+997,Edge AI,False,2025-10-25 22:48:48,free,2025-01-26,2025-10-25,42,2296,Feature_C,2025-01-16,1,10496,97,201.95999999999998,High
+997,Edge AI,False,2025-10-25 22:48:48,free,2025-01-26,2025-10-25,17,4360,Feature_B,2025-09-08,1,10496,97,201.95999999999998,High
+997,Edge AI,False,2025-10-25 22:48:48,free,2025-01-26,2025-10-25,38,3840,Feature_A,2026-06-04,1,10496,97,201.95999999999998,High
+1003,LinkWorks,True,,starter,2024-04-10,,37,1131,Feature_A,2024-11-30,0,1562,69,84.62,Medium
+1003,LinkWorks,True,,starter,2024-04-10,,32,431,Feature_C,2026-09-04,0,1562,69,84.62,Medium
+1004,MetaPlatform,True,,free,2024-02-21,2024-08-25,9,507,Feature_A,2024-12-06,0,3930,150,189.3,High
+1004,MetaPlatform,True,,free,2024-02-21,2024-08-25,41,803,Feature_A,2026-07-18,0,3930,150,189.3,High
+1004,MetaPlatform,True,,starter,2024-08-25,2025-05-04,9,507,Feature_A,2024-12-06,0,3930,150,189.3,High
+1004,MetaPlatform,True,,starter,2024-08-25,2025-05-04,41,803,Feature_A,2026-07-18,0,3930,150,189.3,High
+1004,MetaPlatform,True,,professional,2025-05-04,,9,507,Feature_A,2024-12-06,0,3930,150,189.3,High
+1004,MetaPlatform,True,,professional,2025-05-04,,41,803,Feature_A,2026-07-18,0,3930,150,189.3,High
+1007,OnyxNet,True,,starter,2024-02-06,,33,1158,Feature_C,2026-05-18,0,1158,33,44.58,Low
+1008,DataTech,True,,free,2023-08-20,,28,2529,Feature_B,2026-07-20,0,2529,28,53.29,Low
+1009,LinkDigital,True,,starter,2023-03-17,,3,880,Feature_A,2025-01-21,0,6406,77,141.06,High
+1009,LinkDigital,True,,starter,2023-03-17,,33,2560,Feature_A,2025-03-26,0,6406,77,141.06,High
+1009,LinkDigital,True,,starter,2023-03-17,,41,2966,Feature_C,2026-07-25,0,6406,77,141.06,High
+1012,Luna Hub,True,,enterprise,2023-04-22,2023-09-22,38,1411,Feature_A,2025-01-24,0,4233,114,156.32999999999998,High
+1012,Luna Hub,True,,professional,2023-09-22,2023-12-22,38,1411,Feature_A,2025-01-24,0,4233,114,156.32999999999998,High
+1012,Luna Hub,True,,professional,2023-12-22,,38,1411,Feature_A,2025-01-24,0,4233,114,156.32999999999998,High
+1013,SyncPro,True,,professional,2023-09-01,,42,3719,Feature_C,2024-05-20,0,7538,52,127.38,High
+1013,SyncPro,True,,professional,2023-09-01,,10,3819,Feature_B,2024-12-30,0,7538,52,127.38,High
+1014,Peak Studio,True,,free,2023-02-18,,48,282,Feature_A,2026-07-27,0,282,48,50.82,Low
+1015,QuarkVentures,True,,starter,2024-01-20,,19,892,Feature_B,2024-08-01,0,892,19,27.92,Low
+1016,Iris Studio,True,,starter,2024-05-27,2025-02-10,25,785,Feature_A,2025-02-09,0,8276,66,148.76,High
+1016,Iris Studio,True,,starter,2024-05-27,2025-02-10,8,3353,Feature_A,2025-08-17,0,8276,66,148.76,High
+1016,Iris Studio,True,,professional,2025-02-10,,25,785,Feature_A,2025-02-09,0,8276,66,148.76,High
+1016,Iris Studio,True,,professional,2025-02-10,,8,3353,Feature_A,2025-08-17,0,8276,66,148.76,High
+1017,Zeal Platform,False,2025-08-20 16:05:04,free,2024-12-17,2025-08-29,23,1416,Feature_B,2024-03-09,1,9308,52,145.07999999999998,High
+1017,Zeal Platform,False,2025-08-20 16:05:04,free,2024-12-17,2025-08-29,3,3238,Feature_A,2024-07-24,1,9308,52,145.07999999999998,High
+1017,Zeal Platform,False,2025-08-20 16:05:04,professional,2025-08-29,2025-08-20,23,1416,Feature_B,2024-03-09,1,9308,52,145.07999999999998,High
+1017,Zeal Platform,False,2025-08-20 16:05:04,professional,2025-08-29,2025-08-20,3,3238,Feature_A,2024-07-24,1,9308,52,145.07999999999998,High
+1018,BoltStack,True,,enterprise,2024-09-08,2025-01-23,35,4458,Feature_C,2024-04-05,0,13374,105,238.74,High
+1018,BoltStack,True,,starter,2025-01-23,2025-08-28,35,4458,Feature_C,2024-04-05,0,13374,105,238.74,High
+1018,BoltStack,True,,starter,2025-08-28,,35,4458,Feature_C,2024-04-05,0,13374,105,238.74,High
+1020,Jade Logic,True,,free,2025-04-08,2025-09-30,18,3392,Feature_A,2024-09-19,0,12566,102,227.66,High
+1020,Jade Logic,True,,free,2025-04-08,2025-09-30,33,2891,Feature_C,2025-10-28,0,12566,102,227.66,High
+1020,Jade Logic,True,,professional,2025-09-30,,18,3392,Feature_A,2024-09-19,0,12566,102,227.66,High
+1020,Jade Logic,True,,professional,2025-09-30,,33,2891,Feature_C,2025-10-28,0,12566,102,227.66,High
+1021,ZealSoftware,True,,professional,2023-06-02,,6,3161,Feature_B,2024-05-06,0,10429,63,167.29000000000002,High
+1021,ZealSoftware,True,,professional,2023-06-02,,13,2568,Feature_B,2025-03-17,0,10429,63,167.29000000000002,High
+1021,ZealSoftware,True,,professional,2023-06-02,,44,4700,Feature_A,2026-06-03,0,10429,63,167.29000000000002,High
+1022,GlowAnalytics,True,,free,2024-06-10,,16,1400,Feature_A,2024-02-26,0,1782,61,78.82,Medium
+1022,GlowAnalytics,True,,free,2024-06-10,,45,382,Feature_B,2025-03-09,0,1782,61,78.82,Medium
+1025,FluxHQ,True,,free,2024-02-26,2024-12-25,35,575,Feature_C,2025-06-15,0,9542,138,233.42000000000002,High
+1025,FluxHQ,True,,free,2024-02-26,2024-12-25,34,4196,Feature_B,2026-08-04,0,9542,138,233.42000000000002,High
+1025,FluxHQ,True,,professional,2024-12-25,,35,575,Feature_C,2025-06-15,0,9542,138,233.42000000000002,High
+1025,FluxHQ,True,,professional,2024-12-25,,34,4196,Feature_B,2026-08-04,0,9542,138,233.42000000000002,High
+1026,VineIO,False,2025-10-23 11:00:49,free,2023-09-27,2025-10-23,43,3038,Feature_C,2024-02-25,1,3038,43,73.38,Medium
+1027,Drift Platform,True,,starter,2024-07-11,2025-06-25,35,1999,Feature_C,2026-01-12,0,3998,70,109.97999999999999,Medium
+1027,Drift Platform,True,,enterprise,2025-06-25,,35,1999,Feature_C,2026-01-12,0,3998,70,109.97999999999999,Medium
+1029,GridLogic,False,2025-06-19 22:00:09,professional,2025-05-03,2025-06-19,39,2572,Feature_C,2024-04-23,1,6499,63,127.99,High
+1029,GridLogic,False,2025-06-19 22:00:09,professional,2025-05-03,2025-06-19,16,1005,Feature_C,2025-08-15,1,6499,63,127.99,High
+1029,GridLogic,False,2025-06-19 22:00:09,professional,2025-05-03,2025-06-19,8,2922,Feature_A,2025-11-29,1,6499,63,127.99,High
+1031,Rift Works,True,,starter,2024-12-20,,10,3090,Feature_B,2026-01-11,0,3090,10,40.9,Low
+1032,ZenOps,True,,free,2024-06-14,,11,2196,Feature_C,2025-07-18,0,2196,11,32.96,Low
+1033,WarpLabs,True,,professional,2023-03-30,,6,2730,Feature_A,2025-05-12,0,2730,6,33.3,Low
+1036,Mist Works,True,,professional,2024-10-03,,29,4020,Feature_C,2025-07-10,0,4020,29,69.2,Medium
+1039,Peak Dynamics,True,,starter,2024-12-13,,45,4355,Feature_A,2024-05-01,0,10035,119,219.35,High
+1039,Peak Dynamics,True,,starter,2024-12-13,,49,1921,Feature_A,2026-01-18,0,10035,119,219.35,High
+1039,Peak Dynamics,True,,starter,2024-12-13,,25,3759,Feature_A,2026-05-27,0,10035,119,219.35,High
+1040,Vine Works,True,,starter,2023-05-24,,12,4088,Feature_C,2025-02-11,0,4088,12,52.88,Low
+1043,NexusSystems,True,,free,2023-07-23,,43,4067,Feature_A,2025-04-08,0,4067,43,83.67,Medium
+1045,Nexus Analytics,False,2024-11-20 10:22:37,starter,2023-12-29,2024-11-20,30,3464,Feature_B,2024-01-05,1,3464,30,64.64,Medium
+1046,JadeAI,True,,free,2025-05-27,,23,4076,Feature_B,2024-09-06,0,4076,23,63.76,Low
+1047,DataWorks,True,,starter,2023-05-22,2024-03-31,7,4059,Feature_B,2025-09-07,0,11014,72,182.14,High
+1047,DataWorks,True,,starter,2023-05-22,2024-03-31,29,1448,Feature_C,2026-05-12,0,11014,72,182.14,High
+1047,DataWorks,True,,professional,2024-03-31,,7,4059,Feature_B,2025-09-07,0,11014,72,182.14,High
+1047,DataWorks,True,,professional,2024-03-31,,29,1448,Feature_C,2026-05-12,0,11014,72,182.14,High
+1049,OnyxPlatform,True,,starter,2025-06-08,,13,4083,Feature_A,2025-04-23,0,4083,13,53.83,Low
+1050,Grid Cloud,True,,professional,2025-09-13,2025-11-12,19,1023,Feature_C,2025-12-24,0,7440,116,190.4,High
+1050,Grid Cloud,True,,professional,2025-09-13,2025-11-12,39,2697,Feature_C,2026-03-15,0,7440,116,190.4,High
+1050,Grid Cloud,True,,professional,2025-11-12,,19,1023,Feature_C,2025-12-24,0,7440,116,190.4,High
+1050,Grid Cloud,True,,professional,2025-11-12,,39,2697,Feature_C,2026-03-15,0,7440,116,190.4,High
+1052,Luna Net,True,,free,2025-06-18,,44,4006,Feature_B,2024-04-07,0,7480,71,145.8,High
+1052,Luna Net,True,,free,2025-06-18,,27,3474,Feature_C,2024-05-23,0,7480,71,145.8,High
+1053,Kite Hub,True,,free,2024-05-06,2024-11-13,9,4592,Feature_A,2026-07-29,0,9184,18,109.84,Medium
+1053,Kite Hub,True,,starter,2024-11-13,,9,4592,Feature_A,2026-07-29,0,9184,18,109.84,Medium
+1057,UltraDynamics,True,,professional,2025-04-07,2025-10-13,46,2449,Feature_A,2024-04-12,0,12798,156,283.98,High
+1057,UltraDynamics,True,,professional,2025-04-07,2025-10-13,32,3950,Feature_C,2024-09-01,0,12798,156,283.98,High
+1057,UltraDynamics,True,,starter,2025-10-13,,46,2449,Feature_A,2024-04-12,0,12798,156,283.98,High
+1057,UltraDynamics,True,,starter,2025-10-13,,32,3950,Feature_C,2024-09-01,0,12798,156,283.98,High
+1060,ZenPro,True,,free,2025-04-10,,34,1332,Feature_B,2024-05-13,0,1332,34,47.32,Low
+1061,Vine Pro,True,,starter,2025-03-28,,34,4461,Feature_B,2024-07-30,0,6325,69,132.25,High
+1061,Vine Pro,True,,starter,2025-03-28,,35,1864,Feature_A,2024-10-01,0,6325,69,132.25,High
+1063,Rush Stack,False,2025-08-29 23:21:41,professional,2024-04-26,2024-08-22,34,3935,Feature_A,2024-10-29,1,23994,226,465.94,High
+1063,Rush Stack,False,2025-08-29 23:21:41,professional,2024-04-26,2024-08-22,13,1504,Feature_C,2025-04-29,1,23994,226,465.94,High
+1063,Rush Stack,False,2025-08-29 23:21:41,professional,2024-04-26,2024-08-22,24,3931,Feature_A,2026-01-22,1,23994,226,465.94,High
+1063,Rush Stack,False,2025-08-29 23:21:41,professional,2024-04-26,2024-08-22,42,2627,Feature_A,2026-05-22,1,23994,226,465.94,High
+1063,Rush Stack,False,2025-08-29 23:21:41,free,2024-08-22,2025-08-29,34,3935,Feature_A,2024-10-29,1,23994,226,465.94,High
+1063,Rush Stack,False,2025-08-29 23:21:41,free,2024-08-22,2025-08-29,13,1504,Feature_C,2025-04-29,1,23994,226,465.94,High
+1063,Rush Stack,False,2025-08-29 23:21:41,free,2024-08-22,2025-08-29,24,3931,Feature_A,2026-01-22,1,23994,226,465.94,High
+1063,Rush Stack,False,2025-08-29 23:21:41,free,2024-08-22,2025-08-29,42,2627,Feature_A,2026-05-22,1,23994,226,465.94,High
+1064,ZenAI,True,,starter,2025-02-09,2025-06-02,23,1436,Feature_C,2026-02-26,0,2872,46,74.72,Medium
+1064,ZenAI,True,,free,2025-06-02,,23,1436,Feature_C,2026-02-26,0,2872,46,74.72,Medium
+1065,HubSystems,True,,starter,2024-11-08,,20,4868,Feature_C,2024-03-21,0,4868,20,68.68,Medium
+1066,MetaGroup,True,,starter,2023-07-03,,27,2029,Feature_B,2025-05-01,0,3822,47,85.22,Medium
+1066,MetaGroup,True,,starter,2023-07-03,,20,1793,Feature_A,2026-05-05,0,3822,47,85.22,Medium
+1067,RiftLogic,False,2024-04-06 19:56:25,free,2023-05-12,2024-04-06,5,4858,Feature_A,2025-02-24,1,4858,5,53.58,Low
+1070,CorePro,True,,starter,2024-06-27,2024-12-09,14,2239,Feature_C,2024-09-28,0,5902,36,95.02000000000001,Medium
+1070,CorePro,True,,starter,2024-06-27,2024-12-09,4,712,Feature_B,2025-12-08,0,5902,36,95.02000000000001,Medium
+1070,CorePro,True,,enterprise,2024-12-09,,14,2239,Feature_C,2024-09-28,0,5902,36,95.02000000000001,Medium
+1070,CorePro,True,,enterprise,2024-12-09,,4,712,Feature_B,2025-12-08,0,5902,36,95.02000000000001,Medium
+1071,UltraAnalytics,False,2024-10-16 04:35:03,enterprise,2023-03-02,2023-11-16,24,2521,Feature_A,2025-01-20,1,5042,48,98.42,Medium
+1071,UltraAnalytics,False,2024-10-16 04:35:03,starter,2023-11-16,2024-10-16,24,2521,Feature_A,2025-01-20,1,5042,48,98.42,Medium
+1072,XenonCorp,True,,free,2024-03-11,,23,3702,Feature_B,2024-04-13,0,3702,23,60.02,Low
+1073,Quark HQ,False,2025-06-01 21:49:34,free,2023-08-01,2025-06-01,35,4617,Feature_C,2024-09-23,1,8585,73,158.85,High
+1073,Quark HQ,False,2025-06-01 21:49:34,free,2023-08-01,2025-06-01,38,3968,Feature_A,2026-09-08,1,8585,73,158.85,High
+1075,FlowSoftware,True,,starter,2025-04-12,,12,3439,Feature_B,2025-11-28,0,3439,12,46.39,Low
+1077,Jade Labs,True,,professional,2025-05-08,2025-09-11,36,3140,Feature_C,2024-03-14,0,21766,182,399.65999999999997,High
+1077,Jade Labs,True,,professional,2025-05-08,2025-09-11,40,4137,Feature_A,2024-06-16,0,21766,182,399.65999999999997,High
+1077,Jade Labs,True,,professional,2025-05-08,2025-09-11,15,3606,Feature_C,2024-12-05,0,21766,182,399.65999999999997,High
+1077,Jade Labs,True,,enterprise,2025-09-11,,36,3140,Feature_C,2024-03-14,0,21766,182,399.65999999999997,High
+1077,Jade Labs,True,,enterprise,2025-09-11,,40,4137,Feature_A,2024-06-16,0,21766,182,399.65999999999997,High
+1077,Jade Labs,True,,enterprise,2025-09-11,,15,3606,Feature_C,2024-12-05,0,21766,182,399.65999999999997,High
+1078,Pulse Digital,True,,free,2023-11-15,2024-07-16,18,2248,Feature_C,2024-11-29,0,13282,126,258.82,High
+1078,Pulse Digital,True,,free,2023-11-15,2024-07-16,45,4393,Feature_A,2025-10-03,0,13282,126,258.82,High
+1078,Pulse Digital,True,,free,2024-07-16,,18,2248,Feature_C,2024-11-29,0,13282,126,258.82,High
+1078,Pulse Digital,True,,free,2024-07-16,,45,4393,Feature_A,2025-10-03,0,13282,126,258.82,High
+1080,KeenLabs,True,,free,2025-04-07,,12,674,Feature_C,2025-12-18,0,674,12,18.740000000000002,Low
+1082,WarpWorks,True,,starter,2024-09-17,,8,2667,Feature_B,2024-12-25,0,7875,65,143.75,High
+1082,WarpWorks,True,,starter,2024-09-17,,43,3939,Feature_B,2024-12-31,0,7875,65,143.75,High
+1082,WarpWorks,True,,starter,2024-09-17,,14,1269,Feature_A,2025-06-10,0,7875,65,143.75,High
+1083,KiteCorp,False,2023-08-12 07:39:28,starter,2023-04-19,2023-12-14,10,240,Feature_B,2024-01-26,1,480,20,24.8,Low
+1083,KiteCorp,False,2023-08-12 07:39:28,professional,2023-12-14,2023-08-12,10,240,Feature_B,2024-01-26,1,480,20,24.8,Low
+1087,Kite Group,True,,professional,2024-11-17,,20,1646,Feature_C,2024-03-28,0,6051,22,82.50999999999999,Medium
+1087,Kite Group,True,,professional,2024-11-17,,2,4405,Feature_B,2026-09-16,0,6051,22,82.50999999999999,Medium
+1089,LinkOps,True,,professional,2024-01-21,2024-12-31,25,1741,Feature_B,2025-08-19,0,3482,50,84.82,Medium
+1089,LinkOps,True,,enterprise,2024-12-31,,25,1741,Feature_B,2025-08-19,0,3482,50,84.82,Medium
+1093,QuarkWorks,True,,starter,2023-10-13,,17,869,Feature_B,2025-01-19,0,2006,53,73.06,Medium
+1093,QuarkWorks,True,,starter,2023-10-13,,36,1137,Feature_C,2025-04-20,0,2006,53,73.06,Medium
+1094,BeamWorks,True,,free,2024-04-26,2024-09-25,4,763,Feature_B,2025-05-30,0,1526,8,23.259999999999998,Low
+1094,BeamWorks,True,,professional,2024-09-25,,4,763,Feature_B,2025-05-30,0,1526,8,23.259999999999998,Low
+1096,OnyxLogic,True,,starter,2024-09-25,,29,4499,Feature_A,2024-01-04,0,6286,59,121.86,Medium
+1096,OnyxLogic,True,,starter,2024-09-25,,30,1787,Feature_A,2025-09-25,0,6286,59,121.86,Medium
+1097,LinkAnalytics,True,,professional,2024-12-04,,26,712,Feature_B,2025-12-11,0,712,26,33.12,Low
+1098,SageLogic,True,,starter,2024-09-02,,19,2663,Feature_C,2025-05-13,0,2663,19,45.629999999999995,Low
+1099,NovaCorp,True,,free,2024-01-24,,34,560,Feature_A,2025-03-14,0,560,34,39.6,Low
+1100,Sync Logic,True,,professional,2023-02-21,,20,4385,Feature_B,2025-01-14,0,4385,20,63.85,Low
+1102,QuarkLogic,True,,starter,2024-10-09,,48,2038,Feature_B,2025-09-14,0,5828,70,128.28,High
+1102,QuarkLogic,True,,starter,2024-10-09,,22,3790,Feature_C,2025-12-10,0,5828,70,128.28,High
+1105,EchoNet,True,,professional,2025-03-15,2025-06-06,46,1808,Feature_C,2024-02-24,0,4288,184,226.88,High
+1105,EchoNet,True,,professional,2025-03-15,2025-06-06,46,336,Feature_B,2024-06-07,0,4288,184,226.88,High
+1105,EchoNet,True,,professional,2025-06-06,,46,1808,Feature_C,2024-02-24,0,4288,184,226.88,High
+1105,EchoNet,True,,professional,2025-06-06,,46,336,Feature_B,2024-06-07,0,4288,184,226.88,High
+1108,GlowWorks,True,,free,2023-10-20,,35,2597,Feature_A,2026-09-11,0,2597,35,60.97,Low
+1109,Iris Group,True,,free,2025-07-11,,38,2452,Feature_B,2025-09-13,0,2452,38,62.519999999999996,Low
+1110,QuestCloud,False,2025-01-29 06:19:16,starter,2024-12-02,2025-01-29,25,1594,Feature_B,2024-05-16,1,5441,60,114.41,Medium
+1110,QuestCloud,False,2025-01-29 06:19:16,starter,2024-12-02,2025-01-29,35,3847,Feature_B,2025-01-17,1,5441,60,114.41,Medium
+1116,Hub Stack,True,,free,2023-06-26,,30,3997,Feature_C,2024-11-16,0,3997,30,69.97,Medium
+1119,BoltHQ,False,2025-06-06 19:05:13,free,2025-05-04,2025-06-06,8,1560,Feature_A,2026-04-15,1,1560,8,23.6,Low
+1120,Acme Stack,True,,starter,2023-01-02,,49,3093,Feature_A,2025-01-04,0,3093,49,79.93,Medium
+1121,ZealGroup,True,,professional,2023-10-29,2024-03-09,23,1673,Feature_C,2026-06-02,0,3346,46,79.46000000000001,Medium
+1121,ZealGroup,True,,enterprise,2024-03-09,,23,1673,Feature_C,2026-06-02,0,3346,46,79.46000000000001,Medium
+1123,IonLabs,True,,starter,2025-04-30,2025-06-29,44,194,Feature_C,2024-08-03,0,28254,346,628.54,High
+1123,IonLabs,True,,starter,2025-04-30,2025-06-29,43,4937,Feature_C,2024-10-07,0,28254,346,628.54,High
+1123,IonLabs,True,,starter,2025-04-30,2025-06-29,40,2166,Feature_B,2025-03-24,0,28254,346,628.54,High
+1123,IonLabs,True,,starter,2025-04-30,2025-06-29,2,3589,Feature_C,2025-04-21,0,28254,346,628.54,High
+1123,IonLabs,True,,starter,2025-04-30,2025-06-29,44,3241,Feature_B,2025-08-29,0,28254,346,628.54,High
+1123,IonLabs,True,,professional,2025-06-29,,44,194,Feature_C,2024-08-03,0,28254,346,628.54,High
+1123,IonLabs,True,,professional,2025-06-29,,43,4937,Feature_C,2024-10-07,0,28254,346,628.54,High
+1123,IonLabs,True,,professional,2025-06-29,,40,2166,Feature_B,2025-03-24,0,28254,346,628.54,High
+1123,IonLabs,True,,professional,2025-06-29,,2,3589,Feature_C,2025-04-21,0,28254,346,628.54,High
+1123,IonLabs,True,,professional,2025-06-29,,44,3241,Feature_B,2025-08-29,0,28254,346,628.54,High
+1124,KeenStudio,True,,professional,2024-04-12,,1,1043,Feature_A,2024-01-10,0,3980,4,43.8,Low
+1124,KeenStudio,True,,professional,2024-04-12,,3,2937,Feature_C,2025-02-04,0,3980,4,43.8,Low
+1127,RiftCloud,True,,free,2025-05-14,,29,1277,Feature_B,2024-01-01,0,4465,78,122.65,Medium
+1127,RiftCloud,True,,free,2025-05-14,,49,3188,Feature_C,2024-12-08,0,4465,78,122.65,Medium
+1128,Zen Platform,True,,professional,2023-10-13,,35,645,Feature_B,2024-10-27,0,645,35,41.45,Low
+1130,EdgeLogic,True,,professional,2025-02-10,,37,4076,Feature_B,2024-02-28,0,9458,117,211.57999999999998,High
+1130,EdgeLogic,True,,professional,2025-02-10,,34,2589,Feature_C,2024-12-21,0,9458,117,211.57999999999998,High
+1130,EdgeLogic,True,,professional,2025-02-10,,13,881,Feature_B,2025-10-31,0,9458,117,211.57999999999998,High
+1130,EdgeLogic,True,,professional,2025-02-10,,33,1912,Feature_A,2026-07-24,0,9458,117,211.57999999999998,High
+1131,Luna Corp,False,2024-10-09 01:25:33,starter,2024-08-06,2025-06-30,45,111,Feature_A,2024-01-03,1,222,90,92.22,Medium
+1131,Luna Corp,False,2024-10-09 01:25:33,starter,2025-06-30,2024-10-09,45,111,Feature_A,2024-01-03,1,222,90,92.22,Medium
+1136,TidalDynamics,True,,starter,2023-05-22,,21,3779,Feature_A,2024-08-15,0,3779,21,58.79,Low
+1137,UnitLabs,False,2025-04-05 10:04:44,starter,2024-09-06,2024-11-21,45,4852,Feature_C,2024-06-02,1,22542,198,423.41999999999996,High
+1137,UnitLabs,False,2025-04-05 10:04:44,starter,2024-09-06,2024-11-21,21,2662,Feature_C,2024-06-05,1,22542,198,423.41999999999996,High
+1137,UnitLabs,False,2025-04-05 10:04:44,professional,2024-11-21,2025-05-27,45,4852,Feature_C,2024-06-02,1,22542,198,423.41999999999996,High
+1137,UnitLabs,False,2025-04-05 10:04:44,professional,2024-11-21,2025-05-27,21,2662,Feature_C,2024-06-05,1,22542,198,423.41999999999996,High
+1137,UnitLabs,False,2025-04-05 10:04:44,enterprise,2025-05-27,2025-04-05,45,4852,Feature_C,2024-06-02,1,22542,198,423.41999999999996,High
+1137,UnitLabs,False,2025-04-05 10:04:44,enterprise,2025-05-27,2025-04-05,21,2662,Feature_C,2024-06-05,1,22542,198,423.41999999999996,High
+1140,WaveNet,True,,free,2024-02-07,,23,3184,Feature_B,2024-10-10,0,3184,23,54.84,Low
+1141,NovaNet,True,,starter,2024-09-18,,15,1383,Feature_C,2025-06-23,0,1383,15,28.83,Low
+1142,OrbitStack,False,2024-10-20 15:58:38,starter,2023-12-15,2024-09-08,3,1062,Feature_C,2025-01-05,1,12872,98,226.72,High
+1142,OrbitStack,False,2024-10-20 15:58:38,starter,2023-12-15,2024-09-08,25,4696,Feature_C,2026-03-18,1,12872,98,226.72,High
+1142,OrbitStack,False,2024-10-20 15:58:38,starter,2023-12-15,2024-09-08,21,678,Feature_A,2026-06-11,1,12872,98,226.72,High
+1142,OrbitStack,False,2024-10-20 15:58:38,professional,2024-09-08,2024-10-20,3,1062,Feature_C,2025-01-05,1,12872,98,226.72,High
+1142,OrbitStack,False,2024-10-20 15:58:38,professional,2024-09-08,2024-10-20,25,4696,Feature_C,2026-03-18,1,12872,98,226.72,High
+1142,OrbitStack,False,2024-10-20 15:58:38,professional,2024-09-08,2024-10-20,21,678,Feature_A,2026-06-11,1,12872,98,226.72,High
+1143,Bolt Logic,True,,professional,2025-03-07,,27,3571,Feature_C,2025-08-16,0,3571,27,62.71,Low
+1144,Zen IO,True,,starter,2023-03-16,2023-08-26,16,2629,Feature_A,2024-08-10,0,7887,48,126.87,High
+1144,Zen IO,True,,professional,2023-08-26,2024-07-10,16,2629,Feature_A,2024-08-10,0,7887,48,126.87,High
+1144,Zen IO,True,,professional,2024-07-10,,16,2629,Feature_A,2024-08-10,0,7887,48,126.87,High
+1145,QuarkDigital,True,,professional,2024-08-09,,14,2691,Feature_A,2025-12-15,0,2691,14,40.91,Low
+1146,Vine AI,True,,starter,2025-09-09,,27,803,Feature_B,2025-07-19,0,803,27,35.03,Low
+1148,KeenDynamics,True,,starter,2025-02-28,,19,2596,Feature_A,2024-07-02,0,2596,19,44.96,Low
+1149,ArcOps,True,,free,2024-04-18,,30,2949,Feature_A,2024-11-22,0,2949,30,59.489999999999995,Low
+1150,Wave Solutions,True,,starter,2025-03-25,2025-08-06,1,4935,Feature_B,2025-06-06,0,14805,3,151.05,High
+1150,Wave Solutions,True,,starter,2025-08-06,2025-10-08,1,4935,Feature_B,2025-06-06,0,14805,3,151.05,High
+1150,Wave Solutions,True,,enterprise,2025-10-08,,1,4935,Feature_B,2025-06-06,0,14805,3,151.05,High
+1151,WaveDev,True,,starter,2023-04-25,,46,1346,Feature_B,2024-12-29,0,1346,46,59.46,Low
+1153,MistDigital,False,2025-06-21 14:01:20,free,2024-11-04,2025-06-21,23,2566,Feature_B,2024-03-26,1,2566,23,48.66,Low
+1154,Nova Group,True,,starter,2023-04-01,,11,248,Feature_A,2024-06-15,0,248,11,13.48,Low
+1155,UnitDigital,False,2025-01-30 23:08:39,starter,2024-12-28,2025-01-30,8,1781,Feature_C,2024-02-05,1,4827,18,66.27000000000001,Medium
+1155,UnitDigital,False,2025-01-30 23:08:39,starter,2024-12-28,2025-01-30,10,3046,Feature_C,2024-08-06,1,4827,18,66.27000000000001,Medium
+1156,Ion Digital,True,,free,2023-02-12,,36,4601,Feature_C,2025-05-29,0,4601,36,82.00999999999999,Medium
+1157,AcmeOps,True,,enterprise,2024-02-12,,40,2123,Feature_B,2025-05-05,0,4023,42,82.22999999999999,Medium
+1157,AcmeOps,True,,enterprise,2024-02-12,,2,1900,Feature_A,2026-07-21,0,4023,42,82.22999999999999,Medium
+1158,ZealTech,True,,professional,2024-01-23,2024-06-28,49,1744,Feature_C,2026-07-03,0,3488,98,132.88,High
+1158,ZealTech,True,,professional,2024-06-28,,49,1744,Feature_C,2026-07-03,0,3488,98,132.88,High
+1159,Vine Dynamics,True,,starter,2023-07-27,2024-01-24,45,2810,Feature_B,2024-08-29,0,5620,90,146.2,High
+1159,Vine Dynamics,True,,starter,2024-01-24,,45,2810,Feature_B,2024-08-29,0,5620,90,146.2,High
+1161,ZenSoftware,False,2024-07-16 09:37:13,professional,2024-01-21,2024-07-16,26,739,Feature_B,2026-02-21,1,7857,60,138.57,High
+1161,ZenSoftware,False,2024-07-16 09:37:13,professional,2024-01-21,2024-07-16,28,2467,Feature_B,2026-04-20,1,7857,60,138.57,High
+1161,ZenSoftware,False,2024-07-16 09:37:13,professional,2024-01-21,2024-07-16,6,4651,Feature_C,2026-08-10,1,7857,60,138.57,High
+1163,IrisPro,True,,professional,2025-07-18,,5,749,Feature_C,2024-03-29,0,749,5,12.49,Low
+1165,Flow Net,True,,starter,2024-04-23,,3,870,Feature_B,2026-09-19,0,870,3,11.7,Low
+1167,XenonLabs,True,,starter,2025-04-14,,10,341,Feature_C,2024-11-15,0,2538,51,76.38,Medium
+1167,XenonLabs,True,,starter,2025-04-14,,41,2197,Feature_B,2025-07-06,0,2538,51,76.38,Medium
+1168,ZenCloud,True,,starter,2025-01-04,2025-05-30,2,797,Feature_B,2025-04-27,0,1594,4,19.939999999999998,Low
+1168,ZenCloud,True,,professional,2025-05-30,,2,797,Feature_B,2025-04-27,0,1594,4,19.939999999999998,Low
+1169,SyncAI,True,,starter,2023-11-05,,6,2956,Feature_C,2025-07-30,0,4809,15,63.09,Low
+1169,SyncAI,True,,starter,2023-11-05,,9,1853,Feature_B,2025-09-12,0,4809,15,63.09,Low
+1170,Rift Labs,True,,starter,2023-05-26,2023-11-13,41,2426,Feature_C,2026-02-01,0,7278,123,195.78,High
+1170,Rift Labs,True,,starter,2023-11-13,2024-09-13,41,2426,Feature_C,2026-02-01,0,7278,123,195.78,High
+1170,Rift Labs,True,,professional,2024-09-13,,41,2426,Feature_C,2026-02-01,0,7278,123,195.78,High
+1172,RiftLabs,True,,professional,2024-08-14,,26,2290,Feature_C,2024-07-10,0,2290,26,48.9,Low
+1173,PeakAI,True,,professional,2025-08-16,,34,174,Feature_B,2025-06-30,0,174,34,35.74,Low
+1175,Nexus Studio,True,,free,2023-07-10,2024-06-19,39,1224,Feature_B,2025-04-26,0,3672,117,153.72,High
+1175,Nexus Studio,True,,starter,2024-06-19,2025-02-01,39,1224,Feature_B,2025-04-26,0,3672,117,153.72,High
+1175,Nexus Studio,True,,enterprise,2025-02-01,,39,1224,Feature_B,2025-04-26,0,3672,117,153.72,High
+1181,QuestPro,False,2025-06-14 23:05:43,starter,2024-01-22,2025-06-14,11,730,Feature_C,2024-03-22,1,6045,80,140.45,High
+1181,QuestPro,False,2025-06-14 23:05:43,starter,2024-01-22,2025-06-14,22,1210,Feature_A,2026-06-19,1,6045,80,140.45,High
+1181,QuestPro,False,2025-06-14 23:05:43,starter,2024-01-22,2025-06-14,47,4105,Feature_B,2026-06-20,1,6045,80,140.45,High
+1183,QuestAI,True,,professional,2023-11-18,,8,293,Feature_C,2026-06-13,0,293,8,10.93,Low
+1184,Edge Solutions,True,,starter,2024-08-02,,37,2501,Feature_C,2024-05-15,0,4586,49,94.86,Medium
+1184,Edge Solutions,True,,starter,2024-08-02,,12,2085,Feature_C,2024-07-31,0,4586,49,94.86,Medium
+1185,LunaAI,True,,starter,2025-06-06,,1,1938,Feature_A,2024-01-19,0,4583,34,79.83,Medium
+1185,LunaAI,True,,starter,2025-06-06,,4,771,Feature_B,2024-10-15,0,4583,34,79.83,Medium
+1185,LunaAI,True,,starter,2025-06-06,,29,1874,Feature_B,2026-08-31,0,4583,34,79.83,Medium
+1187,Mist Hub,True,,starter,2024-07-01,2024-09-17,18,4585,Feature_C,2024-08-23,0,14274,98,240.74,High
+1187,Mist Hub,True,,starter,2024-07-01,2024-09-17,31,2552,Feature_B,2025-05-06,0,14274,98,240.74,High
+1187,Mist Hub,True,,starter,2024-09-17,,18,4585,Feature_C,2024-08-23,0,14274,98,240.74,High
+1187,Mist Hub,True,,starter,2024-09-17,,31,2552,Feature_B,2025-05-06,0,14274,98,240.74,High
+1189,Cloud Solutions,True,,professional,2023-10-17,,29,3359,Feature_A,2025-05-24,0,4446,78,122.46000000000001,Medium
+1189,Cloud Solutions,True,,professional,2023-10-17,,49,1087,Feature_C,2026-04-28,0,4446,78,122.46000000000001,Medium
+1192,LinkHQ,True,,starter,2023-08-29,,8,746,Feature_C,2025-02-23,0,5424,52,106.24000000000001,Medium
+1192,LinkHQ,True,,starter,2023-08-29,,32,3047,Feature_A,2025-05-18,0,5424,52,106.24000000000001,Medium
+1192,LinkHQ,True,,starter,2023-08-29,,12,1631,Feature_B,2026-04-09,0,5424,52,106.24000000000001,Medium
+1195,Link Works,True,,free,2024-06-29,,41,2917,Feature_C,2024-05-11,0,2917,41,70.17,Medium
+1196,Acme Hub,True,,free,2023-11-05,2024-06-04,42,1608,Feature_A,2024-09-25,0,3216,84,116.16,Medium
+1196,Acme Hub,True,,professional,2024-06-04,,42,1608,Feature_A,2024-09-25,0,3216,84,116.16,Medium
+1198,NovaPro,True,,free,2023-12-12,,41,4531,Feature_B,2025-05-17,0,4531,41,86.31,Medium
